@@ -1,0 +1,444 @@
+1591381146a:1:{s:8:"test.htm";a:9:{s:8:"fileName";s:8:"test.htm";s:7:"content";s:13491:"title = "test"
+url = "/test"
+layout = "default"
+is_hidden = 0
+==
+<div data-scroll-section>
+    <section id="hero" class="home-hero hero-section bg-move section-padding-x d-flex align-items-center bg-white" data-scroll>
+        <div class="hero-slider">
+            <div class="slide-img bg-light" style="background-image: url('{{ 'hero-slider/home-hero-bg.png'|media }}');"></div>
+        </div>
+        <div class="hero-text-container container-fluid text-center text-md-left">
+            <h1 id="bgTitle" class="big-title text-shadow zoomIn" animation-delay=".2" style="background-image: url('{{ 'hero-slider/title-bg.jpg'|media }}');">
+               <span>Creative</span> <br> 
+               <span>Passionate</span> <br> 
+               <span>Driven</span> <br> 
+               <span>Moolay</span>
+            </h1>
+        </div>
+    </section>
+    <section class="section-padding-x bg-light" data-scroll>
+        <div class="cut-bg-div section-padding-y">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="big-title text-white text-shadow mb-4 fadeInUp" data-scroll data-scroll-repeat >Your Brand</h3>
+                        <img src="{{ 'home/our-passion.png'|media }}" class="our-passion mb-5 fadeInUp" data-scroll data-scroll-repeat animation-delay=".2" alt="Our Passion">
+                        <div class="mb-5 fadeInUp" data-scroll data-scroll-repeat animation-delay=".4">
+                            <p>Moolay Media is about communicating the essence of your brand to the world. <br> From websites to social campaigns, we are passionate about connecting with our clients to give their vision a voice. </p>
+                        </div>
+                        <a href="#" class="btn btn-round white fadeInUp" data-scroll data-scroll-repeat animation-delay=".6">Who are we?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gl-lodge-home parallax-section position-relative parallax-full d-flex align-items-center" data-scroll >
+        <div id="parallax-img-1" class="parallax-img w-100 h-100">
+            <div data-scroll  class="w-100 h-100">
+                <div data-scroll data-scroll-repeat style="overflow: hidden;" class="w-100 h-100">
+                    <div data-scroll data-scroll-speed="-1.5"  class="parallax-img-wrapper first-of-kind w-100 h-100" {#style="background-image: url('{{ 'home/gl-bg.jpg'|media }}');"#}>
+                       <img src="{{ 'home/gl-bg.jpg'|media }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid parallax-container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="{{ 'home/gl-logo.png'|media }}" class="home-projects-logo mb-4 mb-xl-5 fadeInLeft" data-scroll data-scroll-repeat alt="Gratitude Lodge Logo">
+                    <div class="mb-4 mb-xl-5 text-white fadeInLeft" data-scroll data-scroll-repeat animation-delay=".3">
+                        <p>Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact. </p>
+                    </div>
+                    <a href="#" class="btn btn-round bordered white fadeInLeft" data-scroll data-scroll-repeat animation-delay=".6">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fitbites-home projects-section section-padding-x section-padding-y position-relative bg-black parallax-full" data-scroll>
+        <div class="container-fluid parallax-container">
+            <div class="row">
+                <div class="col-lg-5 project-wrapper">
+                    <img src="{{ 'home/fitbites-logo.png'|media }}" class="home-projects-logo mb-4 mb-xl-5 fadeInUp" data-scroll data-scroll-repeat  alt="Fitbites Logo">
+                    <div class="mb-4 mb-xl-5 text-white fadeInUp" data-scroll data-scroll-repeat animation-delay=".2">
+                        <p>Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact. </p>
+                    </div>
+                    <a href="#" class="btn btn-round bordered white fadeInUp" data-scroll data-scroll-repeat animation-delay=".4">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="meal-wrapper position-absolute" data-scroll data-scroll-repeat>
+            <div id="fitbites-meal-1" class="fb-meal-1 test" data-scroll>
+                <img src="{{ 'home/meal-big.png'|media }}" alt="" class="w-100" data-scroll data-scroll-speed="-3.5" data-scroll-direction="horizontal" data-scroll-target="#fitbites-meal-1" data-scroll-position="bottom" data-scroll-offset="0, -90%">
+            </div>
+            <div id="fitbites-meal-2" class="fb-meal-2 test" data-scroll>
+                <img src="{{ 'home/meal-small.png'|media }}" alt="" class="w-100" data-scroll data-scroll-speed="4" data-scroll-direction="vertical"  data-scroll-position="bottom" data-scroll-target="#fitbites-meal-2" data-scroll-offset="-100%, 0">
+            </div>
+            <div id="fitbites-lp" class="fb-lp test" data-scroll>
+                <img src="{{ 'home/latest-project.png'|media }}" alt="" class="w-100" data-scroll data-scroll-speed="1.5" data-scroll-direction="horizontal"  data-scroll-position="bottom" data-scroll-target="#fitbites-lp" data-scroll-offset="0, -100%">
+            </div>
+        </div>
+    </section>
+    <section class="oderose-home parallax-section projects-section position-relative parallax-full d-flex align-items-center" data-scroll>
+        <div id="parallax-img-2" class="parallax-img" data-scroll data-scroll-repeat>
+            <div data-scroll data-scroll-speed="-2.5" data-scroll-position="bottom" class="parallax-img-wrapper second-of-kind" data-scroll-target="#parallax-img-2">
+                <img src="{{ 'home/o-de-bg.jpg'|media }}" alt="" class="">
+            </div>
+        </div>
+        <div class="container-fluid parallax-container">
+            <div class="row">
+                <div class="col-lg-5 project-wrapper">
+                    <h4 class="project-title mb-4 mb-xl-5 fadeInLeft" data-scroll data-scroll-repeat>Ô DE ROSE <span class="font-weight-500">MED SPA</span></h4>
+                    <div class="mb-4 mb-xl-5 fadeInLeft" data-scroll data-scroll-repeat animation-delay=".3">
+                        <p>Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact. </p>
+                    </div>
+                    <a href="#" class="btn btn-round bordered white black-text fadeInLeft" data-scroll data-scroll-repeat animation-delay=".6">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="root-home parallax-section projects-section  position-relative parallax-full d-flex align-items-center" data-scroll>
+        <div id="parallax-img-3" class="parallax-img" data-scroll data-scroll-repeat>
+            <div data-scroll data-scroll-speed="-2.5" data-scroll-position="bottom" class="parallax-img-wrapper third-of-kind" data-scroll-target="#parallax-img-3">
+                <img src="{{ 'home/rw-bg.jpg'|media }}" alt="" class="">
+            </div>
+        </div>
+        <div class="container-fluid parallax-container">
+            <div class="row">
+                <div class="col-lg-5 project-wrapper">
+                    <h4 class="project-title mb-4 mb-xl-5 text-white fadeInUp" data-scroll data-scroll-repeat>Root Wellness</span></h4>
+                    <div class="mb-4 mb-xl-5 text-white fadeInUp" data-scroll data-scroll-repeat animation-delay=".2">
+                        <p>Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact. </p>
+                    </div>
+                    <a href="#" class="btn btn-round bordered white fadeInUp" data-scroll data-scroll-repeat animation-delay=".4">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div id="rw-mockup" class="rw-bottle">
+            <img src="{{ 'home/rw-mockup.png'|media }}" alt="" class="w-100" data-scroll data-scroll-speed="6" data-scroll-direction="horizontal" data-scroll-target="#rw-mockup" data-scroll-position="bottom" data-scroll-offset="0, 100%">
+        </div>
+    </section>
+    <section class="projects-section section-padding-x py-100 position-relative bg-white" data-scroll>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-7 d-flex align-items-center">
+                    <div class="mr-5">
+                        <a href="#" class="btn btn-round bordered black d-block fadeInUp" data-scroll data-scroll-repeat animation-delay=".2">Our Work</a>
+                    </div>
+                    <div>
+                        <p class="mb-0 d-inline-block fadeInUp" data-scroll data-scroll-repeat animation-delay=".6">Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding-x bg-light" data-scroll>
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <img src="{{ 'home/our.png'|media }}" class="our-passion mb-4 fadeInUp" data-scroll data-scroll-repeat animation-delay=".2" alt="Our Passion">
+                        <h3 class="big-title text-white text-shadow mb-5 fadeInUp" data-scroll data-scroll-repeat >Services</h3>
+                        <div class="mb-5 fadeInUp" data-scroll data-scroll-repeat animation-delay=".4">
+                            <p>We tell stories. Whether it’s the story of your new brand, or the user experience for your new website. <br>
+                            Marketing is about connecting your audience with the story you want to tell them. Let us make that connection for you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="servicesHome" class="services-section-home bg-white" data-scroll>
+        <div class="service-modal-home section-modal-wd" data-scroll>
+            <div class="web-design-service">
+                <img src="{{ 'home/web-design.jpg'|media }}" class="w-100">
+            </div>
+        </div>
+        <div class="service-modal-home section-modal-br" data-scroll>
+            <div class="branding-service">
+                <img src="{{ 'home/branding.png'|media }}" class="w-100">
+            </div>
+            <div class="blue-bg"></div>
+        </div>
+        <div class="service-modal-home section-modal-cc" data-scroll>
+            <div class="content-service">
+                <img src="{{ 'home/content-creation.png'|media }}" class="w-100">
+            </div>
+        </div>
+    </section>
+    
+    <div class="section-padding-y-smaller" data-scroll></div>
+    
+    <div class="section-padding-y bg-white position-relative shadow-lg" data-scroll></div>
+   
+</div>
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/nikola-gacev?text_color=000000&primary_color=000000" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+ {% put scripts %}
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('#js-scroll'),
+            smooth: true,
+            getSpeed: true,
+            getDirection: true,
+            useKeyboard: true
+        });
+    </script>
+    <script>
+        const el = document.querySelector("#hero");
+        const bg = document.querySelector("#bgTitle");
+        el.addEventListener("mousemove", (e) => {
+          bg.style.backgroundPositionX = -e.screenX / 1.5 + "px";
+          bg.style.backgroundPositionY = -e.screenY / 1.5 + "px";
+        });
+    </script>
+    <script>
+        $(".service-modal-home").each(function(index) {
+            $(this).on("click", function(){
+                // For the boolean value
+                var $section = $('#servicesHome');
+                var $this = $(this);
+                $section.addClass('service-modal-open');
+                
+                $(".service-modal-home").removeClass('active');
+                $(".service-modal-home").addClass('hidden');
+                
+                $(this).removeClass('hidden');
+                $(this).addClass('active');
+                
+                scroll.scrollTo('#servicesHome');
+                setTimeout(function(){
+                    scroll.stop();
+                }, 500);
+                
+                /*setTimeout(function(){
+                    $this.css("position", "absolute");
+                }, 300);*/
+            });
+        });
+    </script>
+    {% endput %}";s:5:"mtime";i:1591312652;s:6:"markup";s:13426:"<div data-scroll-section>
+    <section id="hero" class="home-hero hero-section bg-move section-padding-x d-flex align-items-center bg-white" data-scroll>
+        <div class="hero-slider">
+            <div class="slide-img bg-light" style="background-image: url('{{ 'hero-slider/home-hero-bg.png'|media }}');"></div>
+        </div>
+        <div class="hero-text-container container-fluid text-center text-md-left">
+            <h1 id="bgTitle" class="big-title text-shadow zoomIn" animation-delay=".2" style="background-image: url('{{ 'hero-slider/title-bg.jpg'|media }}');">
+               <span>Creative</span> <br> 
+               <span>Passionate</span> <br> 
+               <span>Driven</span> <br> 
+               <span>Moolay</span>
+            </h1>
+        </div>
+    </section>
+    <section class="section-padding-x bg-light" data-scroll>
+        <div class="cut-bg-div section-padding-y">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="big-title text-white text-shadow mb-4 fadeInUp" data-scroll data-scroll-repeat >Your Brand</h3>
+                        <img src="{{ 'home/our-passion.png'|media }}" class="our-passion mb-5 fadeInUp" data-scroll data-scroll-repeat animation-delay=".2" alt="Our Passion">
+                        <div class="mb-5 fadeInUp" data-scroll data-scroll-repeat animation-delay=".4">
+                            <p>Moolay Media is about communicating the essence of your brand to the world. <br> From websites to social campaigns, we are passionate about connecting with our clients to give their vision a voice. </p>
+                        </div>
+                        <a href="#" class="btn btn-round white fadeInUp" data-scroll data-scroll-repeat animation-delay=".6">Who are we?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gl-lodge-home parallax-section position-relative parallax-full d-flex align-items-center" data-scroll >
+        <div id="parallax-img-1" class="parallax-img w-100 h-100">
+            <div data-scroll  class="w-100 h-100">
+                <div data-scroll data-scroll-repeat style="overflow: hidden;" class="w-100 h-100">
+                    <div data-scroll data-scroll-speed="-1.5"  class="parallax-img-wrapper first-of-kind w-100 h-100" {#style="background-image: url('{{ 'home/gl-bg.jpg'|media }}');"#}>
+                       <img src="{{ 'home/gl-bg.jpg'|media }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid parallax-container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="{{ 'home/gl-logo.png'|media }}" class="home-projects-logo mb-4 mb-xl-5 fadeInLeft" data-scroll data-scroll-repeat alt="Gratitude Lodge Logo">
+                    <div class="mb-4 mb-xl-5 text-white fadeInLeft" data-scroll data-scroll-repeat animation-delay=".3">
+                        <p>Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact. </p>
+                    </div>
+                    <a href="#" class="btn btn-round bordered white fadeInLeft" data-scroll data-scroll-repeat animation-delay=".6">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fitbites-home projects-section section-padding-x section-padding-y position-relative bg-black parallax-full" data-scroll>
+        <div class="container-fluid parallax-container">
+            <div class="row">
+                <div class="col-lg-5 project-wrapper">
+                    <img src="{{ 'home/fitbites-logo.png'|media }}" class="home-projects-logo mb-4 mb-xl-5 fadeInUp" data-scroll data-scroll-repeat  alt="Fitbites Logo">
+                    <div class="mb-4 mb-xl-5 text-white fadeInUp" data-scroll data-scroll-repeat animation-delay=".2">
+                        <p>Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact. </p>
+                    </div>
+                    <a href="#" class="btn btn-round bordered white fadeInUp" data-scroll data-scroll-repeat animation-delay=".4">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="meal-wrapper position-absolute" data-scroll data-scroll-repeat>
+            <div id="fitbites-meal-1" class="fb-meal-1 test" data-scroll>
+                <img src="{{ 'home/meal-big.png'|media }}" alt="" class="w-100" data-scroll data-scroll-speed="-3.5" data-scroll-direction="horizontal" data-scroll-target="#fitbites-meal-1" data-scroll-position="bottom" data-scroll-offset="0, -90%">
+            </div>
+            <div id="fitbites-meal-2" class="fb-meal-2 test" data-scroll>
+                <img src="{{ 'home/meal-small.png'|media }}" alt="" class="w-100" data-scroll data-scroll-speed="4" data-scroll-direction="vertical"  data-scroll-position="bottom" data-scroll-target="#fitbites-meal-2" data-scroll-offset="-100%, 0">
+            </div>
+            <div id="fitbites-lp" class="fb-lp test" data-scroll>
+                <img src="{{ 'home/latest-project.png'|media }}" alt="" class="w-100" data-scroll data-scroll-speed="1.5" data-scroll-direction="horizontal"  data-scroll-position="bottom" data-scroll-target="#fitbites-lp" data-scroll-offset="0, -100%">
+            </div>
+        </div>
+    </section>
+    <section class="oderose-home parallax-section projects-section position-relative parallax-full d-flex align-items-center" data-scroll>
+        <div id="parallax-img-2" class="parallax-img" data-scroll data-scroll-repeat>
+            <div data-scroll data-scroll-speed="-2.5" data-scroll-position="bottom" class="parallax-img-wrapper second-of-kind" data-scroll-target="#parallax-img-2">
+                <img src="{{ 'home/o-de-bg.jpg'|media }}" alt="" class="">
+            </div>
+        </div>
+        <div class="container-fluid parallax-container">
+            <div class="row">
+                <div class="col-lg-5 project-wrapper">
+                    <h4 class="project-title mb-4 mb-xl-5 fadeInLeft" data-scroll data-scroll-repeat>Ô DE ROSE <span class="font-weight-500">MED SPA</span></h4>
+                    <div class="mb-4 mb-xl-5 fadeInLeft" data-scroll data-scroll-repeat animation-delay=".3">
+                        <p>Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact. </p>
+                    </div>
+                    <a href="#" class="btn btn-round bordered white black-text fadeInLeft" data-scroll data-scroll-repeat animation-delay=".6">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="root-home parallax-section projects-section  position-relative parallax-full d-flex align-items-center" data-scroll>
+        <div id="parallax-img-3" class="parallax-img" data-scroll data-scroll-repeat>
+            <div data-scroll data-scroll-speed="-2.5" data-scroll-position="bottom" class="parallax-img-wrapper third-of-kind" data-scroll-target="#parallax-img-3">
+                <img src="{{ 'home/rw-bg.jpg'|media }}" alt="" class="">
+            </div>
+        </div>
+        <div class="container-fluid parallax-container">
+            <div class="row">
+                <div class="col-lg-5 project-wrapper">
+                    <h4 class="project-title mb-4 mb-xl-5 text-white fadeInUp" data-scroll data-scroll-repeat>Root Wellness</span></h4>
+                    <div class="mb-4 mb-xl-5 text-white fadeInUp" data-scroll data-scroll-repeat animation-delay=".2">
+                        <p>Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact. </p>
+                    </div>
+                    <a href="#" class="btn btn-round bordered white fadeInUp" data-scroll data-scroll-repeat animation-delay=".4">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div id="rw-mockup" class="rw-bottle">
+            <img src="{{ 'home/rw-mockup.png'|media }}" alt="" class="w-100" data-scroll data-scroll-speed="6" data-scroll-direction="horizontal" data-scroll-target="#rw-mockup" data-scroll-position="bottom" data-scroll-offset="0, 100%">
+        </div>
+    </section>
+    <section class="projects-section section-padding-x py-100 position-relative bg-white" data-scroll>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-7 d-flex align-items-center">
+                    <div class="mr-5">
+                        <a href="#" class="btn btn-round bordered black d-block fadeInUp" data-scroll data-scroll-repeat animation-delay=".2">Our Work</a>
+                    </div>
+                    <div>
+                        <p class="mb-0 d-inline-block fadeInUp" data-scroll data-scroll-repeat animation-delay=".6">Very brief description of the work we did for the client. Only one short paragraph that describes the essence of our impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-padding-x bg-light" data-scroll>
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <img src="{{ 'home/our.png'|media }}" class="our-passion mb-4 fadeInUp" data-scroll data-scroll-repeat animation-delay=".2" alt="Our Passion">
+                        <h3 class="big-title text-white text-shadow mb-5 fadeInUp" data-scroll data-scroll-repeat >Services</h3>
+                        <div class="mb-5 fadeInUp" data-scroll data-scroll-repeat animation-delay=".4">
+                            <p>We tell stories. Whether it’s the story of your new brand, or the user experience for your new website. <br>
+                            Marketing is about connecting your audience with the story you want to tell them. Let us make that connection for you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="servicesHome" class="services-section-home bg-white" data-scroll>
+        <div class="service-modal-home section-modal-wd" data-scroll>
+            <div class="web-design-service">
+                <img src="{{ 'home/web-design.jpg'|media }}" class="w-100">
+            </div>
+        </div>
+        <div class="service-modal-home section-modal-br" data-scroll>
+            <div class="branding-service">
+                <img src="{{ 'home/branding.png'|media }}" class="w-100">
+            </div>
+            <div class="blue-bg"></div>
+        </div>
+        <div class="service-modal-home section-modal-cc" data-scroll>
+            <div class="content-service">
+                <img src="{{ 'home/content-creation.png'|media }}" class="w-100">
+            </div>
+        </div>
+    </section>
+    
+    <div class="section-padding-y-smaller" data-scroll></div>
+    
+    <div class="section-padding-y bg-white position-relative shadow-lg" data-scroll></div>
+   
+</div>
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/nikola-gacev?text_color=000000&primary_color=000000" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+ {% put scripts %}
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('#js-scroll'),
+            smooth: true,
+            getSpeed: true,
+            getDirection: true,
+            useKeyboard: true
+        });
+    </script>
+    <script>
+        const el = document.querySelector("#hero");
+        const bg = document.querySelector("#bgTitle");
+        el.addEventListener("mousemove", (e) => {
+          bg.style.backgroundPositionX = -e.screenX / 1.5 + "px";
+          bg.style.backgroundPositionY = -e.screenY / 1.5 + "px";
+        });
+    </script>
+    <script>
+        $(".service-modal-home").each(function(index) {
+            $(this).on("click", function(){
+                // For the boolean value
+                var $section = $('#servicesHome');
+                var $this = $(this);
+                $section.addClass('service-modal-open');
+                
+                $(".service-modal-home").removeClass('active');
+                $(".service-modal-home").addClass('hidden');
+                
+                $(this).removeClass('hidden');
+                $(this).addClass('active');
+                
+                scroll.scrollTo('#servicesHome');
+                setTimeout(function(){
+                    scroll.stop();
+                }, 500);
+                
+                /*setTimeout(function(){
+                    $this.css("position", "absolute");
+                }, 300);*/
+            });
+        });
+    </script>
+    {% endput %}";s:4:"code";N;s:5:"title";s:4:"test";s:3:"url";s:5:"/test";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

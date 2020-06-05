@@ -1,0 +1,97 @@
+title = "Blog"
+url = "/blog"
+layout = "default"
+is_hidden = 1
+==
+<?php
+use Rainlab\Blog\Models\Post; 
+use Rainlab\Blog\Models\Category;
+use Carbon\Carbon;
+
+function onStart() {
+    
+    $this['posts'] = Post::where('published', '1')->whereDate('published_at', '<=', Carbon::today())->orderBy('published_at', 'desc')->get();
+}
+?>
+==
+<div class="contact-page" data-scroll-section>
+    <section id="hero" class="hero-section section-padding-x overflow-y-auto d-flex align-items-center bg-white" data-scroll data-scroll-repeat>
+        <div class="middle-line d-none d-md-block"></div>
+        <div class="hero-slider">
+            <div class="slide-img bg-white"></div>
+        </div>
+        <div class="hero-text-container container-fluid text-center text-md-left">
+            <img src="{{ 'news/blog-asset.png'|media }}" class="hero-quote mb-4 mb-lg-5 fadeInUp" animation-delay=".2" data-scroll data-scroll-repeat alt="">
+            <h1 class="big-title mb-5 text-black fadeInUp" animation-delay=".6" data-scroll data-scroll-repeat>News 2020</h1>
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="text-black fadeInUp" animation-delay="1" data-scroll data-scroll-repeat>
+                        <p>We’d love to hear the story behind your business. Schedule a time to chat and we’ll give you a call to learn all about where you came from and where you’re going.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="projects-section bg-white section-lines section-padding-y-smaller pt-5">
+{#        {% for post in posts %}
+        <div class="blog-post{% if not loop.last %} mb-200{% endif %}">
+            <div class="row justify-content-center align-items-center z-index-9 section-padding-x {% if loop.index % 2 %} pl-xl-0{% else %} pr-xl-0{% endif %}">
+                <div class="col-xl-7 col-xxl-8 mb-4 mb-xl-0{% if loop.index % 2 %} order-1 order-xl-0{% else %} order-0 order-xl-1{% endif %}">
+                    <div class="container-fluid px-xl-0">
+                        <div class="blog-img-wrapper fadeIn" animation-delay=".2" data-scroll data-scroll-repeat>
+                            <a href="d-inline-block"><img src="{{ post.featured_images[0].thumb(1232,878,{mode: 'crop'}) }}" class="w-100" alt="{{ post.title }}"></a>
+                        </div>
+                        <div class="posted-info text-uppercase font-weight-600 text-light-gray mt-4 {% if loop.index % 2 %} right-sided{% else %} left-sided{% endif %} fadeInUp" animation-delay=".4" data-scroll data-scroll-repeat>
+                            Posted on <span class="font-weight-700">{{ post.published_at|date('F d, Y') }}</span> by <span class="font-weight-700">{{ post.user.first_name}} {{ post.user.last_name}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-4 project-wrapper {% if loop.index % 2 %} order-0 order-xl-1 pl-xxxl-5{% else %} order-1 order-xl-0 pr-xxxl-5{% endif %}">
+                    <div class="container-fluid {% if loop.index % 2 %} pl-xl-4 pr-5{% else %} pr-xl-4 pl-5{% endif %}">
+                        <div class="row {% if loop.index % 2 %} pr-5{% else %} pl-5{% endif %}">
+                            <div class="col-12">
+                                <h4 class="project-title mb-3 mb-xl-5 text-black fadeInUp" animation-delay=".2" data-scroll data-scroll-repeat><a href="{{ 'news-post'|page({slug: post.slug}) }}">{{ post.title }}</a></h4>
+                                <div class="mb-4 mb-xl-5 fadeInUp" animation-delay=".6" data-scroll data-scroll-repeat>
+                                    {{ post.excerpt }}
+                                </div>
+                                <a href="{{ 'blog-post'|page({slug: post.slug}) }}" class="btn btn-round bordered silver fadeInUp" animation-delay="1" data-scroll data-scroll-repeat>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}#}
+        {% for post in 1..6 %}
+        <div class="blog-post{% if not loop.last %} mb-200{% endif %}">
+            <div class="row justify-content-center align-items-center z-index-9 section-padding-x {% if loop.index % 2 %} pl-xl-0{% else %} pr-xl-0{% endif %}">
+                <div class="col-xl-7 col-xxl-8 mb-4 mb-xl-0{% if loop.index % 2 %} order-1 order-xl-0{% else %} order-0 order-xl-1{% endif %}">
+                    <div class="container-fluid px-xl-0">
+                        <div class="blog-img-wrapper fadeIn" animation-delay=".2" data-scroll data-scroll-repeat>
+                            <a href="d-inline-block"><img src="{{ 'news/blog-placeholder.jpg'|media }}" class="w-100" alt="{{ post.title }}"></a>
+                        </div>
+                        <div class="posted-info text-uppercase font-weight-600 text-light-gray mt-4 {% if loop.index % 2 %} right-sided{% else %} left-sided{% endif %} fadeInUp" animation-delay=".4" data-scroll data-scroll-repeat>
+                            Posted on <span class="font-weight-700">May 15, 2020</span> by <span class="font-weight-700">Test Test</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-4 project-wrapper {% if loop.index % 2 %} order-0 order-xl-1 pl-xxxl-5{% else %} order-1 order-xl-0 pr-xxxl-5{% endif %}">
+                    <div class="container-fluid {% if loop.index % 2 %} pl-xl-4 pr-5{% else %} pr-xl-4 pl-5{% endif %}">
+                        <div class="row {% if loop.index % 2 %} pr-5{% else %} pl-5{% endif %}">
+                            <div class="col-12">
+                                <h4 class="project-title mb-3 mb-xl-5 text-black fadeInUp" animation-delay=".2" data-scroll data-scroll-repeat><a href="{{ 'news-post'|page({slug: post.slug}) }}">WHAT STORY IS YOUR BRAND TELLING?</a></h4>
+                                <div class="mb-4 mb-xl-5 fadeInUp" animation-delay=".6" data-scroll data-scroll-repeat>
+                                    The first ever blog post is here. It might be a good idea to update this post with some more relevant content.
+                                </div>
+                                <a href="{{ 'news-post'|page({slug: post.slug}) }}" class="btn btn-round bordered silver fadeInUp" animation-delay="1" data-scroll data-scroll-repeat>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    {% partial 'site/footer' %}
+</div>

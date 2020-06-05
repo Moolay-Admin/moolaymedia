@@ -1,0 +1,608 @@
+1591381146a:1:{s:11:"contact.htm";a:11:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:17216:"title = "Contact"
+url = "/contact"
+layout = "default"
+is_hidden = 0
+
+[genericForm]
+rules[name] = "required"
+rules[email] = "required|email"
+rules[website] = "required"
+rules_messages[name.required] = "Please enter your name."
+rules_messages[email.required] = "Please enter your email address."
+rules_messages[email.email] = "Please enter a valid email address."
+rules_messages[website.required] = "Please enter your website."
+messages_success = "Your form was successfully submitted"
+messages_errors = "There were errors with your submission"
+mail_enabled = 1
+mail_subject = "New SEO Insight Request"
+mail_recipients[] = "nikola@moolaymedia.com"
+inline_errors = "display"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_enabled = 1
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+emails_date_format = "Y-m-d"
+
+[genericForm genericForm2]
+rules[name] = "required"
+rules[email] = "required|email"
+rules[number] = "required"
+rules_messages[name.required] = "Please enter your name."
+rules_messages[email.required] = "Please enter your email address."
+rules_messages[email.email] = "Please enter a valid email address."
+rules_messages[number.required] = "Please enter your number"
+messages_success = "Your form was successfully submitted"
+messages_errors = "There were errors with your submission"
+mail_enabled = 1
+mail_subject = "New Contact Message"
+mail_recipients[] = "nikola@moolaymedia.com"
+inline_errors = "display"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_enabled = 1
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+emails_date_format = "Y-m-d"
+==
+{% put styles %}
+<style>
+    #calendlyModal {
+        position: fixed;
+        z-index: 29000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        display: none;
+    }
+    #calendlyModal.active {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .calendly-inline-widget {
+        height: 100%;
+        min-width: 100%;
+    }
+    #closeCalendly {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+      z-index: 10;
+    }
+</style>
+{% endput %}
+<div class="contact-page" data-scroll-section>
+    <section id="hero" class="hero-section section-padding-x overflow-y-auto d-flex align-items-center bg-white" data-scroll data-scroll-repeat>
+        <div class="middle-line d-none d-md-block"></div>
+        <div class="hero-slider">
+            <div class="slide-img bg-white"></div>
+        </div>
+        <div class="hero-text-container container-fluid text-center text-md-left">
+            <h1 class="section-title mb-4 text-black fadeInUp" animation-delay=".2" data-scroll data-scroll-repeat>Let's Talk</h1>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="text-black mb-4 mb-xl-5 fadeInUp" animation-delay=".6" data-scroll data-scroll-repeat>
+                        <p>We’d love to hear your story. Schedule a time to chat and we’ll give you a call to learn all about where you came from and where you’re going.</p>
+                    </div>
+                    <a id="showCalendly" class="btn btn-round bordered silver fadeInUp" animation-delay="1" data-scroll data-scroll-repeat>Schedule a call</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white position-relative section-padding-y-smaller d-flex align-items-center d-xl-none" style="background-image: url('{{ 'contact/contact-info-bg-mobile.jpg'|media }}'); background-size: cover;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="contact-card bg-white h-100">
+                        <img src="{{ 'contact/newport-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                        <a href="https://g.page/moolaymedia?share" target="_blank" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                            620 Newport Center Drive, <br> Suite 370, Newport Beach, CA 92660
+                        </a>
+                        <a href="tel:949-610-8969" class="d-block font-weight-500 phone">
+                            <b>(949) 610-8969</b>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-card bg-white h-100">
+                        <img src="{{ 'contact/milwaukee-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                        <a href="https://goo.gl/maps/En9Mxh3yk27DzzXb6" target="_blank" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                            500 W. Silver Spring Dr, <br>K200 Glendale, WI 53217
+                        </a>
+                        <a href="tel:414-616-3737" class="d-block font-weight-500 phone">
+                            (414) 616-3737
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section projects-section position-relative {#bg-medium-light-gray#} bg-000 section-padding-x d-flex align-items-center">
+        <div class="middle-line d-none d-md-block"></div>
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-8 mb-5 mb-xl-0 project-wrapper text-white get-some-insight-col">
+                        <h3 class="project-title mb-5 text-white">Get some insight</h3>
+                        <p class="mb-0">Is your SEO where it should be? When was the last time you had someone really explain how your site is performing? Just leave us your email and website and we’ll run an audit and share the report with you. No strings attached. Just a little gift from us to you.</p>
+                        
+                        <div class="py-5 d-none d-xl-block"></div>
+                    </div>
+                    <div class="col-xxxl-8 get-some-insight-col">
+                    
+                        <form data-request="{{ genericForm }}::onFormSubmit" data-request-validate>
+                        
+                            {{ form_token() }}
+                
+                            <div id="{{ genericForm }}_forms_flash"></div>
+                            
+                			<div class="row mb-4 mb-xxxxl-5">
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="email" class="form-control" placeholder="E-mail" tabindex="2">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="website" class="form-control" placeholder="Website URL" tabindex="3">
+                					    <small class="text-danger" data-validate-for="website"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-12 mb-4">
+                					<div class="form-group">
+                                        {% partial 'custom_recaptcha' recaptcha_id = 'seoFormRecaptcha' %}
+                                        <small class="text-danger" data-validate-for="recaptchaValidator"></small>
+                                    </div>
+                				</div>
+                			</div>
+                			<button class="btn btn-round bordered white" type="submit" tabindex="4">Submit</button>
+    					</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info-float d-none d-xxxl-block" style="background-image: url('{{ 'contact/contact-info-bg.jpg'|media }}');" data-scroll data-scroll-speed="-4" data-scroll-offset="0, 0" data-scroll-position="top">
+            <div class="d-flex flex-column pl-5 justify-content-end align-items-stretch">
+                <div class="contact-card bg-white mb-5">
+                    <img src="{{ 'contact/newport-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                    <a href="https://g.page/moolaymedia?share" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                        620 Newport Center Drive, <br> Suite 1100, Newport Beach, CA 92660
+                    </a>
+                    <a href="tel:949-610-8969" class="d-block font-weight-500 phone">
+                        (949) 610-8969
+                    </a>
+                </div>
+                <div class="contact-card bg-white">
+                    <img src="{{ 'contact/milwaukee-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                    <a href="https://goo.gl/maps/En9Mxh3yk27DzzXb6" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                        500 W. Silver Spring Dr, <br>K200 Glendale, WI 53217
+                    </a>
+                    <a href="tel:414-616-3737" class="d-block font-weight-500 phone">
+                        (414) 616-3737
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info-float d-none d-xl-block d-xxxl-none" style="background-image: url('{{ 'contact/contact-info-bg.jpg'|media }}');">
+            <div class="d-flex flex-column pl-5 justify-content-end align-items-stretch">
+                <div class="contact-card bg-white mb-5">
+                    <img src="{{ 'contact/newport-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                    <a href="https://g.page/moolaymedia?share" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                        620 Newport Center Drive, <br> Suite 1100, Newport Beach, CA 92660
+                    </a>
+                    <a href="tel:949-610-8969" class="d-block font-weight-500 phone">
+                        (949) 610-8969
+                    </a>
+                </div>
+                <div class="contact-card bg-white">
+                    <img src="{{ 'contact/milwaukee-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                    <a href="https://goo.gl/maps/En9Mxh3yk27DzzXb6" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                        500 W. Silver Spring Dr, <br>K200 Glendale, WI 53217
+                    </a>
+                    <a href="tel:414-616-3737" class="d-block font-weight-500 phone">
+                        (414) 616-3737
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section bg-white position-relative contact-page-form section-padding-x d-flex align-items-center">
+        <div class="middle-line d-none d-md-block"></div>
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 mb-5 mb-xl-0">
+                        <h3 class="section-title mb-5">Tell us a story</h3>
+                        <p class="mb-0">Please tell us a little about you and your goals.</p>
+                        
+                        <div class="py-5 d-none d-xl-block"></div>
+                    </div>
+                    <div class="col-xxxl-8">            
+                        <form data-request="{{ genericForm2 }}::onFormSubmit" data-request-validate>
+                        
+                            {{ form_token() }}
+
+                            <div id="{{ genericForm2 }}_forms_flash"></div>
+                            
+                			<div class="row mb-5">
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="5">
+                					    <small class="text-danger" data-validate-for="name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="email" class="form-control" placeholder="Your Email" tabindex="6">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="number" class="form-control" placeholder="Your Number" tabindex="7">
+                					    <small class="text-danger" data-validate-for="number"></small>
+                					</div>
+                				</div>
+                				<div class="col-12 mb-4">
+                				    <div class="form-group">
+                				        <textarea placeholder="Tell us your story" rows="3" name="details" class="form-control" tabindex="8"></textarea>
+                				        <small class="text-danger" data-validate-for="details"></small>
+                				    </div>
+                				</div>
+                				<div class="col-md-12">
+                					<div class="form-group">
+                                        {% partial 'custom_recaptcha' recaptcha_id = 'contactFormRecaptcha' %}
+                                        <small class="text-danger" data-validate-for="recaptchaValidator"></small>
+                                    </div>
+                				</div>
+                			</div>
+                			
+                			<p class="mb-5 ">If all is completed above click below to submit the form. One of our Marketing Consultants will reach out to you the next business day.</p>
+                            
+                			<button class="btn btn-round bordered silver" type="submit" tabindex="9">Submit</button>
+    					</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="oderose-home parallax-section projects-section position-relative parallax-full d-flex align-items-center" data-scroll data-scroll-repeat>
+        <div id="parallax-img-2" class="parallax-img">
+            <div data-scroll  class="w-100 h-100">
+                <div data-scroll data-scroll-repeat class="overflow-container w-100">
+                    <div data-scroll data-scroll-speed="-4"  class="parallax-img-wrapper first-of-kind w-100 h-100" {#style="background-image: url('{{ 'home/gl-bg.jpg'|media }}');"#}>
+                       <img src="{{ 'contact/contact-bg-2.jpg'|media }}" alt="" class="main-img">
+                       <img src="{{ 'contact/contact-bg.jpg'|media }}" alt="" class="replacement">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% partial 'site/footer' %}
+</div>
+{#<div id="calendlyModal" class="align-items-center">
+    <div id="closeCalendly">&times;</div>
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/nikola-gacev"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <!-- Calendly inline widget end -->
+</div>#}
+<div id="calendlyModal" class="align-items-center">
+    <div id="closeCalendly">&times;</div>
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/naourass"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <!-- Calendly inline widget end -->
+</div>
+{% put scripts %}
+<script>
+    $('#showCalendly').click(function(e){
+        e.preventDefault();
+        if($('#calendlyModal').hasClass('active')){
+            $('#calendlyModal').removeClass('active');
+        } else {
+            $('#calendlyModal').addClass('active');    
+        }
+    });
+    $('#closeCalendly').click(function(e){
+        e.preventDefault();
+        $('#calendlyModal').removeClass('active');
+    });
+</script>
+{% endput %}";s:5:"mtime";i:1591312651;s:6:"markup";s:15570:"{% put styles %}
+<style>
+    #calendlyModal {
+        position: fixed;
+        z-index: 29000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        display: none;
+    }
+    #calendlyModal.active {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .calendly-inline-widget {
+        height: 100%;
+        min-width: 100%;
+    }
+    #closeCalendly {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+      z-index: 10;
+    }
+</style>
+{% endput %}
+<div class="contact-page" data-scroll-section>
+    <section id="hero" class="hero-section section-padding-x overflow-y-auto d-flex align-items-center bg-white" data-scroll data-scroll-repeat>
+        <div class="middle-line d-none d-md-block"></div>
+        <div class="hero-slider">
+            <div class="slide-img bg-white"></div>
+        </div>
+        <div class="hero-text-container container-fluid text-center text-md-left">
+            <h1 class="section-title mb-4 text-black fadeInUp" animation-delay=".2" data-scroll data-scroll-repeat>Let's Talk</h1>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="text-black mb-4 mb-xl-5 fadeInUp" animation-delay=".6" data-scroll data-scroll-repeat>
+                        <p>We’d love to hear your story. Schedule a time to chat and we’ll give you a call to learn all about where you came from and where you’re going.</p>
+                    </div>
+                    <a id="showCalendly" class="btn btn-round bordered silver fadeInUp" animation-delay="1" data-scroll data-scroll-repeat>Schedule a call</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white position-relative section-padding-y-smaller d-flex align-items-center d-xl-none" style="background-image: url('{{ 'contact/contact-info-bg-mobile.jpg'|media }}'); background-size: cover;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="contact-card bg-white h-100">
+                        <img src="{{ 'contact/newport-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                        <a href="https://g.page/moolaymedia?share" target="_blank" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                            620 Newport Center Drive, <br> Suite 370, Newport Beach, CA 92660
+                        </a>
+                        <a href="tel:949-610-8969" class="d-block font-weight-500 phone">
+                            <b>(949) 610-8969</b>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-card bg-white h-100">
+                        <img src="{{ 'contact/milwaukee-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                        <a href="https://goo.gl/maps/En9Mxh3yk27DzzXb6" target="_blank" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                            500 W. Silver Spring Dr, <br>K200 Glendale, WI 53217
+                        </a>
+                        <a href="tel:414-616-3737" class="d-block font-weight-500 phone">
+                            (414) 616-3737
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section projects-section position-relative {#bg-medium-light-gray#} bg-000 section-padding-x d-flex align-items-center">
+        <div class="middle-line d-none d-md-block"></div>
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-8 mb-5 mb-xl-0 project-wrapper text-white get-some-insight-col">
+                        <h3 class="project-title mb-5 text-white">Get some insight</h3>
+                        <p class="mb-0">Is your SEO where it should be? When was the last time you had someone really explain how your site is performing? Just leave us your email and website and we’ll run an audit and share the report with you. No strings attached. Just a little gift from us to you.</p>
+                        
+                        <div class="py-5 d-none d-xl-block"></div>
+                    </div>
+                    <div class="col-xxxl-8 get-some-insight-col">
+                    
+                        <form data-request="{{ genericForm }}::onFormSubmit" data-request-validate>
+                        
+                            {{ form_token() }}
+                
+                            <div id="{{ genericForm }}_forms_flash"></div>
+                            
+                			<div class="row mb-4 mb-xxxxl-5">
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="email" class="form-control" placeholder="E-mail" tabindex="2">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="website" class="form-control" placeholder="Website URL" tabindex="3">
+                					    <small class="text-danger" data-validate-for="website"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-12 mb-4">
+                					<div class="form-group">
+                                        {% partial 'custom_recaptcha' recaptcha_id = 'seoFormRecaptcha' %}
+                                        <small class="text-danger" data-validate-for="recaptchaValidator"></small>
+                                    </div>
+                				</div>
+                			</div>
+                			<button class="btn btn-round bordered white" type="submit" tabindex="4">Submit</button>
+    					</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info-float d-none d-xxxl-block" style="background-image: url('{{ 'contact/contact-info-bg.jpg'|media }}');" data-scroll data-scroll-speed="-4" data-scroll-offset="0, 0" data-scroll-position="top">
+            <div class="d-flex flex-column pl-5 justify-content-end align-items-stretch">
+                <div class="contact-card bg-white mb-5">
+                    <img src="{{ 'contact/newport-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                    <a href="https://g.page/moolaymedia?share" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                        620 Newport Center Drive, <br> Suite 1100, Newport Beach, CA 92660
+                    </a>
+                    <a href="tel:949-610-8969" class="d-block font-weight-500 phone">
+                        (949) 610-8969
+                    </a>
+                </div>
+                <div class="contact-card bg-white">
+                    <img src="{{ 'contact/milwaukee-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                    <a href="https://goo.gl/maps/En9Mxh3yk27DzzXb6" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                        500 W. Silver Spring Dr, <br>K200 Glendale, WI 53217
+                    </a>
+                    <a href="tel:414-616-3737" class="d-block font-weight-500 phone">
+                        (414) 616-3737
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info-float d-none d-xl-block d-xxxl-none" style="background-image: url('{{ 'contact/contact-info-bg.jpg'|media }}');">
+            <div class="d-flex flex-column pl-5 justify-content-end align-items-stretch">
+                <div class="contact-card bg-white mb-5">
+                    <img src="{{ 'contact/newport-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                    <a href="https://g.page/moolaymedia?share" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                        620 Newport Center Drive, <br> Suite 1100, Newport Beach, CA 92660
+                    </a>
+                    <a href="tel:949-610-8969" class="d-block font-weight-500 phone">
+                        (949) 610-8969
+                    </a>
+                </div>
+                <div class="contact-card bg-white">
+                    <img src="{{ 'contact/milwaukee-beach-asset.png'|media }}" class="our-passion mb-4 d-block"alt="Newport Beach">
+                    <a href="https://goo.gl/maps/En9Mxh3yk27DzzXb6" class="address d-block font-weight-900 mb-3 text-black text-uppercase">
+                        500 W. Silver Spring Dr, <br>K200 Glendale, WI 53217
+                    </a>
+                    <a href="tel:414-616-3737" class="d-block font-weight-500 phone">
+                        (414) 616-3737
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section bg-white position-relative contact-page-form section-padding-x d-flex align-items-center">
+        <div class="middle-line d-none d-md-block"></div>
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 mb-5 mb-xl-0">
+                        <h3 class="section-title mb-5">Tell us a story</h3>
+                        <p class="mb-0">Please tell us a little about you and your goals.</p>
+                        
+                        <div class="py-5 d-none d-xl-block"></div>
+                    </div>
+                    <div class="col-xxxl-8">            
+                        <form data-request="{{ genericForm2 }}::onFormSubmit" data-request-validate>
+                        
+                            {{ form_token() }}
+
+                            <div id="{{ genericForm2 }}_forms_flash"></div>
+                            
+                			<div class="row mb-5">
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="5">
+                					    <small class="text-danger" data-validate-for="name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="email" class="form-control" placeholder="Your Email" tabindex="6">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-4 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="number" class="form-control" placeholder="Your Number" tabindex="7">
+                					    <small class="text-danger" data-validate-for="number"></small>
+                					</div>
+                				</div>
+                				<div class="col-12 mb-4">
+                				    <div class="form-group">
+                				        <textarea placeholder="Tell us your story" rows="3" name="details" class="form-control" tabindex="8"></textarea>
+                				        <small class="text-danger" data-validate-for="details"></small>
+                				    </div>
+                				</div>
+                				<div class="col-md-12">
+                					<div class="form-group">
+                                        {% partial 'custom_recaptcha' recaptcha_id = 'contactFormRecaptcha' %}
+                                        <small class="text-danger" data-validate-for="recaptchaValidator"></small>
+                                    </div>
+                				</div>
+                			</div>
+                			
+                			<p class="mb-5 ">If all is completed above click below to submit the form. One of our Marketing Consultants will reach out to you the next business day.</p>
+                            
+                			<button class="btn btn-round bordered silver" type="submit" tabindex="9">Submit</button>
+    					</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="oderose-home parallax-section projects-section position-relative parallax-full d-flex align-items-center" data-scroll data-scroll-repeat>
+        <div id="parallax-img-2" class="parallax-img">
+            <div data-scroll  class="w-100 h-100">
+                <div data-scroll data-scroll-repeat class="overflow-container w-100">
+                    <div data-scroll data-scroll-speed="-4"  class="parallax-img-wrapper first-of-kind w-100 h-100" {#style="background-image: url('{{ 'home/gl-bg.jpg'|media }}');"#}>
+                       <img src="{{ 'contact/contact-bg-2.jpg'|media }}" alt="" class="main-img">
+                       <img src="{{ 'contact/contact-bg.jpg'|media }}" alt="" class="replacement">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% partial 'site/footer' %}
+</div>
+{#<div id="calendlyModal" class="align-items-center">
+    <div id="closeCalendly">&times;</div>
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/nikola-gacev"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <!-- Calendly inline widget end -->
+</div>#}
+<div id="calendlyModal" class="align-items-center">
+    <div id="closeCalendly">&times;</div>
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/naourass"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <!-- Calendly inline widget end -->
+</div>
+{% put scripts %}
+<script>
+    $('#showCalendly').click(function(e){
+        e.preventDefault();
+        if($('#calendlyModal').hasClass('active')){
+            $('#calendlyModal').removeClass('active');
+        } else {
+            $('#calendlyModal').addClass('active');    
+        }
+    });
+    $('#closeCalendly').click(function(e){
+        e.preventDefault();
+        $('#calendlyModal').removeClass('active');
+    });
+</script>
+{% endput %}";s:4:"code";N;s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"genericForm";a:15:{s:5:"rules";a:3:{s:4:"name";s:8:"required";s:5:"email";s:14:"required|email";s:7:"website";s:8:"required";}s:14:"rules_messages";a:4:{s:13:"name.required";s:23:"Please enter your name.";s:14:"email.required";s:32:"Please enter your email address.";s:11:"email.email";s:35:"Please enter a valid email address.";s:16:"website.required";s:26:"Please enter your website.";}s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:12:"mail_enabled";s:1:"1";s:12:"mail_subject";s:23:"New SEO Insight Request";s:15:"mail_recipients";a:1:{i:0;s:22:"nikola@moolaymedia.com";}s:13:"inline_errors";s:7:"display";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:17:"recaptcha_enabled";s:1:"1";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";s:18:"emails_date_format";s:5:"Y-m-d";}s:24:"genericForm genericForm2";a:15:{s:5:"rules";a:3:{s:4:"name";s:8:"required";s:5:"email";s:14:"required|email";s:6:"number";s:8:"required";}s:14:"rules_messages";a:4:{s:13:"name.required";s:23:"Please enter your name.";s:14:"email.required";s:32:"Please enter your email address.";s:11:"email.email";s:35:"Please enter a valid email address.";s:15:"number.required";s:24:"Please enter your number";}s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:12:"mail_enabled";s:1:"1";s:12:"mail_subject";s:19:"New Contact Message";s:15:"mail_recipients";a:1:{i:0;s:22:"nikola@moolaymedia.com";}s:13:"inline_errors";s:7:"display";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:17:"recaptcha_enabled";s:1:"1";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";s:18:"emails_date_format";s:5:"Y-m-d";}}}

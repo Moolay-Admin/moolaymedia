@@ -1,0 +1,2052 @@
+1589917257a:1:{s:12:"home-old.htm";a:9:{s:8:"fileName";s:12:"home-old.htm";s:7:"content";s:60918:"title = "Home 3"
+url = "/home-3"
+layout = "default"
+is_hidden = 0
+==
+<section class="hero-section section-padding-x d-flex align-items-center">
+    <div class="hero-slider">
+        <div class="slide-img" style="background-image: url('{{ 'hero-slider/hero-image-1.jpg'|media }}');"></div>
+    </div>
+    <div class="saturation-effect" style="background-image: url('{{ 'hero-slider/anim-effect.png'|media }}');"></div>
+    <div class="hero-text-container container-fluid text-center text-md-left">
+        <h2 class="subtitle">We Are</h2>
+        <h1 class="big-title typewrite" data-period="1000" data-type='[ "Creative", "Passionate", "Driven", "Moolay" ]'>
+            <span class="wrap-text"></span>
+        </h1>
+    </div>
+</section>
+<div class="main bg-black">
+    <section class="about-section bg-black section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y w-100">
+            <div class="container-fluid mb-4 mb-lg-0 pb-lg-5 pb-xl-0">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="subtitle">Your Brand.</h5>
+                        <h3 class="big-title mb-3 text-white">Our Passion.</h3>
+                    </div>
+                    <div class="col-lg-8">
+                        <p class="text-grayish mb-0">Every brand has a story to tell. We are in the business of finding it. By immersing ourselves in your business, and the passion that you’ve poured into it, we become the voice of your brand. You’ve already written your story. Let us bring it to the world.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid d-lg-none">
+                <div class="about-video">
+                    <video class="home-video" placeholder="" type="video/mp4">
+                      <source src="{{ 'video-placeholder.mp4'|media }}" type="video/mp4">
+                      Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="about-video d-none d-lg-block">
+                <video class="home-video" placeholder="" type="video/mp4">
+                  <source src="{{ 'video-placeholder.mp4'|media }}" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+    </section>
+    <section class="services-section bg-theme-white section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y w-100">
+            <div class="container-fluid pt-lg-5 pt-xl-0">
+                <div class="row mb-100">
+                    <div class="col-12">
+                        <h5 class="subtitle">What We Do</h5>
+                        <h3 class="section-title text-theme-black">We Digitalize <br>The World</h3>
+                    </div>
+                </div>
+                <div class="row justify-content-lg-between align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="services-listing">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-6 mb-4 mb-xl-5">
+                                    <div class="service-wrap">
+                                        {% partial 'services/brand-design' %}
+                                        <h3 class="service-title text-theme-black">Brand Design</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6 mb-4 mb-xl-5">
+                                    <div class="service-wrap">
+                                        {% partial 'services/custom-websites' %}
+                                        <h3 class="service-title text-theme-black">Custom Websites</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6 mb-4 mb-xl-5">
+                                    <div class="service-wrap">
+                                        {% partial 'services/social-media-management' %}
+                                        <h3 class="service-title text-theme-black">Social Media Management</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6 mb-4 mb-xl-5">
+                                    <div class="service-wrap">
+                                        {% partial 'services/creative-content-marketing' %}
+                                        <h3 class="service-title text-theme-black">Creative Content Marketing</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="service-wrap">
+                                        {% partial 'services/seo-strategy' %}
+                                        <h3 class="service-title text-theme-black">Targeted SEO Strategy</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="service-wrap">
+                                        {% partial 'services/ads' %}
+                                        <h3 class="service-title text-theme-black">Data-Driven Ad Campigns</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="services-logo text-center text-lg-left">
+                            <img src="{{ 'services-logo.svg'|media }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-2-section bg-theme-white section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div w-100 bg-switchable-black section-padding-y-smaller">
+            <div class="container-fluid">
+                <h3 class="section-title text-white mb-3 mb-lg-4">About</h3>
+                <p class="big-text text-white mb-4 mb-lg-5">We are a squad of crazy guys whose obsession for excellence in digital-first branding made us cross paths.</p>
+                <a href="#" class="btn btn-round violet btn-dark-bg">Learn More</a>
+                <span class="signature text-white">moolay media</span>
+            </div>
+        </div>
+    </section>
+    <section class="quote-section bg-theme-white section-padding-x section-padding-y-smaller d-flex align-items-center">
+{#        <div id="blob1">
+            <canvas></canvas>
+        </div>#}
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <p class="mb-0 text-grayish text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+            </div>
+        </div>
+       {# <div id="blob2">
+            <canvas></canvas>
+        </div>#}
+    </section>
+    <section class="projects-section bg-theme-white section-padding-x">
+        <div id="rootWellness" class="cut-bg-div bg-light-gray section-padding-y-smaller mb-4">
+            <div class="container-fluid">
+                <h3 class="section-title mb-100">The Work</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="project-wrapper">
+                            <div class="project-logo d-flex align-items-start mb-4 mb-xl-5">
+                                <img src="{{ 'projects/root-logo.svg'|media }}" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title mb-3 mb-xl-4">Root Wellness</h4>
+                                <div class="project-description mb-4 mb-xl-5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                </div>
+                                <a href="#" class="btn btn-round pink btn-light-bg">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-image">
+                <img src="{{ 'projects/root-project.png'|media }}" alt="">
+            </div>
+        </div>
+        <div id="wwg" class="cut-bg-div bg-dark-gray section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-6">
+                        <div class="project-wrapper">
+                            <div class="project-logo d-flex align-items-start mb-4 mb-xl-5">
+                                <img src="{{ 'projects/wwg-logo.png'|media }}" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title mb-3 mb-xl-4 text-white">Westley Williams Group</h4>
+                                <div class="project-description mb-4 mb-xl-5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                </div>
+                                <a href="#" class="btn btn-round violet btn-dark-bg">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-image">
+                <img src="{{ 'projects/wwg-project.png'|media }}" alt="">
+            </div>
+        </div>
+        <div id="textBetween" class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-xl-6">
+                        <p class="mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="maisonMaj" class="cut-bg-div bg-black section-padding-y-smaller">
+            <div class="bg-stretch bg-black"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-xl-6">
+                        <div class="project-wrapper">
+                            <div class="project-logo d-flex align-items-start mb-4 mb-xl-5">
+                                <img src="{{ 'projects/maison-maj-logo.svg'|media }}" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title mb-3 mb-xl-4 text-white">Maison Maj</h4>
+                                <div class="project-description mb-4 mb-xl-5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                </div>
+                                <a href="#" class="btn btn-round pink btn-dark-bg">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-image">
+                <img src="{{ 'projects/maison-maj-project.png'|media }}" alt="">
+            </div>
+        </div>
+        <div id="fitbites" class="cut-bg-div bg-light-gray section-padding-y-smaller">
+            <div class="bg-stretch bg-light-gray"></div>
+            <div class="container-fluid mb-5 mb-lg-0">
+                <div class="row justify-content-lg-end clearfix">
+                    <div class="col-lg-7 col-xl-6 text-lg-right">
+                        <div class="project-wrapper">
+                            <div class="project-logo d-flex align-items-start justify-content-lg-end mb-4 mb-xl-5">
+                                <img src="{{ 'projects/fitbites-logo.svg'|media }}" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title mb-3 mb-xl-4">Fitbites</h4>
+                                <div class="project-description mb-4 mb-xl-5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                </div>
+                                <a href="#" class="btn btn-round pink btn-light-bg">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-image d-none d-sm-inline-block">
+                <img src="{{ 'projects/fitbites-project.png'|media }}" alt="">
+            </div>
+            <div class="project-image-2">
+                <img src="{{ 'projects/fitbites-project-2.png'|media }}" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="quote-section-2 section-padding-x">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section bg-blue section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-5">
+                        <h3 class="section-title text-white mb-5">Get a Quote</h3>
+                        <form>
+                			<div class="row mb-4 mb-lg-5">
+                				<div class="col-md-6">
+                					<div class="form-group mb-4">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="//name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                					<div class="form-group mb-4">
+                					    <input type="text" name="email" class="form-control" placeholder="Your Email" tabindex="2">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                					<div class="form-group mb-0 mb-4 mb-md-0">
+                					    <input type="text" name="subject" class="form-control" placeholder="Your Subject" tabindex="3">
+                					    <small class="text-danger" data-validate-for="subject"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                				    <div class="form-group mb-0">
+                				        <textarea placeholder="your message" rows="1" class="form-control" tabindex="4"></textarea>
+                				        <small class="text-danger" data-validate-for="message"></small>
+                				    </div>
+                				</div>
+                			</div>
+                			<button class="btn btn-round pink btn-dark-bg" type="submit" tabindex="5">Send</button>
+    					</form>
+                    </div>
+                    <div class="col-lg-4 text-lg-center d-flex flex-column justify-content-start align-items-lg-center">
+                        <h3 class="text-white mb-4 mb-lg-5">Or let's chat on:</h3>
+                        <div class="d-flex flex-lg-column justify-content-lg-start align-items-center">
+                            <a href="#" class="btn btn-round bordered white text-normalize mr-3 mr-lg-0 mb-lg-4">WhatsApp</a>
+                            <a href="#" class="btn btn-round bordered white text-normalize">Book a call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="marketing-section bg-switchable-black section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y">
+            <div class="container-fluid">
+                <h3 class="section-title text-white mb-4">Digatal Marketing</h3>
+                <p class="big-text text-white mb-5">We are a squad of crazy guys whose obsession for excellence in digital-first branding made us cross paths.</p>
+            </div>
+        </div>
+    </section>
+    <section class="clients-section">
+        <div class="bg-switchable-black section-padding-x">
+            <div class="cut-bg-div pb-5">
+                <div class="container-fluid">
+                    <h3 class="h2 text-white text-uppercase">Our Clients</h3>
+                </div>
+            </div>
+        </div>
+        <div class="bg-medium-gray section-padding-x">
+            <div class="cut-bg-div py-5">
+                <div class="container-fluid">
+                    <div class="client-slider">
+                        <div class="client-logo">
+                            <img src="{{ 'clients/ssk-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/root-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/fitbites-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/buycbd-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/cabiling-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/oderose-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/plymouth-logo.svg'|media }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="marketing-services-section bg-theme-white section-padding-x">
+        {#<div id="blob3">
+            <canvas></canvas>
+        </div>#}
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row mb-200">
+                    <div class="col-md-8">
+                        <div class="service-logo">
+                            {% partial 'services/social-media-marketing' %}
+                        </div>
+                        <h3 class="section-title text-theme-black mb-4">Social Media Marketing</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but  the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-md-8 text-md-right">
+                        <div class="service-logo">
+                            {% partial 'services/advertising-services' %}
+                        </div>
+                        <h3 class="section-title text-theme-black mb-4">Advertising Services</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but  the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {#<div id="blob4">
+            <canvas></canvas>
+        </div>#}
+    </section>
+    <section class="marketing-services-slider-section bg-switchable-black section-padding-x">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="marketing-slider">
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/social-media-management' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Email Marketing</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/targeted-advertising' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Targeted Advertising</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/chatbots' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Chatbots</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/social-media-management' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Email Marketing</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/targeted-advertising' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Targeted Advertising</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/chatbots' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Chatbots</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section bg-blue section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-5">
+                        <h3 class="section-title text-white mb-5">Get a Quote</h3>
+                        <form>
+                			<div class="row mb-4 mb-lg-5">
+                				<div class="col-md-6">
+                					<div class="form-group mb-4">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="//name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                					<div class="form-group mb-4">
+                					    <input type="text" name="email" class="form-control" placeholder="Your Email" tabindex="2">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                					<div class="form-group mb-4 mb-md-0">
+                					    <input type="text" name="subject" class="form-control" placeholder="Your Subject" tabindex="3">
+                					    <small class="text-danger" data-validate-for="subject"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                				    <div class="form-group mb-0">
+                				        <textarea placeholder="your message" rows="1" class="form-control" tabindex="4"></textarea>
+                				        <small class="text-danger" data-validate-for="message"></small>
+                				    </div>
+                				</div>
+                			</div>
+                			<button class="btn btn-round pink btn-dark-bg" type="submit" tabindex="5">Send</button>
+    					</form>
+                    </div>
+                    <div class="col-lg-4 text-lg-center d-flex flex-column justify-content-start align-items-lg-center">
+                        <h3 class="text-white mb-4 mb-lg-5">Or let's chat on:</h3>
+                        <div class="d-flex flex-lg-column justify-content-lg-start align-items-center">
+                            <a href="#" class="btn btn-round bordered white text-normalize mr-3 mr-lg-0 mb-lg-4">WhatsApp</a>
+                            <a href="#" class="btn btn-round bordered white text-normalize">Book a call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-section section-padding-x bg-theme-white">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row mb-100">
+                    <div class="col-xl-6">
+                        <h3 class="section-title text-theme-black mb-4 mb-md-5">Moolay Team</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-wrapper position-relative">
+                <div class="team-slider">
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-1.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-2.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-3.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-4.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-5.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-1.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-2.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-3.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-4.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-5.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="prev-arrow">
+                    <img src="{{ 'assets/img/prev.svg'|theme }}" alt="">
+                </div>
+                <div class="next-arrow">
+                    <img src="{{ 'assets/img/next.svg'|theme }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section bg-switchable-black section-padding-x">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="mb-200">
+                    <h3 class="section-title text-white mb-4 mb-md-5">What People Are Saying About Moolay Media</h3>
+                    <p>Don't take our word for it. See for yourself.</p>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">SHAWN HANSEN</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Greater Wisconsin Electric</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar2.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">JACK DELLGER</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Plymouth Plumbers</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">TARIK KHRIBECH</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Chorerelief</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">SHAWN HANSEN</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Greater Wisconsin Electric</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar2.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">JACK DELLGER</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Plymouth Plumbers</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">TARIK KHRIBECH</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Chorerelief</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="news-section section-padding-x bg-theme-white">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row mb-100">
+                    <div class="col-xl-6">
+                        <h3 class="section-title text-theme-black">Moolay News</h3>
+                    </div>
+                </div>
+                
+                <div class="slider-wrapper position-relative mb-100">
+                    <div class="news-slider row">
+                        <div class="news-wrapper col-4 text-center">
+                            <a href="#">
+                                <div class="news-image mb-4">
+                                    <img src="{{ 'news/design-trends.jpg'|media }}" alt="" class="w-100">
+                                </div>
+                                <div class="news-info">
+                                    <h5 class="h2 news-name text-theme-black text-uppercase mb-3">DESIGN TREND 2020</h5>
+                                    <span class="h6 news-title text-violet mb-3 d-block text-uppercase">FEBRUARY 15th 2020</span>
+                                    <p class="news-excerpt">
+                                        There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news-wrapper col-4 text-center">
+                            <a href="#">
+                                <div class="news-image mb-4">
+                                    <img src="{{ 'news/popular-marketing-tips.jpg'|media }}" alt="" class="w-100">
+                                </div>
+                                <div class="news-info">
+                                    <h5 class="h2 news-name text-theme-black text-uppercase mb-3">POPULAR MARKETING TIPS</h5>
+                                    <span class="h6 news-title text-violet mb-3 d-block text-uppercase">FEBRUARY 15th 2020</span>
+                                    <p class="news-excerpt">
+                                        There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news-wrapper col-4 text-center">
+                            <a href="#">
+                                <div class="news-image mb-4">
+                                    <img src="{{ 'news/growth-hacking-tools.jpg'|media }}" alt="" class="w-100">
+                                </div>
+                                <div class="news-info">
+                                    <h5 class="h2 news-name text-theme-black text-uppercase mb-3">GROWTH HACKING TOOLS</h5>
+                                    <span class="h6 news-title text-violet mb-3 d-block text-uppercase">FEBRUARY 15th 2020</span>
+                                    <p class="news-excerpt">
+                                        There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-round violet btn-dark-bg hover-switch-theme-black">Blog</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section bg-switchable-black section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <h5 class="subtitle">Let's Work Together</h5>
+                        <h3 class="section-title text-white mb-5">Have a Project?</h3>
+                    </div>
+                    <div class="col-xxxl-8 mb-100">
+                        <form>
+                			<div class="row mb-5">
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="//name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="email" class="form-control" placeholder="Your Email" tabindex="2">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="number" class="form-control" placeholder="Your Number" tabindex="3">
+                					    <small class="text-danger" data-validate-for="number"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="interested_in" class="form-control" placeholder="Interested In" tabindex="4">
+                					    <small class="text-danger" data-validate-for="interested_in"></small>
+                					</div>
+                				</div>
+                				<div class="col-12">
+                				    <div class="form-group">
+                				        <textarea placeholder="Details about Your Project" rows="3" name="details" class="form-control" tabindex="5"></textarea>
+                				        <small class="text-danger" data-validate-for="details"></small>
+                				    </div>
+                				</div>
+                			</div>
+                			<button class="btn btn-round violet btn-dark-bg" type="submit" tabindex="6">Send</button>
+    					</form>
+                    </div>
+                    <div class="col-lg-12">
+                        <h3 class="text-pink mb-5 text-uppercase">Or let's chat:</h3>
+                        <a href="#" class="btn btn-round bordered white text-normalize mr-4">WhatsApp</a>
+                        <a href="#" class="btn btn-round bordered white text-normalize">Book a call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% put scripts %}
+{#<script src="{{ 'assets/javascript/home-scripts.js'|theme }}"></script>#}
+<script>
+    $('.client-slider').slick({
+      dots: false,
+      infinite: true,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2500,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 5,
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 4,
+          }
+        },
+        {
+          breakpoint: 650,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    $('.marketing-slider').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    $('.team-slider').slick({
+      dots: false,
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      arrows: true,
+      prevArrow: $('.team-section .prev-arrow'),
+      nextArrow: $('.team-section .next-arrow'),
+      centerMode: true,
+      centerPadding: 0,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            centerMode: false,
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    $('.testimonials-slider').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    
+    /* Slick needs no get Reinitialized on window Resize after it was destroyed */
+    $(window).on('load resize orientationchange', function() {
+        $('.news-slider').each(function(){
+            var $carousel = $(this);
+            /* Initializes a slick carousel only on mobile screens */
+            // slick on mobile
+            if ($(window).width() > 991) {
+                if ($carousel.hasClass('slick-initialized')) {
+                    $carousel.slick('unslick');
+                }
+            }
+            else{
+                if (!$carousel.hasClass('slick-initialized')) {
+                    $carousel.slick({
+                        dots: true,
+                        infinite: true,
+                        arrows: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        mobileFirst: true,
+                        responsive: [
+                            {
+                              breakpoint: 0,
+                              settings: {
+                                slidesToShow: 1,
+                              }
+                            },
+                            {
+                              breakpoint: 700,
+                              settings: {
+                                slidesToShow: 2,
+                              }
+                            },
+                            // You can unslick at a given breakpoint now by adding:
+                            // settings: "unslick"
+                            // instead of a settings object
+                       ]
+                    });
+                }
+            }
+        });
+    });
+</script>
+{% endput %}";s:5:"mtime";i:1588021479;s:6:"markup";s:60849:"<section class="hero-section section-padding-x d-flex align-items-center">
+    <div class="hero-slider">
+        <div class="slide-img" style="background-image: url('{{ 'hero-slider/hero-image-1.jpg'|media }}');"></div>
+    </div>
+    <div class="saturation-effect" style="background-image: url('{{ 'hero-slider/anim-effect.png'|media }}');"></div>
+    <div class="hero-text-container container-fluid text-center text-md-left">
+        <h2 class="subtitle">We Are</h2>
+        <h1 class="big-title typewrite" data-period="1000" data-type='[ "Creative", "Passionate", "Driven", "Moolay" ]'>
+            <span class="wrap-text"></span>
+        </h1>
+    </div>
+</section>
+<div class="main bg-black">
+    <section class="about-section bg-black section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y w-100">
+            <div class="container-fluid mb-4 mb-lg-0 pb-lg-5 pb-xl-0">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="subtitle">Your Brand.</h5>
+                        <h3 class="big-title mb-3 text-white">Our Passion.</h3>
+                    </div>
+                    <div class="col-lg-8">
+                        <p class="text-grayish mb-0">Every brand has a story to tell. We are in the business of finding it. By immersing ourselves in your business, and the passion that you’ve poured into it, we become the voice of your brand. You’ve already written your story. Let us bring it to the world.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid d-lg-none">
+                <div class="about-video">
+                    <video class="home-video" placeholder="" type="video/mp4">
+                      <source src="{{ 'video-placeholder.mp4'|media }}" type="video/mp4">
+                      Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="about-video d-none d-lg-block">
+                <video class="home-video" placeholder="" type="video/mp4">
+                  <source src="{{ 'video-placeholder.mp4'|media }}" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+    </section>
+    <section class="services-section bg-theme-white section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y w-100">
+            <div class="container-fluid pt-lg-5 pt-xl-0">
+                <div class="row mb-100">
+                    <div class="col-12">
+                        <h5 class="subtitle">What We Do</h5>
+                        <h3 class="section-title text-theme-black">We Digitalize <br>The World</h3>
+                    </div>
+                </div>
+                <div class="row justify-content-lg-between align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="services-listing">
+                            <div class="row">
+                                <div class="col-6 col-md-4 col-lg-6 mb-4 mb-xl-5">
+                                    <div class="service-wrap">
+                                        {% partial 'services/brand-design' %}
+                                        <h3 class="service-title text-theme-black">Brand Design</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6 mb-4 mb-xl-5">
+                                    <div class="service-wrap">
+                                        {% partial 'services/custom-websites' %}
+                                        <h3 class="service-title text-theme-black">Custom Websites</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6 mb-4 mb-xl-5">
+                                    <div class="service-wrap">
+                                        {% partial 'services/social-media-management' %}
+                                        <h3 class="service-title text-theme-black">Social Media Management</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6 mb-4 mb-xl-5">
+                                    <div class="service-wrap">
+                                        {% partial 'services/creative-content-marketing' %}
+                                        <h3 class="service-title text-theme-black">Creative Content Marketing</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="service-wrap">
+                                        {% partial 'services/seo-strategy' %}
+                                        <h3 class="service-title text-theme-black">Targeted SEO Strategy</h3>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="service-wrap">
+                                        {% partial 'services/ads' %}
+                                        <h3 class="service-title text-theme-black">Data-Driven Ad Campigns</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="services-logo text-center text-lg-left">
+                            <img src="{{ 'services-logo.svg'|media }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-2-section bg-theme-white section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div w-100 bg-switchable-black section-padding-y-smaller">
+            <div class="container-fluid">
+                <h3 class="section-title text-white mb-3 mb-lg-4">About</h3>
+                <p class="big-text text-white mb-4 mb-lg-5">We are a squad of crazy guys whose obsession for excellence in digital-first branding made us cross paths.</p>
+                <a href="#" class="btn btn-round violet btn-dark-bg">Learn More</a>
+                <span class="signature text-white">moolay media</span>
+            </div>
+        </div>
+    </section>
+    <section class="quote-section bg-theme-white section-padding-x section-padding-y-smaller d-flex align-items-center">
+{#        <div id="blob1">
+            <canvas></canvas>
+        </div>#}
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <p class="mb-0 text-grayish text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+            </div>
+        </div>
+       {# <div id="blob2">
+            <canvas></canvas>
+        </div>#}
+    </section>
+    <section class="projects-section bg-theme-white section-padding-x">
+        <div id="rootWellness" class="cut-bg-div bg-light-gray section-padding-y-smaller mb-4">
+            <div class="container-fluid">
+                <h3 class="section-title mb-100">The Work</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="project-wrapper">
+                            <div class="project-logo d-flex align-items-start mb-4 mb-xl-5">
+                                <img src="{{ 'projects/root-logo.svg'|media }}" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title mb-3 mb-xl-4">Root Wellness</h4>
+                                <div class="project-description mb-4 mb-xl-5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                </div>
+                                <a href="#" class="btn btn-round pink btn-light-bg">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-image">
+                <img src="{{ 'projects/root-project.png'|media }}" alt="">
+            </div>
+        </div>
+        <div id="wwg" class="cut-bg-div bg-dark-gray section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-6">
+                        <div class="project-wrapper">
+                            <div class="project-logo d-flex align-items-start mb-4 mb-xl-5">
+                                <img src="{{ 'projects/wwg-logo.png'|media }}" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title mb-3 mb-xl-4 text-white">Westley Williams Group</h4>
+                                <div class="project-description mb-4 mb-xl-5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                </div>
+                                <a href="#" class="btn btn-round violet btn-dark-bg">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-image">
+                <img src="{{ 'projects/wwg-project.png'|media }}" alt="">
+            </div>
+        </div>
+        <div id="textBetween" class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-xl-6">
+                        <p class="mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="maisonMaj" class="cut-bg-div bg-black section-padding-y-smaller">
+            <div class="bg-stretch bg-black"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-xl-6">
+                        <div class="project-wrapper">
+                            <div class="project-logo d-flex align-items-start mb-4 mb-xl-5">
+                                <img src="{{ 'projects/maison-maj-logo.svg'|media }}" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title mb-3 mb-xl-4 text-white">Maison Maj</h4>
+                                <div class="project-description mb-4 mb-xl-5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                </div>
+                                <a href="#" class="btn btn-round pink btn-dark-bg">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-image">
+                <img src="{{ 'projects/maison-maj-project.png'|media }}" alt="">
+            </div>
+        </div>
+        <div id="fitbites" class="cut-bg-div bg-light-gray section-padding-y-smaller">
+            <div class="bg-stretch bg-light-gray"></div>
+            <div class="container-fluid mb-5 mb-lg-0">
+                <div class="row justify-content-lg-end clearfix">
+                    <div class="col-lg-7 col-xl-6 text-lg-right">
+                        <div class="project-wrapper">
+                            <div class="project-logo d-flex align-items-start justify-content-lg-end mb-4 mb-xl-5">
+                                <img src="{{ 'projects/fitbites-logo.svg'|media }}" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title mb-3 mb-xl-4">Fitbites</h4>
+                                <div class="project-description mb-4 mb-xl-5">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                                </div>
+                                <a href="#" class="btn btn-round pink btn-light-bg">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-image d-none d-sm-inline-block">
+                <img src="{{ 'projects/fitbites-project.png'|media }}" alt="">
+            </div>
+            <div class="project-image-2">
+                <img src="{{ 'projects/fitbites-project-2.png'|media }}" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="quote-section-2 section-padding-x">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section bg-blue section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-5">
+                        <h3 class="section-title text-white mb-5">Get a Quote</h3>
+                        <form>
+                			<div class="row mb-4 mb-lg-5">
+                				<div class="col-md-6">
+                					<div class="form-group mb-4">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="//name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                					<div class="form-group mb-4">
+                					    <input type="text" name="email" class="form-control" placeholder="Your Email" tabindex="2">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                					<div class="form-group mb-0 mb-4 mb-md-0">
+                					    <input type="text" name="subject" class="form-control" placeholder="Your Subject" tabindex="3">
+                					    <small class="text-danger" data-validate-for="subject"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                				    <div class="form-group mb-0">
+                				        <textarea placeholder="your message" rows="1" class="form-control" tabindex="4"></textarea>
+                				        <small class="text-danger" data-validate-for="message"></small>
+                				    </div>
+                				</div>
+                			</div>
+                			<button class="btn btn-round pink btn-dark-bg" type="submit" tabindex="5">Send</button>
+    					</form>
+                    </div>
+                    <div class="col-lg-4 text-lg-center d-flex flex-column justify-content-start align-items-lg-center">
+                        <h3 class="text-white mb-4 mb-lg-5">Or let's chat on:</h3>
+                        <div class="d-flex flex-lg-column justify-content-lg-start align-items-center">
+                            <a href="#" class="btn btn-round bordered white text-normalize mr-3 mr-lg-0 mb-lg-4">WhatsApp</a>
+                            <a href="#" class="btn btn-round bordered white text-normalize">Book a call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="marketing-section bg-switchable-black section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y">
+            <div class="container-fluid">
+                <h3 class="section-title text-white mb-4">Digatal Marketing</h3>
+                <p class="big-text text-white mb-5">We are a squad of crazy guys whose obsession for excellence in digital-first branding made us cross paths.</p>
+            </div>
+        </div>
+    </section>
+    <section class="clients-section">
+        <div class="bg-switchable-black section-padding-x">
+            <div class="cut-bg-div pb-5">
+                <div class="container-fluid">
+                    <h3 class="h2 text-white text-uppercase">Our Clients</h3>
+                </div>
+            </div>
+        </div>
+        <div class="bg-medium-gray section-padding-x">
+            <div class="cut-bg-div py-5">
+                <div class="container-fluid">
+                    <div class="client-slider">
+                        <div class="client-logo">
+                            <img src="{{ 'clients/ssk-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/root-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/fitbites-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/buycbd-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/cabiling-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/oderose-logo.svg'|media }}" alt="">
+                        </div>
+                        <div class="client-logo">
+                            <img src="{{ 'clients/plymouth-logo.svg'|media }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="marketing-services-section bg-theme-white section-padding-x">
+        {#<div id="blob3">
+            <canvas></canvas>
+        </div>#}
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row mb-200">
+                    <div class="col-md-8">
+                        <div class="service-logo">
+                            {% partial 'services/social-media-marketing' %}
+                        </div>
+                        <h3 class="section-title text-theme-black mb-4">Social Media Marketing</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but  the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-md-8 text-md-right">
+                        <div class="service-logo">
+                            {% partial 'services/advertising-services' %}
+                        </div>
+                        <h3 class="section-title text-theme-black mb-4">Advertising Services</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but  the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {#<div id="blob4">
+            <canvas></canvas>
+        </div>#}
+    </section>
+    <section class="marketing-services-slider-section bg-switchable-black section-padding-x">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="marketing-slider">
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/social-media-management' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Email Marketing</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/targeted-advertising' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Targeted Advertising</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/chatbots' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Chatbots</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/social-media-management' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Email Marketing</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/targeted-advertising' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Targeted Advertising</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrapper">
+                        <div class="service-icon">
+                            {% partial 'services/chatbots' %}
+                        </div>
+                        <div class="service-info">
+                            <h4 class="h3 service-title text-normalize text-white mb-3 mb-xl-4">Chatbots</h4>
+                            <div class="service-description">
+                                <p>Timely and relevant emails to the right people</p>
+                                <p>We develop an email marketing strategy, design custom and proven template for an email layout, build targeted opt-in email list, test and track email campaign.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section bg-blue section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-5">
+                        <h3 class="section-title text-white mb-5">Get a Quote</h3>
+                        <form>
+                			<div class="row mb-4 mb-lg-5">
+                				<div class="col-md-6">
+                					<div class="form-group mb-4">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="//name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                					<div class="form-group mb-4">
+                					    <input type="text" name="email" class="form-control" placeholder="Your Email" tabindex="2">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                					<div class="form-group mb-4 mb-md-0">
+                					    <input type="text" name="subject" class="form-control" placeholder="Your Subject" tabindex="3">
+                					    <small class="text-danger" data-validate-for="subject"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6">
+                				    <div class="form-group mb-0">
+                				        <textarea placeholder="your message" rows="1" class="form-control" tabindex="4"></textarea>
+                				        <small class="text-danger" data-validate-for="message"></small>
+                				    </div>
+                				</div>
+                			</div>
+                			<button class="btn btn-round pink btn-dark-bg" type="submit" tabindex="5">Send</button>
+    					</form>
+                    </div>
+                    <div class="col-lg-4 text-lg-center d-flex flex-column justify-content-start align-items-lg-center">
+                        <h3 class="text-white mb-4 mb-lg-5">Or let's chat on:</h3>
+                        <div class="d-flex flex-lg-column justify-content-lg-start align-items-center">
+                            <a href="#" class="btn btn-round bordered white text-normalize mr-3 mr-lg-0 mb-lg-4">WhatsApp</a>
+                            <a href="#" class="btn btn-round bordered white text-normalize">Book a call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-section section-padding-x bg-theme-white">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row mb-100">
+                    <div class="col-xl-6">
+                        <h3 class="section-title text-theme-black mb-4 mb-md-5">Moolay Team</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-wrapper position-relative">
+                <div class="team-slider">
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-1.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-2.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-3.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-4.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-5.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-1.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-2.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-3.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-4.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-wrapper">
+                        <div class="member-image mb-4">
+                            <img src="{{ 'team/member-5.jpg'|media }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="h2 member-name text-theme-black text-uppercase mb-2 mb-lg-3">Nina Light</h5>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Project Manager</span>
+                            <p class="member-excerpt">
+                                There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="prev-arrow">
+                    <img src="{{ 'assets/img/prev.svg'|theme }}" alt="">
+                </div>
+                <div class="next-arrow">
+                    <img src="{{ 'assets/img/next.svg'|theme }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section bg-switchable-black section-padding-x">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="mb-200">
+                    <h3 class="section-title text-white mb-4 mb-md-5">What People Are Saying About Moolay Media</h3>
+                    <p>Don't take our word for it. See for yourself.</p>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">SHAWN HANSEN</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Greater Wisconsin Electric</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar2.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">JACK DELLGER</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Plymouth Plumbers</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">TARIK KHRIBECH</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Chorerelief</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">SHAWN HANSEN</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Greater Wisconsin Electric</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar2.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">JACK DELLGER</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Plymouth Plumbers</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonial-image mx-auto mb-4">
+                            <img src="{{ 'assets/img/img_avatar.png'|theme }}" alt="" class="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-description mb-4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
+                            </div>
+                            <h4 class="h3 testimonial-title text-uppercase text-white mb-3">TARIK KHRIBECH</h4>
+                            <span class="h6 member-title text-violet mb-3 d-block text-uppercase">Chorerelief</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="news-section section-padding-x bg-theme-white">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row mb-100">
+                    <div class="col-xl-6">
+                        <h3 class="section-title text-theme-black">Moolay News</h3>
+                    </div>
+                </div>
+                
+                <div class="slider-wrapper position-relative mb-100">
+                    <div class="news-slider row">
+                        <div class="news-wrapper col-4 text-center">
+                            <a href="#">
+                                <div class="news-image mb-4">
+                                    <img src="{{ 'news/design-trends.jpg'|media }}" alt="" class="w-100">
+                                </div>
+                                <div class="news-info">
+                                    <h5 class="h2 news-name text-theme-black text-uppercase mb-3">DESIGN TREND 2020</h5>
+                                    <span class="h6 news-title text-violet mb-3 d-block text-uppercase">FEBRUARY 15th 2020</span>
+                                    <p class="news-excerpt">
+                                        There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news-wrapper col-4 text-center">
+                            <a href="#">
+                                <div class="news-image mb-4">
+                                    <img src="{{ 'news/popular-marketing-tips.jpg'|media }}" alt="" class="w-100">
+                                </div>
+                                <div class="news-info">
+                                    <h5 class="h2 news-name text-theme-black text-uppercase mb-3">POPULAR MARKETING TIPS</h5>
+                                    <span class="h6 news-title text-violet mb-3 d-block text-uppercase">FEBRUARY 15th 2020</span>
+                                    <p class="news-excerpt">
+                                        There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news-wrapper col-4 text-center">
+                            <a href="#">
+                                <div class="news-image mb-4">
+                                    <img src="{{ 'news/growth-hacking-tools.jpg'|media }}" alt="" class="w-100">
+                                </div>
+                                <div class="news-info">
+                                    <h5 class="h2 news-name text-theme-black text-uppercase mb-3">GROWTH HACKING TOOLS</h5>
+                                    <span class="h6 news-title text-violet mb-3 d-block text-uppercase">FEBRUARY 15th 2020</span>
+                                    <p class="news-excerpt">
+                                        There are many variations of passages Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believa.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-round violet btn-dark-bg hover-switch-theme-black">Blog</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-quote-section bg-switchable-black section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <h5 class="subtitle">Let's Work Together</h5>
+                        <h3 class="section-title text-white mb-5">Have a Project?</h3>
+                    </div>
+                    <div class="col-xxxl-8 mb-100">
+                        <form>
+                			<div class="row mb-5">
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="//name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="email" class="form-control" placeholder="Your Email" tabindex="2">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="number" class="form-control" placeholder="Your Number" tabindex="3">
+                					    <small class="text-danger" data-validate-for="number"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="interested_in" class="form-control" placeholder="Interested In" tabindex="4">
+                					    <small class="text-danger" data-validate-for="interested_in"></small>
+                					</div>
+                				</div>
+                				<div class="col-12">
+                				    <div class="form-group">
+                				        <textarea placeholder="Details about Your Project" rows="3" name="details" class="form-control" tabindex="5"></textarea>
+                				        <small class="text-danger" data-validate-for="details"></small>
+                				    </div>
+                				</div>
+                			</div>
+                			<button class="btn btn-round violet btn-dark-bg" type="submit" tabindex="6">Send</button>
+    					</form>
+                    </div>
+                    <div class="col-lg-12">
+                        <h3 class="text-pink mb-5 text-uppercase">Or let's chat:</h3>
+                        <a href="#" class="btn btn-round bordered white text-normalize mr-4">WhatsApp</a>
+                        <a href="#" class="btn btn-round bordered white text-normalize">Book a call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% put scripts %}
+{#<script src="{{ 'assets/javascript/home-scripts.js'|theme }}"></script>#}
+<script>
+    $('.client-slider').slick({
+      dots: false,
+      infinite: true,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2500,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 5,
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 4,
+          }
+        },
+        {
+          breakpoint: 650,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    $('.marketing-slider').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    $('.team-slider').slick({
+      dots: false,
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      arrows: true,
+      prevArrow: $('.team-section .prev-arrow'),
+      nextArrow: $('.team-section .next-arrow'),
+      centerMode: true,
+      centerPadding: 0,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            centerMode: false,
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    $('.testimonials-slider').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    
+    /* Slick needs no get Reinitialized on window Resize after it was destroyed */
+    $(window).on('load resize orientationchange', function() {
+        $('.news-slider').each(function(){
+            var $carousel = $(this);
+            /* Initializes a slick carousel only on mobile screens */
+            // slick on mobile
+            if ($(window).width() > 991) {
+                if ($carousel.hasClass('slick-initialized')) {
+                    $carousel.slick('unslick');
+                }
+            }
+            else{
+                if (!$carousel.hasClass('slick-initialized')) {
+                    $carousel.slick({
+                        dots: true,
+                        infinite: true,
+                        arrows: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        mobileFirst: true,
+                        responsive: [
+                            {
+                              breakpoint: 0,
+                              settings: {
+                                slidesToShow: 1,
+                              }
+                            },
+                            {
+                              breakpoint: 700,
+                              settings: {
+                                slidesToShow: 2,
+                              }
+                            },
+                            // You can unslick at a given breakpoint now by adding:
+                            // settings: "unslick"
+                            // instead of a settings object
+                       ]
+                    });
+                }
+            }
+        });
+    });
+</script>
+{% endput %}";s:4:"code";N;s:5:"title";s:6:"Home 3";s:3:"url";s:7:"/home-3";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,5294 @@
+@media screen and (max-width: 3000px) {
+    .hide-on-small {
+        display: none!important;    
+    }
+    .show-on-small {
+        display: block!important;    
+    }
+}
+@media screen and (max-width: 1799px) {
+    .review-project-section .cut-bg-div {
+        padding-bottom: 1100px!important;    
+    }
+    .review-project-section .web-design-img {
+        position: absolute;
+        top: 200px;
+        width: 150%;
+        left: -20%;    
+    }
+    .review-project-section-small .cut-bg-div {
+        padding-top: 500px!important;    
+    }
+    .fb-meal-1 img {
+        right: -134vw;
+    }
+    .fb-meal-2 img {
+        top: -298vh;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -286vh;
+    }
+    .rw-bottle img {
+        left: -167vw;
+    }
+    .root-work .rw-bottle img {
+        left: -378vw;
+    }
+    #scrollToPlace .p-top {
+        padding-top: 540px;
+    }
+    .services-section-home .section-modal-br {
+        height: 75vh;
+        width: 40vw;
+        left: 0;
+        top: 0;
+    }
+    .services-section-home .section-modal-cc {
+        height: 105vh;
+        width: 48vw;
+        left: -10vh;
+        top: 75vh;
+    }
+    .contact-info-float {
+        padding: 130px 0 0 100px;
+    }
+    .home-hero.hero-section .big-title {
+        background-size: 147%;
+        background-position: -599px -156px;
+    }
+}
+@media screen and (max-width: 1699px) {
+    /*.home-video .section-title {
+         font-size: 80px;   
+    }*/
+    .home-video img.our-passion {
+        max-height: 70px;
+    }
+    .subtitle {
+        font-size: 35px;
+    }
+    .big-title {
+        font-size: 160px;
+        margin-left: -7px;
+    }
+    .section-title {
+        font-size: 100px;   
+    }
+    .big-text {
+        font-size: 56px;
+    }
+    .team-section .slick-arrow {
+        top: 230px;
+    }
+    .love-what-we-do-section #blob4 {
+      left: -380px;
+      bottom: 50%;
+      -webkit-transform: translateY(50%);
+      transform: translateY(50%);
+    }
+    .love-what-we-do-section #blob4 canvas {
+      width: 1500px;
+    }
+    .red-sauce-section .fish-meal-img {
+        right: 80px;
+        top: -70px;
+        width: 450px;
+    }
+    .red-sauce-section .rice-meal-img {
+        right: -180px;
+        bottom: -60%;
+        width: 450px;
+    }
+    .red-sauce-section .leaves-assets-img {
+        left: 0;
+        bottom: -120px;
+        width: 350px;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 270px;
+    }
+    .stay-fit-section .fit-woman {
+        width: 800px;
+        top: -100px;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 200px;
+    }
+    .the-new-brand-section .logo-asset {
+        bottom: 0;
+        left: 118px;
+        max-width: 370px;
+    }
+    .the-new-brand-section .fish-meal-asset {
+        top: -160px;
+        left: 40px;
+        max-width: 520px;
+    }
+    .the-new-brand-section .rice-meal-asset {
+        right: 20px;
+        bottom: -270px;
+        max-width: 520px;
+    }
+    .the-new-brand-section .facebook-asset {
+        top: 0;
+        left: 50%;
+        max-width: 90px;
+    }
+    .print-flyer-section .print-flyer-img {
+        width: 100%;
+    }
+    .fold-square-section .fold-square-img {
+        left: -100px;
+        top: 0;
+        width: 1400px;
+    }
+    .standing-banner-section .standing-banner-img {
+        position: absolute;
+        right: -100px;
+        top: -200px;
+    }
+    .review-project-section .cut-bg-div {
+        padding-bottom: 950px!important;    
+    }
+    .review-project-section-small .cut-bg-div {
+        padding-top: 400px!important;    
+    }    
+    .fb-meal-1 {
+        max-width: 340px;
+    }
+    .fb-meal-1 img {
+        right: -135vw;
+    }
+    .fb-meal-2 {
+        max-width: 200px;
+    }
+    .fb-meal-2 img {
+        top: -300vh;
+    }
+    .rw-bottle {
+        max-width: 400px;
+    }
+    .rw-bottle img {
+        position: relative;
+        left: -170vw;
+    }
+    .root-work .rw-bottle img {
+        left: -393vw;
+    }
+    .fitbites-work .fb-meal-1 {
+        max-width: 200px;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -123vw;
+    }
+    .fitbites-work .fb-meal-2 {
+        max-width: 340px;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -300vh;
+    }
+    .fitbites-work .fb-lp {
+        max-width: 160px;
+    }
+    .fitbites-work .fb-lp img {
+        top: 227vh;
+    }
+    .hero-section .hero-quote {
+        max-height: 100px;
+    }
+    .label-dos {
+        bottom: 60px;
+        right: 240px;
+    }
+    .label-dos.root {
+        bottom: 60px;
+        left: 270px;
+    }
+    .label-dos.fitb {
+        left: 270px;
+    }
+    .contact-card img.our-passion {
+        max-height: 65px;
+        margin-bottom: 27px!important;
+    }
+    .contact-info-float {
+        padding: 100px 0 0 90px;
+    }
+    #scrollToPlace .p-top {
+        padding-top: 470px;
+    }
+}
+@media screen and (max-width: 1699px) and (min-height: 950px) and (max-height: 1100px){
+    .fitbites-work .fb-meal-1 img {
+        right: -123vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -250vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 192vh;
+    }    
+}
+@media screen and (max-width: 1599px) {
+    body {
+        font-size: 15px;    
+    }
+    .h2, h2 {
+        font-size: 1.7rem;
+    }
+    .h3, h3 {
+        font-size: 1.5rem;
+    }
+    .h4, h4 {
+        font-size: 1.35rem;
+    }
+    .container-fluid {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    .parallax-section .parallax-container {
+        padding-left: 240px;
+        padding-right: 240px;
+    }
+    .section-padding-y {
+        padding-top: 260px;
+        padding-bottom: 260px;
+    }
+    .section-padding-x {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .red-sauce-section .absolute-content {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+    /*.home-video .section-title {
+        font-size: 75px;   
+    }*/
+    .subtitle {
+        font-size: 30px;
+    }
+    .big-title {
+        font-size: 155px;
+        margin-left: -6px;
+    }
+    .section-title {
+        font-size: 90px;   
+    }
+    .big-text {
+        font-size: 45px;
+    }
+    .cta-section .big-text {
+        font-size: 32px;
+    }
+    .btn.btn-round {
+        padding: 25px 30px;
+    }
+    .hero-section:before {
+        left: 120px;
+    }
+    .hero-section:after {
+        right: 120px;
+    }
+    .section-lines:before {
+        left: 120px;
+    }
+    .section-lines:after {
+        right: 120px;
+    }
+    
+    .social-media-rose-section:before {
+        left: 120px;
+    }
+    .social-media-rose-section:after {
+        right: 120px;
+    }
+    .two-part-section.left-border:before {
+        left: 120px;
+    }
+    .two-part-section.right-border:after {
+        right: 120px;
+    }
+    .page-pilling-section .part-small-wrapper {
+        width: 35%;
+    }
+    .about-section .about-video {
+        height: 360px;
+        bottom: -171px;    
+    }
+    .services-section .service-wrap .service-title {
+        font-size: 25px;
+    }
+    .marketing-services-slider-section .service-wrapper .service-title {
+        font-size: 25px;
+    }
+    .team-section .slick-arrow {
+        top: 210px;
+    }
+    .testimonials-section .testimonial-wrapper .testimonial-title {
+        font-size: 25px;
+    }
+    #rootWellness .project-image img {
+        width: 900px;
+    }
+    #wwg .project-image {
+        bottom: calc(-50% - 110px);
+    }
+    #wwg .project-image img {
+        width: 900px;
+    }
+    #maisonMaj .project-image img {
+        width: 1100px;
+    }
+    #fitbites .project-image img {
+        width: 750px;
+    }
+    #fitbites .project-image-2 img {
+        width: 800px;
+    }
+    #blob1 {
+      position: absolute;
+      left: -750px;
+      top: -200px;
+      z-index: 2;
+    }
+    #blob1 canvas {
+      width: 1500px;
+    }
+    #blob2 {
+      position: absolute;
+      right: -500px;
+      top: -400px;
+      z-index: 2;
+    }
+    #blob2 canvas {
+      width: 1300px;
+    }
+    #blob3 {
+      position: absolute;
+      right: -600px;
+      top: 100px;
+      z-index: 2;
+    }
+    #blob3 canvas {
+      width: 1300px;
+    }
+    #blob4 {
+      position: absolute;
+      left: -600px;
+      bottom: 0;
+      z-index: 2;
+    }
+    #blob4 canvas {
+      width: 1300px;
+    }
+    .menu .menu-shape {
+        left: -4px;
+        top: -60px;
+    }
+    .team-section .team-wrapper {
+        margin-left: -81px;
+        margin-right: -81px;
+    }
+    .love-what-we-do-section #blob4 {
+      left: -420px;
+      bottom: 50%;
+      -webkit-transform: translateY(50%);
+      transform: translateY(50%);
+    }
+    .love-what-we-do-section #blob4 canvas {
+      width: 1500px;
+    }
+    .services-video-section .services-asset-1 {
+        max-width: 550px;
+    }
+    
+    .fitbites-phone-section .fitbites-phone {
+        right: -150px;
+        bottom: -150px;
+        max-width: 750px;
+    }
+    .red-sauce-section .fish-meal-img {
+        right: 80px;
+        top: -70px;
+        width: 400px;
+    }
+    .red-sauce-section .rice-meal-img {
+        right: -160px;
+        bottom: -55%;
+        width: 400px;
+    }
+    .red-sauce-section .leaves-assets-img {
+        left: 0;
+        bottom: -90px;
+        width: 300px;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 245px;
+    }
+    .red-sauce-section .blueberries-asset {
+        right: 200px;
+        bottom: -40%;
+        width: 320px;
+    }
+    .red-sauce-section + .section-devider {
+        padding-bottom: 100px;    
+    }
+    .stay-fit-section .fit-woman {
+        width: 680px;
+        top: -90px;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 170px;
+    }
+    .fold-square-section .fold-square-img {
+        left: -100px;
+        top: 0;
+        width: 1300px;
+    }
+    .standing-banner-section .standing-banner-img {
+        right: -100px;
+        top: -200px;
+        width: 1800px;
+    }
+    .review-project-section .cut-bg-div {
+        padding-bottom: 900px!important;    
+    }
+    .review-project-section-small .cut-bg-div {
+        padding-top: 400px!important;    
+    }
+    .label-dos {
+        bottom: 60px;
+        right: 210px;
+    }
+    .label-dos.root {
+        bottom: 60px;
+        left: 220px;
+    }
+    .label-dos.fitb {
+        left: 220px;
+    }
+    .contact-card img.our-passion {
+        max-height: 60px;
+        margin-bottom: 27px!important;
+    }
+}
+@media screen and (max-width: 1499px) {
+    body {
+        font-size: 15px;    
+    }
+    .h2, h2 {
+        font-size: 1.55rem;
+    }
+    .h3, h3 {
+        font-size: 1.35rem;
+    }
+    .h4, h4 {
+        font-size: 1.25rem;
+    }
+    .container-fluid {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .parallax-section .parallax-container {
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+    .section-padding-y {
+        padding-top: 230px;
+        padding-bottom: 230px;
+    }
+    .section-padding-y-smaller {
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+    .section-padding-x {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .red-sauce-section .absolute-content {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    /*.home-video .section-title {
+        font-size: 70px;   
+    }*/
+    .cta-section .section-title {
+        font-size: 80px;
+    }
+    .subtitle {
+        font-size: 27px;
+    }
+    .big-title {
+        font-size: 140px;
+        margin-left: -5px;
+    }
+    
+    .section-title {
+        font-size: 84px;   
+    }
+    .big-text {
+        font-size: 37px;
+    }
+    .cta-section .big-text {
+        font-size: 27px;
+    }
+    .mb-200 {
+        margin-bottom: 170px!important;    
+    }
+    .mb-100 {
+        margin-bottom: 80px!important;    
+    }
+    .py-100 {
+        padding-top: 80px!important; 
+        padding-bottom: 80px!important;    
+    }
+    .btn.btn-round {
+        padding: 25px 30px;
+    }
+    .navbar {
+        padding: 30px 15px;
+    }
+    #header.scrolled .navbar {
+        padding: 10px 15px;
+    }
+    .navbar-brand {
+        width: 60px;
+    }
+    .hero-section:before {
+        left: 90px;
+    }
+    .hero-section:after {
+        right: 90px;
+    }
+    .section-lines:before {
+        left: 90px;
+    }
+    .section-lines:after {
+        right: 90px;
+    }
+    .social-media-rose-section:before {
+        left: 90px;
+    }
+    .social-media-rose-section:after {
+        right: 90px;
+    }
+    .two-part-section.left-border:before {
+        left: 90px;
+    }
+    .two-part-section.right-border:after {
+        right: 90px;
+    }
+    .hero-section .saturation-effect {
+        width: 700px;    
+    }
+    .about-section .about-video {
+        height: 380px;
+        bottom: -200px;
+    }
+    .services-section .service-wrap .service-title {
+        font-size: 22px;
+    }
+    .marketing-services-slider-section .service-wrapper .service-title {
+        font-size: 22px;
+    }
+    .team-section .slick-arrow {
+        top: 200px;
+    }
+    .testimonials-section .testimonial-wrapper .testimonial-title {
+        font-size: 22px;
+    }
+    #rootWellness .project-image img {
+        width: 900px;
+    }
+    #wwg .project-image {
+        bottom: calc(-50% - 110px);
+    }
+    #wwg .project-image img {
+        width: 900px;
+    }
+    #maisonMaj .project-image img {
+        width: 1100px;
+    }
+    #fitbites .project-image img {
+        width: 750px;
+    }
+    #fitbites .project-image-2 img {
+        width: 800px;
+    }
+    .team-section .team-wrapper {
+        margin-left: -51px;
+        margin-right: -51px;
+    }
+    .love-what-we-do-section #blob4 {
+      left: -420px;
+      bottom: 50%;
+      -webkit-transform: translateY(50%);
+      transform: translateY(50%);
+    }
+    .love-what-we-do-section #blob4 canvas {
+      width: 1400px;
+    }
+    .clients-section-about #blob3 {
+        left: -750px;
+        bottom: 50%;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+    }
+    .clients-section-about #blob3 canvas {
+        width: 1700px;
+    }
+    
+    .fitbites-phone-section .fitbites-phone {
+        right: -88px;
+        bottom: -150px;
+        max-width: 700px;
+    }
+    .fitbites-phone-section .fitbites-green-sauce {
+        position: absolute;
+        right: -80px;
+        bottom: -200px;
+        width: 130px;
+    }
+    .red-sauce-section .fish-meal-img {
+        right: 80px;
+        top: -70px;
+        width: 350px;
+    }
+    .red-sauce-section .rice-meal-img {
+        right: -140px;
+        bottom: -50%;
+        width: 350px;
+    }
+    .red-sauce-section .leaves-assets-img {
+        left: 0;
+        bottom: -60px;
+        width: 250px;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 225px;
+    }
+    .red-sauce-section .blueberries-asset {
+        right: 200px;
+        bottom: -35%;
+        width: 280px;
+    }
+    .red-sauce-section + .section-devider {
+        padding-bottom: 80px;    
+    }
+    .stay-fit-section .fit-woman {
+        width: 580px;
+        top: -80px;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 150px;
+    }
+    .the-new-brand-section .fish-meal-asset {
+        top: -120px;
+        left: 40px;
+        max-width: 420px;
+    }
+    .the-new-brand-section .rice-meal-asset {
+        right: 20px;
+        bottom: -215px;
+        max-width: 420px;
+    }
+    .the-new-brand-section .logo-asset {
+        bottom: 0;
+        left: 100px;
+        max-width: 320px;
+    }
+    .the-new-brand-section .facebook-asset {
+        top: 0;
+        left: 50%;
+        max-width: 70px;
+    }
+    .the-new-brand-section .green-sauce-asset {
+        top: 0;
+        right: 160px;
+        width: 160px;
+    }
+    .the-new-brand-section + .section-devider {
+        padding-bottom: 150px;
+    }
+    .fold-square-section {
+        padding-top: 150px;
+    }
+    .fold-square-section .fold-square-img {
+        left: -85px;
+        top: -80px;
+        width: 1100px;
+    }
+    .standing-banner-section .standing-banner-img {
+        right: -100px;
+        top: -200px;
+        width: 1600px;
+    }
+    .instagram-posts-section-rose .instagram-img {
+        max-width: 800px;
+        margin-bottom: -500px;
+        margin-top: -100px;
+    }
+    
+    .fb-meal-2 img {
+        top: -255vh;
+    }
+    .rw-bottle {
+        max-width: 350px;
+    }
+    .rw-bottle img {
+        left: -157vw;
+    }
+    .tell-us-section.scrollSnap {
+        min-height: 100vh;    
+    }
+    .services-section-home .section-modal-wd {
+        overflow: hidden;
+        height: 59vh;
+        position: absolute;
+        width: 50vw;
+        left: calc(100% - 50vw);
+        top: 100px;
+        transition: all .5s ease-in-out;
+    }
+    .services-section-home .section-modal-cc {
+        height: 83vh;
+        width: 48vw;
+        left: -10vh;
+        top: 75vh;
+    }
+    .services-section-home .section-modal-cc .content-service {
+        position: absolute;
+        left: -16%;
+        top: 0%;
+        width: 68vw;
+        z-index: 1;
+        transition: all .5s ease-in-out;
+    }
+    .services-section-home .section-modal-mm {
+        height: 83vh;
+        width: 24vw;
+        right: 19vw;
+        top: 104vh;
+    }
+    .services-button {
+        bottom: 60px;
+        left: 270px;
+    }
+    .holder-section.section-padding-y {
+        padding-top: 250px;
+        padding-bottom: 250px;   
+    }
+    .label-dos {
+        right: 170px;
+    }
+    .label-dos.root {
+        left: 170px;
+    }
+    .label-dos.fitb {
+        left: 170px;
+    }
+    .root-work .rw-bottle img {
+        left: -380vw;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -121vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -261vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 210vh;
+    }
+    .menu-button {
+        right: 2vw;
+    }
+    .page-pilling-section .part-small-wrapper {
+        width: 43%;
+        right: -34%;
+    }
+}
+@media screen and (max-width: 1399px) {
+    body {
+        font-size: 14px;    
+    }
+    .h2, h2 {
+        font-size: 1.5rem;
+    }
+    .h3, h3 {
+        font-size: 1.3rem;
+    }
+    .h4, h4 {
+        font-size: 1.2rem;
+    }
+    .container-fluid {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .parallax-section .parallax-container {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .section-padding-y {
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+    .section-padding-y-smaller {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .section-padding-x {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .red-sauce-section .absolute-content {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    /*.home-video .section-title {
+        font-size: 65px;   
+    }*/
+    .home-video img.our-passion {
+        max-height: 65px;
+    }
+    .cta-section .section-title {
+        font-size: 70px;
+    }
+    .subtitle {
+        font-size: 24px;
+    }
+    .big-title {
+        font-size: 110px;
+        margin-left: -4px;
+    }
+    
+    .section-title {
+        font-size: 75px;   
+    }
+    .big-text {
+        font-size: 27px;
+    }
+    .cta-section .big-text {
+        font-size: 23px;
+    }
+    .signature {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .mb-200 {
+        margin-bottom: 140px!important;    
+    }
+    .mb-100 {
+        margin-bottom: 60px!important;    
+    }
+    .py-100 {
+        padding-top: 60px!important; 
+        padding-bottom: 60px!important;    
+    }
+    .btn.btn-round {
+        padding: 20px 30px;
+        min-width: 160px;
+    }
+    .navbar {
+        padding: 30px 15px;
+    }
+    .navbar-brand {
+        width: 60px;
+    }
+    .navbar .social svg {
+        height: 20px;   
+    }
+    .hero-section:before {
+        left: 90px;
+    }
+    .hero-section:after {
+        right: 90px;
+    }
+    .section-lines:before {
+        left: 90px;
+    }
+    .section-lines:after {
+        right: 90px;
+    }
+    .social-media-rose-section:before {
+        left: 90px;
+    }
+    .social-media-rose-section:after {
+        right: 90px;
+    }
+    .two-part-section.left-border:before {
+        left: 90px;
+    }
+    .two-part-section.right-border:after {
+        right: 90px;
+    }
+    .hero-section .saturation-effect {
+        width: 600px;    
+    }
+    .about-section .about-video {
+        height: 300px;
+        bottom: -150px;
+        width: 500px;
+    }
+    .services-section .service-wrap svg {
+        max-width: 55px;
+        margin-bottom: 30px;  
+    }
+    .services-section .service-wrap .service-title {
+        font-size: 22px;
+    }
+    .projects-section .project-wrapper .project-title {
+        font-size: 32px;
+    }
+    .projects-section .project-wrapper .project-logo img {
+        max-height: 90px;
+        max-width: 280px;
+    }
+    .marketing-services-slider-section .service-wrapper .service-title {
+        font-size: 22px;
+    }
+    .marketing-services-section .service-logo svg {
+        max-width: 55px;
+        margin-bottom: 30px;
+    }
+    .team-section .slick-arrow {
+        top: 185px;
+    }
+    .testimonials-section .testimonial-wrapper .testimonial-title {
+        font-size: 22px;
+    }
+    #rootWellness .project-image img {
+        width: 800px;
+    }
+    #wwg .project-image {
+        bottom: calc(-50% - 95px);
+    }
+    #wwg .project-image img {
+        width: 800px;
+    }
+    #maisonMaj {
+        padding-top: 350px;
+    }
+    #maisonMaj .project-image img {
+        width: 900px;
+    }
+    #fitbites {
+        padding-bottom: 350px;
+    }
+    #fitbites .project-image img {
+        width: 650px;
+    }
+    #fitbites .project-image-2 img {
+        width: 650px;
+    }
+    #blob1 {
+      position: absolute;
+      left: -620px;
+      top: -200px;
+      z-index: 2;
+    }
+    #blob1 canvas {
+      width: 1300px;
+    }
+    #blob2 {
+      position: absolute;
+      right: -400px;
+      top: -300px;
+      z-index: 2;
+    }
+    #blob2 canvas {
+      width: 1100px;
+    }
+    #blob3 {
+      position: absolute;
+      right: -450px;
+      top: 100px;
+      z-index: 2;
+    }
+    #blob3 canvas {
+      width: 1100px;
+    }
+    #blob4 {
+      position: absolute;
+      left: -450px;
+      bottom: 0;
+      z-index: 2;
+    }
+    #blob4 canvas {
+      width: 1100px;
+    }
+    .love-what-we-do-section #blob4 {
+      left: -370px;
+      bottom: 50%;
+      -webkit-transform: translateY(50%);
+      transform: translateY(50%);
+    }
+    .love-what-we-do-section #blob4 canvas {
+      width: 1300px;
+    }
+    .clients-section-about #blob3 {
+        left: -750px;
+        bottom: 40%;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+    }
+    .clients-section-about #blob3 canvas {
+        width: 1600px;
+    }
+    .hero-about .big-title {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        letter-spacing: -50px;
+        line-height: 0.9;
+    }
+    .services-video-section .services-asset-1 {
+        max-width: 500px;
+    }
+    
+    .fitbites-phone-section .fitbites-phone {
+        right: -60px;
+        bottom: -80px;
+        max-width: 600px;
+    }
+    .fitbites-phone-section .fitbites-green-sauce {
+        right: -20px;
+        bottom: -150px;
+        width: 110px;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 210px;
+    }
+    .red-sauce-section .blueberries-asset {
+        right: 200px;
+        bottom: -35%;
+        width: 215px;
+    }
+    .social-graphics-section .asset-img {
+        position: absolute;
+        top: -135px;
+        left: 0;
+        width: 290px;
+    }
+    .the-new-brand-section .fish-meal-asset {
+        top: -120px;
+        left: 40px;
+        max-width: 380px;
+    }
+    .the-new-brand-section .rice-meal-asset {
+        right: 20px;
+        bottom: -215px;
+        max-width: 380px;
+    }
+    .the-new-brand-section .logo-asset {
+        bottom: 0;
+        left: 90px;
+        max-width: 290px;
+    }
+    .the-new-brand-section .green-sauce-asset {
+        top: 0;
+        right: 160px;
+        width: 140px;
+    }
+    .print-flyer-section {
+        margin-top: -220px;
+    }
+    .fold-square-section {
+        padding-top: 130px;
+    }
+    .fold-square-section .fold-square-img {
+        left: -85px;
+        top: -80px;
+        width: 1000px;
+    }
+    .standing-banner-section .section-devider-1 {
+        padding-top: 250px;
+    }
+    .standing-banner-section .standing-banner-img {
+        right: 0px;
+        top: -120px;
+        width: 1250px;
+    }
+    .review-project-section .cut-bg-div {
+        padding-bottom: 900px!important;    
+    }
+    .review-project-section-small .cut-bg-div {
+        padding-top: 350px!important;    
+    }
+    .typography-section .fonts-title {
+        font-size: 40px;    
+    }
+    .typography-section .fonts-subtitle {
+        font-size: 20px;    
+    }
+    .instagram-posts-section-rose .instagram-img {
+        max-width: 700px;
+        margin-bottom: -400px;
+        margin-top: -100px;
+    }
+    .brochures-section-gl .brochures-img {
+        position: absolute;
+        left: 0;
+        top: -70px;
+        max-width: 100%;
+    }
+    .get-quote-section-gl {
+         margin-top: -150px;
+    }
+    .fb-meal-1 {
+        top: 80px;
+        max-width: 280px;
+    }
+    .fb-meal-1 img {
+        right: -114vw;
+    }
+    .fb-meal-2 {
+        max-width: 145px;
+    }
+    .fb-meal-2 img {
+        top: -288vh;
+    }
+    .rw-bottle {
+        max-width: 320px;
+    }
+    .rw-bottle img {
+        left: -140vw;
+    }
+    .root-work .rw-bottle img {
+        left: -370vw;
+    }
+    .fitbites-work .fb-meal-1 {
+        top: 100px;
+        max-width: 145px;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -111vw;
+    }
+    .fitbites-work .fb-meal-2 {
+        max-width: 280px;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -296vh;
+    }
+    .fitbites-work .fb-lp {
+        max-width: 110px;
+    }
+    .fitbites-work .fb-lp img{
+        top: 227vh;
+    }
+    .services-section-home .section-modal-br {
+        height: 76vh;
+        width: 40vw;
+    }
+    .services-section-home .section-modal-mm {
+        height: 83vh;
+        width: 24vw;
+        right: 19vw;
+        top: 85vh;
+    }
+    .services-section-home .section-modal-cc {
+        height: 94vh;
+        width: 48vw;
+        left: -10vh;
+        top: 75vh;
+    }
+    .services-section-home .section-modal-mm .service-title-home {
+        top: 170px;
+    }
+    .scroll-to-top-sidebar {
+        font-size: 15px;
+        left: -36px;
+    }
+    #scrollToPlace {
+        height: 90vh;    
+    }
+    #scrollToPlace .p-top {
+        padding-top: 362px;
+    }
+    .hero-section .hero-quote {
+        max-height: 90px;
+    }
+    .label-dos {
+        right: 150px;
+    }
+    .label-dos.root {
+        left: 150px;
+    }
+    .label-dos.fitb {
+        left: 150px;
+    }
+    .contact-info-float {
+        padding: 85px 0 0 60px;
+    }
+    .contact-card img.our-passion {
+        max-height: 43px;
+        margin-bottom: 10px!important;
+    }
+}
+@media screen and (max-width: 1299px) {
+    body {
+        font-size: 14px;    
+    }
+    .h2, h2 {
+        font-size: 1.5rem;
+    }
+    .h3, h3 {
+        font-size: 1.3rem;
+    }
+    .h4, h4 {
+        font-size: 1.2rem;
+    }
+    .container-fluid {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .parallax-section .parallax-container {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    .section-padding-y {
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+    .section-padding-y-smaller {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .section-padding-x {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .red-sauce-section .absolute-content {
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+    /*.home-video .section-title {
+        font-size: 65px;   
+    }*/
+    .cta-section .section-title {
+        font-size: 65px;
+    }
+    .subtitle {
+        font-size: 22px;
+    }
+    .big-title {
+        font-size: 90px;
+        margin-left: -3px;
+    }
+    
+    .section-title {
+        font-size: 70px;   
+    }
+    .big-text {
+        font-size: 23px;
+    }
+    .cta-section .big-text {
+        font-size: 18px;
+    }
+    .signature {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .mb-200 {
+        margin-bottom: 140px!important;    
+    }
+    .mb-100 {
+        margin-bottom: 60px!important;    
+    }
+    .btn.btn-round {
+        padding: 20px 30px;
+        min-width: 160px;
+    }
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar-brand {
+        width: 50px;
+    }
+    #header.scrolled .navbar-brand {
+        width: 50px;
+    }
+    .navbar .social svg {
+        height: 18px;    
+    }
+    .hero-section:before {
+        left: 80px;
+    }
+    .hero-section:after {
+        right: 80px;
+    }
+    .section-lines:before {
+        left: 80px;
+    }
+    .section-lines:after {
+        right: 80px;
+    }
+    .social-media-rose-section:before {
+        left: 80px;
+    }
+    .social-media-rose-section:after {
+        right: 80px;
+    }
+    .two-part-section.left-border:before {
+        left: 80px;
+    }
+    .two-part-section.right-border:after {
+        right: 80px;
+    }
+    .hero-section .saturation-effect {
+        width: 500px;    
+    }
+    .about-section .about-video {
+        height: 300px;
+        bottom: -150px;
+        width: 500px;
+    }
+    .services-section .service-wrap svg {
+        max-width: 55px;
+        margin-bottom: 30px;  
+    }
+    .services-section .service-wrap .service-title {
+        font-size: 22px;
+    }
+    .projects-section .project-wrapper .project-title {
+        font-size: 32px;
+    }
+    .projects-section .project-wrapper .project-logo img {
+        max-height: 90px;
+        max-width: 280px;
+    }
+    .marketing-services-slider-section .service-wrapper .service-title {
+        font-size: 22px;
+    }
+    .marketing-services-section .service-logo svg {
+        max-width: 55px;
+        margin-bottom: 30px;
+    }
+    .team-section .slick-arrow {
+        top: 185px;
+    }
+    .testimonials-section .testimonial-wrapper .testimonial-title {
+        font-size: 22px;
+    }
+    #rootWellness .project-image img {
+        width: 800px;
+    }
+    #wwg .project-image {
+        bottom: calc(-50% - 95px);
+    }
+    #wwg .project-image img {
+        width: 800px;
+    }
+    #maisonMaj {
+        padding-top: 300px;
+    }
+    #maisonMaj .project-image img {
+        width: 900px;
+    }
+    #fitbites {
+        padding-bottom: 350px;
+    }
+    #fitbites .project-image img {
+        width: 650px;
+    }
+    #fitbites .project-image-2 img {
+        width: 650px;
+    }
+    #blob1 {
+      position: absolute;
+      left: -620px;
+      top: -200px;
+      z-index: 2;
+    }
+    #blob1 canvas {
+      width: 1300px;
+    }
+    #blob2 {
+      position: absolute;
+      right: -400px;
+      top: -300px;
+      z-index: 2;
+    }
+    #blob2 canvas {
+      width: 1100px;
+    }
+    #blob3 {
+      position: absolute;
+      right: -450px;
+      top: 100px;
+      z-index: 2;
+    }
+    #blob3 canvas {
+      width: 1100px;
+    }
+    #blob4 {
+      position: absolute;
+      left: -450px;
+      bottom: 0;
+      z-index: 2;
+    }
+    #blob4 canvas {
+      width: 1100px;
+    }
+    #footer .social svg {
+        height: 20px;
+    }
+    .team-section .team-wrapper {
+        margin-left: -41px;
+        margin-right: -41px;
+    }
+    .love-what-we-do-section #blob4 {
+      left: -420px;
+      bottom: 50%;
+      -webkit-transform: translateY(50%);
+      transform: translateY(50%);
+    }
+    .love-what-we-do-section #blob4 canvas {
+      width: 1300px;
+    }
+    .clients-section-about #blob3 {
+        left: -750px;
+        bottom: 40%;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+    }
+    .clients-section-about #blob3 canvas {
+        width: 1600px;
+    }
+    .hero-about .big-title {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        letter-spacing: -50px;
+        line-height: 0.9;
+        font-size: 115px;
+    }
+    .services-video-section .services-asset-1 {
+        max-width: 460px;
+    }
+    .part-small ul li .number-title .number {
+        font-size: 2rem;
+    }
+    
+    .red-sauce-section .red-sauce-img {
+        height: 190px;
+    }
+    .stay-fit-section .fit-woman {
+        width: 530px;
+        top: -80px;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 125px;
+    }
+    .the-new-brand-section .logo-asset {
+        bottom: 0;
+        left: 80px;
+        max-width: 270px;
+    }
+    .review-project-section .cut-bg-div {
+        padding-bottom: 800px!important;    
+    }
+    .review-project-section-small .cut-bg-div {
+        padding-top: 350px!important;    
+    }
+    #menu-container #menu-slash-bg {
+        padding: 50px 100px 50px 277px!important;
+    }
+    .holder-section.section-padding-y {
+        padding-top: 230px;
+        padding-bottom: 230px;
+    }
+    .inside-menu .inside-logo {
+        width: 215px;
+        margin-bottom: 55px;
+    }
+    .inside-menu .social {
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        font-size: 22px;
+    }
+    .scroll-to-top-sidebar {
+        font-size: 15px;
+        left: -41px;
+    }
+    .menu-button {
+        width: 32px;
+        right: 2vw;
+    }
+    .fb-meal-1 {
+        max-width: 230px;
+    }
+    .fb-meal-1 img {
+        right: -108vw;
+    }
+    .fb-meal-2 {
+        max-width: 113px;
+        right: 30%;
+    }
+    .fb-meal-2 img {
+        top: -272vh;
+    }
+    .rw-bottle img {
+        left: -148vw;
+    }
+    .rw-bottle {
+        max-width: 295px;
+        bottom: -75px;
+    }
+    .root-work .rw-bottle img {
+        left: -380vw;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -119vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -258vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 192vh;
+    }
+    .services-section-home .section-modal-br {
+        height: 79vh;
+        width: 40vw;
+    }
+    .services-section-home .section-modal-br .branding-service {
+        left: -35%;
+        top: -16%;
+        width: 71vw;
+    }
+    .services-section-home .section-modal-br .blue-bg {
+        bottom: 12%;
+        width: 91%;
+        height: 53%;
+    }
+    .services-section-home .section-modal-cc {
+        height: 100vh;
+        width: 48vw;
+        left: -10vh;
+        top: 76vh;
+    }
+    .services-section-home .section-modal-cc .content-service {
+        left: -19%;
+        top: 0%;
+        width: 71vw;
+    }
+    .services-section-home .section-modal-mm {
+        height: 90vh;
+        width: 24vw;
+        right: 19vw;
+        top: 95vh;
+    }
+    .services-section-home .section-modal-mm .service-title-home {
+        top: 130px;
+    }
+}
+@media screen and (max-width: 1299px) and (min-height: 900px) {
+    
+}
+@media screen and (max-width: 1199px) {
+    html {
+        overflow-y: auto!important;
+    }
+    html, body {
+        width: auto!important;
+        height: auto!important;
+    }
+    #js-scroll {
+        position: relative;
+        overflow: auto!important;
+    }
+   body {
+        font-size: 14px;    
+    }
+    .h2, h2 {
+        font-size: 1.3rem;
+    }
+    .h3, h3 {
+        font-size: 1.15rem;
+    }
+    .h4, h4 {
+        font-size: 1.1rem;
+    }
+    .btn.btn-round.bordered.violet {
+        padding: 9px 20px;
+    }
+    .tags .btn {
+        padding: 9px 20px!important;
+        font-size: 8px!important;
+    }
+    .container-fluid {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .section-padding-y {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .section-padding-y-smaller {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .section-padding-x {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .red-sauce-section .absolute-content {
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+    /*.home-video .section-title {
+        font-size: 65px;   
+    }*/
+    .home-video img.our-passion {
+        max-height: 60px;
+    }
+    .cta-section .section-title {
+        font-size: 60px;
+    }
+    .subtitle {
+        font-size: 21px;
+    }
+    .big-title {
+        font-size: 90px;
+        margin-left: -3px;
+    }
+    
+    .section-title {
+        font-size: 65px;   
+    }
+    .big-text {
+        font-size: 21px;
+    }
+    .cta-section .big-text {
+        font-size: 16px;
+    }
+    .signature {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .mb-200 {
+        margin-bottom: 140px!important;    
+    }
+    .mb-100 {
+        margin-bottom: 60px!important;    
+    }
+    .mb-80 {
+        margin-bottom: 40px!important;    
+    }
+    .btn.btn-round {
+        padding: 20px 30px;
+        min-width: 160px;
+    }
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar-brand {
+        width: 50px;
+    }
+    .navbar .social svg {
+        height: 18px;    
+    }
+    .hero-section:before {
+        left: 80px;
+    }
+    .hero-section:after {
+        right: 80px;
+    }
+    .section-lines:before {
+        left: 80px;
+    }
+    .section-lines:after {
+        right: 80px;
+    }
+    .social-media-rose-section:before {
+        left: 80px;
+    }
+    .social-media-rose-section:after {
+        right: 80px;
+    }
+    .two-part-section.left-border:before {
+        left: 80px;
+    }
+    .two-part-section.right-border:after {
+        right: 80px;
+    }
+    .part-big {
+        width: 65%;
+    }
+    .part-small {
+        width: 35%;
+    }
+    /*#pagepiling {
+        padding-top: 55px;
+    }
+    .page-pilling-section {
+        height: calc(100vh - 100px);
+        position: relative;
+    }*/
+    .page-pilling-section .part-small-wrapper {
+        width: 100%;
+        /*height: calc(100% - 55px);*/
+        bottom: 0;
+    }
+    
+    .page-pilling-section .part-small-wrapper {
+        right: -100%;
+        width: 100%;
+    }
+    .page-pilling-section .arrow-pull {
+        top: 25%;
+        left: -4vw;
+    }
+    .bg-part-small {
+        background-color: rgba(0,0,0,1);    
+    } 
+    .cc-section .bg-part-small {
+        background-color: rgba(255,255,255,1);    
+    }
+    .part-small.part-small-right .container-fluid {
+        padding-right: 70px;
+    }
+    .part-small.part-small-left .container-fluid {
+        padding-left: 70px;
+    }
+    .hero-section .saturation-effect {
+        width: 400px;    
+    }
+    .home-hero.hero-section .big-title {
+        background-size: 165%;
+        background-position: -200px -130px;
+        background-repeat: no-repeat;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .tell-us-section .big-title {
+        background-size: 165%;
+        background-position: 47% 27%;
+    }
+    .about-section .about-video {
+        height: 300px;
+        bottom: -150px;
+        width: 500px;
+    }
+    .services-section .service-wrap svg {
+        max-width: 45px;
+        margin-bottom: 15px;  
+    }
+    .services-section .service-wrap .service-title {
+        font-size: 19px;
+    }
+    .projects-section .project-wrapper .project-title {
+        font-size: 29px;
+    }
+    .projects-section .project-wrapper .project-logo img {
+        max-height: 75px;
+        max-width: 220px;
+    }
+    .marketing-services-slider-section .service-wrapper .service-title {
+        font-size: 19px;
+    }
+    .marketing-services-slider-section .service-wrapper svg {
+        max-width: 45px;
+        margin-bottom: 15px;
+    }
+    .marketing-services-section .service-logo svg {
+        max-width: 55px;
+        margin-bottom: 30px;
+    }
+    .team-section .slick-arrow {
+        top: 160px;
+    }
+    .testimonials-section .testimonial-wrapper .testimonial-title {
+        font-size: 19px;
+    }
+    #rootWellness .project-image img {
+        width: 730px;
+    }
+    #wwg {
+        padding-bottom: 270px;
+    }
+    #wwg .project-image {
+        bottom: calc(-50% - 95px);
+    }
+    #wwg .project-image img {
+        width: 730px;
+    }
+    #textBetween {
+        padding-top: 230px;
+    }
+    #maisonMaj {
+        padding-top: 230px;
+    }
+    #maisonMaj .project-image img {
+        width: 750px;
+    }
+    #fitbites {
+        padding-bottom: 350px;
+    }
+    #fitbites .project-image img {
+        width: 550px;
+    }
+    #fitbites .project-image-2 {
+        bottom: -200px;
+        right: 130px;
+    }
+    #fitbites .project-image-2 img {
+        width: 550px;
+    }
+    #blob1 {
+      position: absolute;
+      left: -620px;
+      top: -200px;
+      z-index: 2;
+    }
+    #blob1 canvas {
+      width: 1200px;
+    }
+    #blob2 {
+      position: absolute;
+      right: -400px;
+      top: -300px;
+      z-index: 2;
+    }
+    #blob2 canvas {
+      width: 1000px;
+    }
+    #blob3 {
+      position: absolute;
+      right: -450px;
+      top: 100px;
+      z-index: 2;
+    }
+    #blob3 canvas {
+      width: 1100px;
+    }
+    #blob4 {
+      position: absolute;
+      left: -450px;
+      bottom: 0;
+      z-index: 2;
+    }
+    #blob4 canvas {
+      width: 1100px;
+    }
+    .team-section .slick-arrow img {
+        width: 15px;
+    }
+    .love-what-we-do-section #blob4 {
+      left: -460px;
+      bottom: 50%;
+      -webkit-transform: translateY(50%);
+      transform: translateY(50%);
+    }
+    .love-what-we-do-section #blob4 canvas {
+      width: 1300px;
+    }
+    .clients-section-about #blob3 {
+        left: -750px;
+        bottom: 40%;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+    }
+    .clients-section-about #blob3 canvas {
+        width: 1500px;
+    }
+    .clients-section-about .dots-asset {
+        top: -50px;
+    }
+    .services-video-section .services-asset-1 {
+        max-width: 400px;
+    }
+    .branding-services-section .part-big .py-200 {
+        padding-top: 100px!important;
+        padding-bottom: 100px!important;
+    }
+    
+    .red-sauce-section .fish-meal-img {
+        right: 60px;
+        top: -70px;
+        width: 280px;
+    }
+    .red-sauce-section .rice-meal-img {
+        right: -120px;
+        bottom: -50%;
+        width: 280px;
+    }
+    .red-sauce-section .leaves-assets-img {
+        left: 0;
+        bottom: -45px;
+        width: 220px;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 170px;
+    }
+    .red-sauce-section + .section-devider {
+        padding-bottom: 30px;
+    }
+    .stay-fit-section .fit-woman {
+        width: 430px;
+        top: -60px;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 100px;
+    }
+    .social-graphics-section .asset-img {
+        position: absolute;
+        top: -110px;
+        left: 0;
+        width: 240px;
+    }
+    .the-new-brand-section .fish-meal-asset {
+        top: -120px;
+        left: 40px;
+        max-width: 300px;
+    }
+    .the-new-brand-section .rice-meal-asset {
+        right: 20px;
+        bottom: -190px;
+        max-width: 300px;
+    }
+    .the-new-brand-section .logo-asset {
+        bottom: 0;
+        left: 70px;
+        max-width: 240px;
+    }
+    .the-new-brand-section .green-sauce-asset {
+        top: 0;
+        right: 160px;
+        width: 125px;
+    }
+    .fold-square-section .fold-square-img {
+        left: -50px;
+        top: -80px;
+        width: 820px;
+    }
+    .fold-square-section {
+        padding-top: 130px;
+    }
+    .fold-square-section .section-devider {
+        padding-top: 50px;
+    }
+    .standing-banner-section .section-devider-1 {
+        padding-top: 100px;
+    }
+    .standing-banner-section .container-fluid {
+        padding-right: 0px;
+    }
+    .standing-banner-section .standing-banner-img {
+        right: 0px;
+        top: -190px;
+        width: 1050px;
+    }
+    .review-project-section .cut-bg-div {
+        padding-bottom: 0!important;    
+    }
+    .review-project-section .web-design-img {
+        position: static;
+        top: unset;
+        width: 150%;
+        left: unset;    
+        -webkit-transform: translateX(-15%);
+        transform: translateX(-15%);
+    }
+    .review-project-section-small .cut-bg-div {
+        padding-top: 60px!important;    
+    }
+    .review-project-section-screenshots .web-design-img {
+        margin-top: -80px;
+    }
+    .review-project-section-screenshots .minus-margin {
+        margin-top: -80px;
+    }
+    .social-media-rose-section {
+        padding-left: 40px;
+    }
+    .social-media-rose-section .gradient-border {
+        padding: 18px;   
+        margin-right: -50px;
+    }
+    .social-media-rose-section .gradient-border .inside-wrapper {
+        padding: 40px 0px 40px 40px;
+    }
+    .social-media-rose-section .social-images-rose {
+        top: 50%;
+        right: 40px;
+    }
+    .instagram-posts-section-rose .instagram-img {
+        max-width: 500px;
+        margin-bottom: -300px;
+        margin-top: 0;
+    }
+    .brochures-section-gl .brochures-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-width: 100%;
+    }
+    .get-quote-section-gl {
+         margin-top: -120px;
+    }
+    
+    .overflow-container {
+        overflow: hidden;
+        height: auto;
+    }
+    .parallax-full {
+        min-height: auto;
+    }
+    html,
+    html *,
+    body,
+    body * {
+      cursor: auto!important;
+    }  
+    .cursor-dot,
+    .cursor-dot-outline {
+      display: none!important;
+    }
+    img.our-passion {
+        max-height: 75px;
+    }
+    .tell-us-section.scrollSnap {
+        min-height: auto!important;
+    }
+    .tell-us-section .big-title-hide {
+        opacity: 1;
+        bottom: unset;
+        padding-top: 0;
+    }
+    .services-section-home .service-modal-home {
+        position: relative!important;
+        width: 100%!important;
+        height: auto!important;
+        left: unset!important;
+        right: unset!important;
+        bottom: unset!important;
+        top: unset!important;
+        box-shadow: none!important;
+        padding: 40px 0;
+    }
+    .service-modal-home.section-modal-cc {
+        background-color: #f5f5f5;    
+    }
+    .services-section-home .service-modal-home .modal-mobile {
+        position: relative!important;
+        width: 100%!important;
+        height: auto!important;
+        top: unset!important;
+        bottom: unset!important;
+        left: unset!important;
+        right: unset!important;   
+    }
+    
+    .services-section-home .service-modal-home .service-title-home{
+        position: relative!important;
+        left: unset!important;
+        right: unset!important;
+        bottom: unset!important;
+        top: unset!important;
+        padding: 0;
+        text-align: center;
+    }
+    .services-section-home .service-modal-home .service-title-home br {
+        display: none!important;
+    }
+    .services-section-home .section-modal-wd .web-design-service img {
+        -webkit-transform: scale(1)!important;
+        transform: scale(1)!important;
+        -webkit-filter: grayscale(0)!important;
+        filter: grayscale(0)!important;    
+    }
+    .services-button {
+        position: static;
+        bottom: unset;
+        left: unset;
+    }
+    .holder-section {
+        text-align: center;
+    }
+    .holder-section.section-padding-y {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    header {
+        position: fixed;
+        height: 55px;
+        width: 100%;
+        z-index: 10000;
+        background-color: transparent;    
+    }
+    header.offset {
+        background-color: #fff;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    }
+    .menu-button {
+        top: 20px;    
+    }
+    .logo-moolay {
+        position: fixed;
+        top: 10px;
+        width: 120px;
+        left: 2.2vw;
+    }
+    /*.logo-moolay .cls-1 {
+        display: none!important
+    }*/
+    #menu-container #menu-slash-bg {
+        width: 100%;    
+        -webkit-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        transform: skewX(0deg);
+        padding: 50px 0!important
+    }
+    .inside-menu {
+        -webkit-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        transform: skewX(0deg);  
+    }
+    .inside-menu .inside-logo {
+        width: 200px;
+        margin-bottom: 50px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .inside-menu .social {
+        margin-bottom: 35px;
+    }
+    .inside-menu .signature-location img {
+        max-width: 310px;
+    }
+    .label-dos {
+        right: unset;
+        left: 140px;
+    }
+    .label-dos.root {
+        left: 140px;
+    }
+    .label-dos.fitb {
+        left: 140px;
+    }
+    .contact-card {
+        padding: 40px 40px 40px 40px;
+    }
+    .contact-card .address br{
+        display: none;
+    }
+    .contact-card img.our-passion {
+        max-height: 55px;
+        max-width: 100%!important;
+    }
+    .services-section-home .section-modal-cc .content-service .normal-img {
+        opacity: 1;
+        visibility: visible;
+    }
+    .closeImgModal {
+        top: 70px!important;    
+    }
+}
+@media screen and (max-width: 1099px) {
+    .brochures-section-gl .brochures-img {
+        position: absolute;
+        left: -31px;
+        top: 25px;
+        max-width: 100%;
+    }    
+}
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 13px;    
+    }
+    .h2, h2 {
+        font-size: 1.3rem;
+    }
+    .container-fluid {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .parallax-section .parallax-container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .section-padding-y {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .content-section.section-padding-y {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .section-padding-y-smaller {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .section-padding-x {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .red-sauce-section .absolute-content {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+    /*.home-video .section-title {
+        font-size: 50px;   
+    }*/
+    .home-video img.our-passion {
+        max-height: 50px;
+    }
+    .cta-section .section-title {
+        font-size: 45px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .big-title {
+        font-size: 75px;
+        margin-left: -2px;
+    }
+    
+    .section-title {
+        font-size: 50px;   
+    }
+    .big-title br {
+        display: none;
+    }
+    
+    .section-title br {
+        display: none;   
+    }
+    .hero-section .hero-text-container .big-title br {
+        display: block;
+    }
+    .big-text {
+        font-size: 18px;
+    }
+    .signature {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 6px;
+    }
+    .mb-200 {
+        margin-bottom: 80px!important;    
+    }
+    .mb-100 {
+        margin-bottom: 50px!important;    
+    }
+    .py-100 {
+        padding-top: 50px!important;   
+        padding-bottom: 50px!important;    
+    }
+    .mb-80 {
+        margin-bottom: 30px!important;    
+    }
+    .btn.btn-round {
+        padding: 20px 30px;
+        min-width: 150px;
+    }
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar-collapse {
+        position: fixed;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #000;
+        left: 0;
+        top: 0;
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        transition: .3s ease-in-out;
+    }
+    .navbar-collapse.show {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .navbar-brand {
+        width: 50px;
+    }
+    #header.scrolled .navbar-brand {
+        width: 50px;
+    }
+    .navbar .social {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .navbar .social svg {
+        height: 18px;    
+    }
+    .hero-section:before {
+        left: 50px;
+    }
+    .hero-section:after {
+        right: 50px;
+    }
+    .section-lines:before {
+        left: 50px;
+    }
+    .section-lines:after {
+        right: 50px;
+    }
+    .social-media-rose-section:before {
+        left: 50px;
+    }
+    .social-media-rose-section:after {
+        right: 50px;
+    }
+    .two-part-section.left-border:before {
+        left: 50px;
+    }
+    .two-part-section.right-border:after {
+        right: 50px;
+    }
+    .part-big {
+        width: 100%;
+    }
+    .part-small {
+        width: 100%;
+    }
+    .page-pilling-section .arrow-pull {
+        left: -5vw;
+    }
+    .cut-bg-div:before {
+        left: 20px;
+    }
+    .cut-bg-div:after {
+        right: 20px;
+    }
+    .about-section .about-video {
+        height: 400px;
+        bottom: unset;
+        right: unset;
+        width: 100%;
+        position: relative;
+    }
+    .about-section .about-video video {
+        width: auto;
+        height: 110%;
+    }
+    .services-section .service-wrap svg {
+        max-width: 45px;
+        margin-bottom: 15px;  
+    }
+    .services-section .services-logo img {
+        max-width: 500px;
+    }
+    .services-section .service-wrap .service-title {
+        font-size: 19px;
+    }
+    .projects-section .project-wrapper .project-title {
+        font-size: 29px;
+    }
+    .projects-section .project-wrapper .project-logo img {
+        max-height: 75px;
+        max-width: 220px;
+    }
+    .marketing-services-slider-section .service-wrapper .service-title {
+        font-size: 19px;
+    }
+    .marketing-services-section .service-logo svg {
+        max-width: 55px;
+        margin-bottom: 30px;
+    }
+    .team-section .slick-arrow {
+        top: 190px;
+    }
+    .team-section .slider-wrapper {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .testimonials-section .testimonial-wrapper .testimonial-title {
+        font-size: 19px;
+    }
+    .projects-section .project-image {
+        position: relative;
+        z-index: 2;
+        left: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+    }
+    .projects-section .project-image-2 {
+        position: relative;
+        z-index: 2;
+        left: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+    }
+    #rootWellness {
+        padding-bottom: 30px;
+    }
+    #rootWellness .project-image {
+        top: unset;
+        right: unset;
+        -webkit-transform: none;
+        transform: none;
+        text-align: center;
+    }
+    #rootWellness .project-image img {
+        width: 100%;
+        max-width: 730px
+    }
+    
+    #wwg {
+        padding-bottom: 30px;
+    }
+    #wwg .project-image {
+        bottom: unset;
+        left: unset;
+        -webkit-transform: none;
+        transform: none;
+        text-align: center;
+    }
+    #wwg .project-image img {
+        width: 100%;
+        max-width: 730px;
+    }
+    #textBetween {
+        padding-top: 70px;
+    }
+    #maisonMaj {
+        padding-top: 70px;
+    }
+    #maisonMaj .project-image {
+        top: unset;
+        right: -100px;
+        text-align: center;
+    }
+    #maisonMaj .project-image img {
+        width: 100%;
+        max-width: 750px;
+    }
+    #fitbites {
+        padding-bottom: 70px;
+    }
+    #fitbites .project-image {
+        width: 50%;
+        top: unset;
+        left: unset;
+        float: left;
+        display: inline-block;
+    }
+    #fitbites .project-image img {
+        width: 100%;
+        max-width: 550px;
+    }
+    #fitbites .project-image-2 {
+        position: relative;
+        width: 50%;
+        bottom: unset;
+        right: unset;
+        display: inline-block;
+    }
+    #fitbites .project-image-2 img {
+        width: 100%;
+        max-width: 550px;
+    }
+    .quote-section-2 .cut-bg-div {
+        padding-top: 70px!important;
+    }
+    #blob1 {
+      position: absolute;
+      left: -520px;
+      top: -150px;
+      z-index: 2;
+    }
+    #blob1 canvas {
+      width: 1000px;
+    }
+    #blob2 {
+      position: absolute;
+      right: -430px;
+      top: -200px;
+      z-index: 2;
+    }
+    #blob2 canvas {
+      width: 900px;
+    }
+    #blob3 {
+      position: absolute;
+      right: -450px;
+      top: 100px;
+      z-index: 2;
+    }
+    #blob3 canvas {
+      width: 900px;
+    }
+    #blob4 {
+      position: absolute;
+      left: -450px;
+      bottom: 0;
+      z-index: 2;
+    }
+    #blob4 canvas {
+      width: 900px;
+    }
+    .team-section .slick-arrow img {
+        width: 15px;
+    }
+    .team-section .team-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .team-section.ts-about .member-wrapper .member-info {
+        position: static;
+        bottom: unset;
+        left: unset;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        z-index: 3;
+        background-color: transparent!important;
+    }
+    body .team-section.ts-about .member-wrapper .member-info .member-name {
+        color: var(--text-dark)!important;
+    }
+    body[data-theme="dark"] .team-section.ts-about .member-wrapper .member-info .member-name {
+        color: #fff!important;
+    }
+    .love-what-we-do-section #blob4 {
+      left: -450px;
+      bottom: 50%;
+      -webkit-transform: translateY(50%);
+      transform: translateY(50%);
+    }
+    .love-what-we-do-section #blob4 canvas {
+      width: 1000px;
+    }
+    .clients-section-about #blob3 {
+        left: -550px;
+        bottom: 40%;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+    }
+    .clients-section-about #blob3 canvas {
+        width: 1050px;
+    }
+    .hero-about .hero-reverted-margin {
+        margin-bottom: 0px;
+    }
+    .hero-about .big-title {
+        writing-mode: horizontal-tb;
+        text-orientation: upright;
+        letter-spacing: inherit;
+        line-height: 1;
+        font-size: 75px;
+    }
+    .creative-agency-section ul.traits li {
+        display: inline-block;
+    }
+    .creative-agency-section ul.traits li:not(:last-child) {
+        padding-bottom: 10px;
+        margin-right: 10px;
+    }
+    .creative-agency-section ul.traits li:hover {
+        color: #fff;
+    }
+    .creative-agency-section ul.traits li:not(:last-child):before {
+        display: none;
+    }
+    .services-video-section .services-asset-1 {
+        top: 0;
+        right: 50%;
+        transform: translate(50%, -50%);
+        transform: translate(50%, -50%);
+        max-width: 400px;
+    }
+    .content-services-section .part-small.py-100 {
+        padding-top: 0!important;
+    }
+    .web-design-services-section .part-big {
+        background-position: center;
+    }
+    .branding-services-section .part-small.py-100 {
+        padding-top: 0!important;
+    }
+    
+    .fitbites-phone-section .fitbites-phone {
+        position: static;
+        right: unset;
+        bottom: unset;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fitbites-phone-section .fitbites-green-sauce {
+        right: 100px;
+        bottom: 0;
+        width: 90px;
+    }
+    .red-sauce-section .fish-meal-img {
+        right: 40px;
+        top: -70px;
+        width: 250px;
+    }
+    .red-sauce-section .rice-meal-img {
+        right: -120px;
+        bottom: -50%;
+        width: 250px;
+    }
+    .red-sauce-section .leaves-assets-img {
+        left: 0;
+        bottom: -45px;
+        width: 200px;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 155px;
+    }
+    .red-sauce-section .blueberries-asset {
+        right: 180px;
+        bottom: -35%;
+        width: 180px;
+    }
+    .stay-fit-section .fit-woman {
+        width: 340px;
+        top: -30px;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 90px;
+    }
+    .social-graphics-section .asset-img {
+        top: -50px;
+        left: 0;
+        width: 180px;
+    }
+    .the-new-brand-section .section-title br {
+        display: block;    
+    }
+    .the-new-brand-section .fish-meal-asset {
+        top: -60px;
+        left: 40px;
+        max-width: 230px;
+    }
+    .the-new-brand-section .rice-meal-asset {
+        right: 35px;
+        bottom: -150px;
+        max-width: 230px;
+    }
+    .the-new-brand-section .logo-asset {
+        bottom: 0;
+        left: 60px;
+        max-width: 205px;
+    }
+    .the-new-brand-section .green-sauce-asset {
+        top: 0;
+        right: 160px;
+        width: 90px;
+    }
+    .print-flyer-section {
+        margin-top: -152px;
+        background-position: 0 -200px;
+    }
+    .print-flyer-section .section-devider {
+        padding-bottom: 130px;
+    }
+    .fold-square-section .fold-square-img {
+        left: unset;
+        top: unset;
+        width: 100%;
+        max-width: 450px;
+        position: static;
+    }
+    .standing-banner-section .section-devider-1 {
+        padding-top: 40px;
+    }
+    .standing-banner-section .standing-banner-img {
+        /* right: -40px; */
+        /* top: -30px; */
+        /* width: 480px; */
+        right: unset;
+        top: unset;
+        width: 100%;
+        max-width: 450px;
+        position: static;
+    }
+    .standing-banner-section .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .app-store-img {
+        max-width: 150px;    
+    }
+    .review-project-section-small .cut-bg-div {
+        padding-top: 50px!important;    
+    }
+    .logo-section .o-de-rose-logo {
+        max-width: 300px;    
+    }
+    .logo-section .brand-colors img {
+        max-width: 60px;    
+    }
+    .web-design-section-rose .section-devider {
+        padding-top: 150px;    
+        padding-bottom: 150px;    
+    }
+    .social-media-rose-section .bigger-font{
+        font-size: 13px;
+    }
+    .social-media-rose-section .gradient-border .inside-wrapper {
+        padding: 30px 0px 30px 20px;
+    }
+    .social-media-rose-section .gradient-border {
+        padding: 14px;
+    }
+    .social-media-rose-section {
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+    .instagram-posts-section-rose .instagram-img {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .social-media-gl-section .social-images-gl {
+        position: relative;
+        -webkit-transform: translate(50px, 0);
+        transform: translate(50px, 0);
+        width: 130%;
+    }
+    .get-quote-section-gl {
+         margin-top: -90px;
+    }
+    img.our-passion {
+        max-height: 70px;
+    }
+    .label-dos {
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    .red-sauce-section .fish-meal-img {
+        right: 40px;
+        top: -50px;
+        width: 200px;
+    }
+    .red-sauce-section .rice-meal-img {
+        right: -90px;
+        bottom: -45%;
+        width: 200px;
+    }
+    .red-sauce-section .leaves-assets-img {
+        left: 0;
+        bottom: -45px;
+        width: 180px;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 130px;
+    }
+    .red-sauce-section .blueberries-asset {
+        right: 180px;
+        bottom: -35%;
+        width: 170px;
+    }
+    .stay-fit-section .fit-woman {
+        width: 320px;
+        top: -40px;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 70px;
+    }
+    .fold-square-section .fold-square-img {
+        left: -40px;
+        top: 0px;
+        width: 490px;
+    }
+    .typography-section .fonts-title {
+        font-size: 30px;    
+    }
+    .typography-section .fonts-subtitle {
+        font-size: 16px;    
+    }
+    .web-design-section-rose .section-devider {
+        padding-top: 120px;    
+        padding-bottom: 120px;    
+    }
+    .hero-section .hero-quote {
+        max-height: 73px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .h2, h2 {
+        font-size: 1.2rem;
+    }
+    .h3, h3 {
+        font-size: 1.1rem;
+    }
+    .h4, h4 {
+        font-size: 1.05rem;
+    }
+    .btn.btn-round.bordered.violet {
+        padding: 0;
+        border: none;
+    }
+    .tags .btn {
+        padding: 0!important;
+        border: none!important;
+        font-size: 8px!important;
+    }
+    .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .parallax-section .parallax-container {
+        padding-left: 35px;
+        padding-right: 35px;
+        position: relative;
+        top: unset;
+        transform: none!important;
+    }
+    .section-padding-y {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-padding-y-smaller {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-padding-x {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .red-sauce-section .absolute-content {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    /*.home-video .section-title {
+        font-size: 40px;   
+    }*/
+    .home-video img.our-passion {
+        max-height: 40px;
+    }
+    .cta-section .section-title {
+        font-size: 35px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .big-title {
+        font-size: 55px;
+        margin-left: -2px;
+    }
+    
+    .section-title {
+        font-size: 40px;   
+    }
+    .big-title br {
+        display: none;
+    }
+    
+    .section-title br {
+        display: none;   
+    }
+    .hero-section .hero-text-container .big-title br {
+        display: block;
+    }
+    .big-text {
+        font-size: 18px;
+    }
+    .signature {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 6px;
+    }
+    .mb-200 {
+        margin-bottom: 70px!important;    
+    }
+    .mb-100 {
+        margin-bottom: 40px!important;    
+    }
+    .mb-80 {
+        margin-bottom: 30px!important;    
+    }
+    .btn.btn-round {
+        padding: 15px 20px;
+        min-width: 130px;
+    }
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar-brand {
+        width: 50px;
+    }
+    #header.scrolled .navbar-brand {
+        width: 50px;
+    }
+    .navbar .social svg {
+        height: 18px;    
+    }
+    .hero-section:before {
+        display: none;
+    }
+    .hero-section:after {
+        display: none;
+    }
+    .section-lines:before {
+        display: none;
+    }
+    .section-lines:after {
+        display: none;
+    }
+    .social-media-rose-section:before {
+        display: none;
+    }
+    .social-media-rose-section:after {
+        display: none;
+    }
+    .hero-section .saturation-effect {
+        width: 300px;
+    }
+    .two-part-section.left-border:before {
+        display: none;
+    }
+    .two-part-section.right-border:after {
+        display: none;
+    }
+    .part-small.part-small-right .container-fluid {
+        padding-right: 20px;
+    }
+    .part-small.part-small-left .container-fluid {
+        padding-left: 20px;
+    }
+    .cut-bg-div:before {
+        display: none;
+    }
+    .cut-bg-div:after {
+        display: none
+    }
+    .about-section .about-video {
+        height: 350px;
+        bottom: unset;
+        width: 100%;
+    }
+    .services-section .service-wrap svg {
+        max-width: 35px;
+        margin-bottom: 15px;  
+    }
+    .services-section .services-logo img {
+        max-width: 500px;
+    }
+    .services-section .service-wrap .service-title {
+        font-size: 17px;
+    }
+    .projects-section .project-wrapper .project-title {
+        font-size: 20px;
+    }
+    .projects-section .project-wrapper .project-logo img {
+        max-height: 65px;
+        max-width: 180px;
+    }
+    .marketing-services-slider-section .service-wrapper .service-title {
+        font-size: 17px;
+    }
+    .marketing-services-section .service-logo svg {
+        max-width: 50px;
+        margin-bottom: 30px;
+    }
+    .team-section .slick-arrow {
+        top: 260px;
+    }
+    .team-section .slider-wrapper {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .team-section .team-slider .member-wrapper .member-info {
+        opacity: 1;
+        visibility: visible;
+    }
+    .team-section .team-slider .member-wrapper .member-image {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);    
+    }
+    .testimonials-section .testimonial-wrapper .testimonial-title {
+        font-size: 17px;
+    }
+    .projects-section .project-image {
+        position: relative;
+        z-index: 2;
+        left: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+    }
+    .projects-section .project-image-2 {
+        position: relative;
+        z-index: 2;
+        left: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+    }
+    #rootWellness {
+        padding-bottom: 30px;
+    }
+    #rootWellness .project-image {
+        top: unset;
+        right: unset;
+        -webkit-transform: none;
+        transform: none;
+        text-align: center;
+    }
+    #rootWellness .project-image img {
+        width: 100%;
+        max-width: 730px
+    }
+    
+    #wwg {
+        padding-bottom: 30px;
+    }
+    #wwg .project-image {
+        bottom: unset;
+        left: unset;
+        -webkit-transform: none;
+        transform: none;
+        text-align: center;
+    }
+    #wwg .project-image img {
+        width: 100%;
+        max-width: 730px;
+    }
+    #textBetween {
+        padding-top: 50px;
+    }
+    #maisonMaj {
+        padding-top: 50px;
+    }
+    #maisonMaj .project-image {
+        top: unset;
+        right: -100px;
+        text-align: center;
+    }
+    #maisonMaj .project-image img {
+        width: 100%;
+        max-width: 750px;
+    }
+    #fitbites {
+        padding-bottom: 50px;
+    }
+    #fitbites .project-image {
+        width: 50%;
+        top: unset;
+        left: unset;
+        float: left;
+        display: inline-block;
+    }
+    #fitbites .project-image img {
+        width: 100%;
+        max-width: 550px;
+    }
+    #fitbites .project-image-2 {
+        position: relative;
+        width: 50%;
+        bottom: unset;
+        right: unset;
+        display: inline-block;
+    }
+    #fitbites .project-image-2 img {
+        width: 100%;
+        max-width: 550px;
+    }
+    .quote-section-2 .cut-bg-div {
+        padding-top: 50px!important;
+    }
+    #blob1 {
+      display: none;
+    }
+    #blob2 {
+      display: none;
+    }
+    #blob3 {
+      display: none;
+    }
+    #blob4 {
+      display:none;
+    }
+    .team-section .slick-arrow img {
+        width: 15px;
+    } 
+    .dots-asset {
+        width: 100%!important;
+    }
+    .clients-section-about .dots-asset {
+        width: 100%;    
+    }
+    .hero-about .big-title {
+        font-size: 55px;
+    }
+    .promotions-section .bg-image-absolute {
+        background-size: 100%;
+        background-position: 110% 0;  
+        background-repeat: no-repeat;
+        opacity: 0.4;
+    }
+    .red-sauce-section .fish-meal-img {
+        right: 40px;
+        top: -50px;
+        width: 160px;
+    }
+    .red-sauce-section .rice-meal-img {
+        right: -66px;
+        bottom: -45%;
+        width: 160px;
+    }
+    .red-sauce-section .leaves-assets-img {
+        left: 0;
+        bottom: -30px;
+        width: 140px;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 95px;
+    }
+    .red-sauce-section .blueberries-asset {
+        right: 130px;
+        bottom: -35%;
+        width: 120px;
+    }
+    .stay-fit-section .fit-woman {
+        width: 260px;
+        top: -24px;
+    }
+    .social-graphics-section .asset-img {
+        top: -23px;
+        left: 0;
+        width: 115px;
+    }
+    .the-new-brand-section .fish-meal-asset {
+        top: -60px;
+        left: 30px;
+        max-width: 150px;
+    }
+    .the-new-brand-section .rice-meal-asset {
+        right: 48px;
+        bottom: -99px;
+        max-width: 150px;
+    }
+    .the-new-brand-section .logo-asset {
+        bottom: 0;
+        left: 40px;
+        max-width: 140px;
+    }
+    .the-new-brand-section .facebook-asset {
+        top: 0;
+        left: 50%;
+        max-width: 45px;
+    }
+    .the-new-brand-section .green-sauce-asset {
+        top: 0;
+        right: 120px;
+        width: 70px;
+    }
+    .the-new-brand-section + .section-devider {
+        padding-bottom: 120px;
+    }
+    .print-flyer-section .print-flyer-img {
+        width: 100%;
+        max-width: 400px;
+    }
+    .fold-square-section {
+        padding-bottom: 0;    
+    }
+    .fold-square-section .fold-square-img {
+        left: unset;
+        top: unset;
+        width: 100%;
+        max-width: 450px;
+        position: static;
+    }
+    .standing-banner-section .standing-banner-img {
+        right: unset;
+        top: unset;
+        width: 100%;
+        max-width: 450px;
+        position: static;
+    }
+    .standing-banner-section {
+        padding-top: 0;
+    }
+    .review-project-section-screenshots .web-design-img {
+        margin-top: -50px;
+    }
+    .review-project-section-screenshots .minus-margin {
+        margin-top: -30px;
+    }
+    .web-design-section-rose .section-devider {
+        padding-top: 130px;    
+        padding-bottom: 130px;    
+    }
+    .social-media-rose-section .gradient-border .inside-wrapper {
+        padding: 20px 0px 20px 20px;
+    }
+    .social-media-rose-section .gradient-border {
+        margin-right: -40px;
+    }
+    .social-media-rose-section .section-title {
+        font-size: 36px;
+    }
+    .social-media-rose-section {
+        padding-left: 20px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .social-media-gl-section .social-images-gl {
+        position: relative;
+        -webkit-transform: none;
+        transform: none;
+        width: 100%;
+    }
+    .get-quote-section-gl {
+         margin-top: 0px;
+    }
+    img.our-passion {
+        max-height: 50px;
+        max-width: 100%;
+    }
+    .home-projects-logo {
+        max-height: 55px;
+    }
+    .parallax-full {
+        min-height: 350px;
+        color: #fff!important;
+    }
+    .parallax-full p {
+        color: #fff!important;
+    }
+    .parallax-full .project-title {
+        color: #fff!important;
+    }
+    .parallax-full .btn.btn-round.bordered.white.black-text {
+        color: #fff!important;
+    }
+    .parallax-full .btn.btn-round.bordered.white.black-text:hover {
+        color: #000!important;
+    }
+    .parallax-full .btn.btn-round.bordered.black-border {
+        border-color: #fff!important;
+        color: #fff!important;
+    }
+    .parallax-full .btn.btn-round.bordered.black-border:hover {
+        background-color: #fff!important;
+        color: #000!important;
+    }
+    .parallax-section .parallax-img {
+        position: absolute!important;
+        left: 0!important;
+        top: 0!important;
+        width: 100%;
+        height: 100%;
+    }
+    .parallax-section .parallax-img:before {
+        content: '';
+        position: absolute!important;
+        left: 0!important;
+        top: 0!important;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .overflow-container {
+        overflow: hidden;
+        height: 100%;
+    }
+    .parallax-img-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .inside-menu .inside-logo {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    .inside-menu .main-menu-nav {
+        margin-bottom: 30px;
+    }
+    .inside-menu .social {
+        margin-bottom: 30px;
+    }
+    .hero-section .hero-quote {
+        max-height: auto;
+        width: 100%;
+    }
+    .page-pilling-section .arrow-pull {
+        left: -6vw;
+    }
+}
+@media screen and (max-width: 670px) {
+    .team-section .slick-arrow {
+        top: 215px;
+    }
+    .stay-fit-section .fit-woman {
+        width: 230px;
+        top: -27px;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 55px;
+    }
+    .web-design-section-rose .negative-top {
+        margin-top: -20px;    
+    }
+    .web-design-section-rose .section-devider {
+        padding-top: 100px;    
+        padding-bottom: 100px;    
+    }
+    .social-media-rose-section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .h2, h2 {
+        font-size: 1.2rem;
+    }
+    .h3, h3 {
+        font-size: 1.1rem;
+    }
+    .h4, h4 {
+        font-size: 1.05rem;
+    }
+    .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .parallax-section .parallax-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section-padding-y {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-padding-y-smaller {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-padding-x {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .red-sauce-section .absolute-content {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    /*.home-video .section-title {
+        font-size: 40px;   
+    }*/
+    .home-video img.our-passion {
+        max-height: 40px;
+    }
+    .cta-section .section-title {
+        font-size: 35px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .big-title {
+        font-size: 47px;
+        margin-left: -2px;
+    }
+    
+    .section-title {
+        font-size: 40px;   
+    }
+    .big-title br {
+        display: none;
+    }
+    
+    .section-title br {
+        display: none;   
+    }
+    .hero-section .hero-text-container .big-title br {
+        display: block;
+    }
+    .big-text {
+        font-size: 18px;
+    }
+    .signature {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 6px;
+    }
+    .mb-200 {
+        margin-bottom: 50px!important;    
+    }
+    .mb-100 {
+        margin-bottom: 30px!important;    
+    }
+    .mb-80 {
+        margin-bottom: 20px!important;    
+    }
+    .btn.btn-round {
+        padding: 15px 20px;
+        min-width: 130px;
+    }
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar-brand {
+        width: 40px;
+    }
+    #header.scrolled .navbar-brand {
+        width: 35px;
+    }
+    #header .navbar {
+        padding: 5px 15px;    
+    }
+    .navbar .social svg {
+        height: 18px;    
+    }
+    .navbar .navbar-toggler {
+    	height: 24px;
+    }
+    .navbar .navbar-toggler span,
+    .navbar .navbar-toggler span:before,
+    .navbar .navbar-toggler span:after {
+    	width: 31px;
+    	height: 4px;
+    }
+    .navbar .navbar-toggler span:before {
+    	top: -10px;
+    }
+    .navbar .navbar-toggler span:after {
+    	bottom: -10px;
+    }
+    .hero-section:before {
+        display: none;
+    }
+    .hero-section:after {
+        display: none;
+    }
+    .hero-section .saturation-effect {
+        width: 200px;
+    }
+    .cut-bg-div:before {
+        display: none;
+    }
+    .cut-bg-div:after {
+        display: none
+    }
+    .about-section .about-video {
+        height: 350px;
+        bottom: unset;
+        width: 100%;
+    }
+    .services-section .service-wrap svg {
+        max-width: 35px;
+        margin-bottom: 15px;  
+    }
+    .services-section .services-logo img {
+        max-width: 500px;
+    }
+    .services-section .service-wrap .service-title {
+        font-size: 17px;
+    }
+    .projects-section .project-wrapper .project-title {
+        font-size: 20px;
+    }
+    .projects-section .project-wrapper .project-logo img {
+        max-height: 65px;
+        max-width: 180px;
+    }
+    .marketing-services-slider-section .service-wrapper .service-title {
+        font-size: 17px;
+    }
+    .marketing-services-section .service-logo svg {
+        max-width: 50px;
+        margin-bottom: 30px;
+    }
+    .team-section .slick-arrow {
+        top: 260px;
+    }
+    .team-section .prev-arrow {
+        left: 0px;
+    }
+    .team-section .next-arrow {
+        right: 0px;
+    }
+    .team-section .slider-wrapper {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .team-section .team-slider .member-wrapper .member-info {
+        opacity: 1;
+        visibility: visible;
+    }
+    .team-section .team-slider .member-wrapper .member-image {
+        filter: url(data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><f… values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter);
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+    .team-section .team-slider .member-wrapper .member-image img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonials-section .testimonial-wrapper .testimonial-title {
+        font-size: 17px;
+    }
+    .projects-section .project-image {
+        position: relative;
+        z-index: 2;
+        left: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+    }
+    .projects-section .project-image-2 {
+        position: relative;
+        z-index: 2;
+        left: unset;
+        top: unset;
+        bottom: unset;
+        right: unset;
+    }
+    #rootWellness {
+        padding-bottom: 30px;
+    }
+    #rootWellness .project-image {
+        top: unset;
+        right: unset;
+        -webkit-transform: none;
+        transform: none;
+        text-align: center;
+    }
+    #rootWellness .project-image img {
+        width: 100%;
+        max-width: 730px
+    }
+    
+    #wwg {
+        padding-bottom: 30px;
+    }
+    #wwg .project-image {
+        bottom: unset;
+        left: unset;
+        -webkit-transform: none;
+        transform: none;
+        text-align: center;
+    }
+    #wwg .project-image img {
+        width: 100%;
+        max-width: 730px;
+    }
+    #textBetween {
+        padding-top: 50px;
+    }
+    #maisonMaj {
+        padding-top: 50px;
+    }
+    #maisonMaj .project-image {
+        top: unset;
+        right: -20px;
+        text-align: center;
+    }
+    #maisonMaj .project-image img {
+        width: 100%;
+        max-width: 750px;
+    }
+    #fitbites {
+        padding-bottom: 50px;
+    }
+    #fitbites .project-image {
+        width: 50%;
+        top: unset;
+        left: unset;
+        float: left;
+        display: none;
+    }
+    #fitbites .project-image img {
+        width: 100%;
+        max-width: 550px;
+    }
+    #fitbites .project-image-2 {
+        position: relative;
+        width: 100%;
+        bottom: unset;
+        right: unset;
+        display: inline-block;
+    }
+    #fitbites .project-image-2 img {
+        width: 100%;
+        max-width: 550px;
+    }
+    .quote-section-2 .cut-bg-div {
+        padding-top: 50px!important;
+    }
+    #blob1 {
+      display: none;
+    }
+    #blob2 {
+      display: none;
+    }
+    #blob3 {
+      display: none;
+    }
+    #blob4 {
+      display:none;
+    }
+    .team-section .slick-arrow img {
+        width: 15px;
+    } 
+    .web-design-services-section .part-big {
+        background-position: top left;
+    }
+    .promotions-section .bg-image-absolute {
+        background-size: 120%;
+        background-position: 100% 0;
+    }
+    .page-pilling-section .arrow-pull {
+        left: -8vw;
+    }
+    .fitbites-phone-section .cut-bg-div {
+        padding-bottom: 0;
+    }
+    .red-sauce-section .red-sauce-img {
+        height: 130px;
+    }
+    .red-sauce-section .fish-meal-img {
+        right: unset;
+        left: 20px;
+        top: -50px;
+        width: 135px;
+    }
+    .red-sauce-section .cut-bg-div {
+        padding-bottom: 0;    
+    }
+    .stay-fit-section .fit-woman {
+        position: static;
+    }
+    .stay-fit-section .green-sauce-asset {
+        width: 40px;
+    }
+    .social-graphics-section .asset-img {
+        top: -35px;
+        left: 0;
+        width: 75px;
+    }
+    .the-new-brand-section .fish-meal-asset {
+        top: -47px;
+        left: 20px;
+        max-width: 102px;
+    }
+    .the-new-brand-section .rice-meal-asset {
+        display: none;
+    }
+    .the-new-brand-section .green-sauce-asset {
+        display: none;
+    }
+    .the-new-brand-section .logo-asset {
+        bottom: 0;
+        left: 50%;
+        max-width: 75px;
+        transform: translate(-50%, 50%)
+    }
+    .the-new-brand-section + .section-devider {
+        padding-bottom: 60px;
+    }
+    .print-flyer-section {
+        margin-top: 0;
+        background-image: none!important;
+    }
+    .fold-square-section {
+        padding-bottom: 0;    
+    }
+    .standing-banner-section {
+        padding-top: 0;    
+    }
+    .standing-banner-section .container-fluid {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .review-project-section-screenshots .web-design-img {
+        margin-top: -30px;
+    }
+    .review-project-section-screenshots .minus-margin {
+        margin-top: 0px;
+    }
+    .web-design-section-rose .section-devider {
+        padding-top: 80px;    
+        padding-bottom: 80px;    
+    }
+    .print-flyer-section.landing-pages-rose {
+        margin-top: 0;
+        background-image: inherit!important;
+    }
+    .print-flyer-section.landing-pages-rose {
+        margin-top: -50px;
+    }
+    .social-media-rose-section {
+        padding-right: 20px;
+    }
+    .social-media-rose-section .social-images-rose {
+        position: static;
+        top: unset;
+        right: unset;
+        -webkit-transform: none;
+        transform: none;
+    }
+    .social-media-rose-section .gradient-border .inside-wrapper {
+        padding: 20px;
+    }
+    .social-media-rose-section .gradient-border {
+        padding: 10px;
+        margin-right: 0;
+    }
+    .social-media-rose-section .section-title {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .web-design-section-rose .section-devider {
+        padding-top: 50px;    
+        padding-bottom: 50px;    
+    }
+}
+@media screen and (max-width: 420px) {
+    .red-sauce-section .red-sauce-img {
+        height: 95px;
+    }
+    .red-sauce-section .fish-meal-img {
+        right: unset;
+        left: 35px;
+        top: -50px;
+        width: 115px;
+    }
+    
+    .web-design-section-rose .negative-top {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .konnect-title {
+        margin-bottom: 20px;
+        margin-left: 1.5rem!important;
+    }
+    .web-design-section-rose .section-devider {
+        padding-top: 40px;    
+        padding-bottom: 40px;    
+    }
+}
+@media screen and (max-width: 350px) {
+    .big-title {
+        font-size: 45px;   
+    }
+    .section-title {
+        font-size: 40px;   
+    }
+    .section-padding-x {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    
+}
+@media screen and (min-width: 671px) {
+    .web-design-section-rose .negative-top {
+        margin-top: -40px;    
+    }
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+    .web-design-section-rose .negative-top {
+        margin-top: -100px;    
+    }
+}
+@media screen and (min-width: 1200px) {
+    .overflow-container {
+        height: auto!important;    
+    }
+    .parallax-section {
+        min-height: auto!important;    
+    } 
+    
+}
+@media screen and (min-width: 1300px) {
+    
+}
+@media screen and (min-width: 1400px) {
+    .col-xxl-auto{
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: auto;
+        max-width: 100%;
+    }
+    .col-xxl {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;    
+    }
+    .col-xxl-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%; 
+    }
+    .col-xxl-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-xxl-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%; 
+    }
+    .col-xxl-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%; 
+    }
+    .col-xxl-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%; 
+    }
+    .col-xxl-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%; 
+    }
+    .col-xxl-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%; 
+    }
+    .col-xxl-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%; 
+    }
+    .col-xxl-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%; 
+    }
+    .col-xxl-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xxl-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%; 
+    }
+    .col-xxl-1_5 {
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-xxl-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%; 
+    }
+    .d-xxl-none {
+        display: none!important;    
+    }
+    .d-xxl-block {
+        display: block!important;    
+    }
+    .mb-xxl-1, .my-xxl-1 {
+        margin-bottom: 0.25rem!important;  
+    }
+    .mb-xxl-2, .my-xxl-2 {
+        margin-bottom: 0.5rem!important;  
+    }
+    .mb-xxl-3, .my-xxl-3 {
+        margin-bottom: 1rem!important;  
+    }
+    .mb-xxl-4, .my-xxl-4 {
+        margin-bottom: 1.5rem!important;  
+    }
+    .mb-xxl-5, .my-xxl-5 {
+        margin-bottom: 3rem!important;  
+    }
+    .mb-xxl-6, .my-xxl-6 {
+        margin-bottom: 6rem!important;  
+    }
+    .mt-xxl-1, .my-xxl-1 {
+        margin-top: 0.25rem!important;  
+    }
+    .mt-xxl-2, .my-xxl-2 {
+        margin-top: 0.5rem!important;  
+    }
+    .mt-xxl-3, .my-xxl-3 {
+        margin-top: 1rem!important;  
+    }
+    .mt-xxl-4, .my-xxl-4 {
+        margin-top: 1.5rem!important;  
+    }
+    .mt-xxl-5, .my-xxl-5 {
+        margin-top: 3rem!important;  
+    }
+    .mt-xxl-6, .my-xxl-6 {
+        margin-top: 6rem!important;  
+    }
+    .ml-xxl-1, .mx-xxl-1 {
+        margin-left: 0.25rem!important;  
+    }
+    .ml-xxl-2, .mx-xxl-2 {
+        margin-left: 0.5rem!important;  
+    }
+    .ml-xxl-3, .mx-xxl-3 {
+        margin-left: 1rem!important;  
+    }
+    .ml-xxl-4, .mx-xxl-4 {
+        margin-left: 1.5rem!important;  
+    }
+    .ml-xxl-5, .mx-xxl-5 {
+        margin-left: 3rem!important;  
+    }
+    .ml-xxl-6, .mx-xxl-6 {
+        margin-left: 6rem!important;  
+    }
+    .mr-xxl-1, .mx-xxl-1 {
+        margin-right: 0.25rem!important;  
+    }
+    .mr-xxl-2, .mx-xxl-2 {
+        margin-right: 0.5rem!important;  
+    }
+    .mr-xxl-3, .mx-xxl-3 {
+        margin-right: 1rem!important;  
+    }
+    .mr-xxl-4, .mx-xxl-4 {
+        margin-right: 1.5rem!important;  
+    }
+    .mr-xxl-5, .mx-xxl-5 {
+        margin-right: 3rem!important;  
+    }
+    .mr-xxl-6, .mx-xxl-6 {
+        margin-right: 6rem!important;  
+    }
+    .pb-xxl-1, .py-xxl-1 {
+    padding-bottom: 0.25rem!important;  
+    }
+    .pb-xxl-2, .py-xxl-2 {
+        padding-bottom: 0.5rem!important;  
+    }
+    .pb-xxl-3, .py-xxl-3 {
+        padding-bottom: 1rem!important;  
+    }
+    .pb-xxl-4, .py-xxl-4 {
+        padding-bottom: 1.5rem!important;  
+    }
+    .pb-xxl-5, .py-xxl-5 {
+        padding-bottom: 3rem!important;  
+    }
+    .pb-xxl-6, .py-xxl-6 {
+        padding-bottom: 6rem!important;  
+    }
+    .pt-xxl-1, .py-xxl-1 {
+        padding-top: 0.25rem!important;  
+    }
+    .pt-xxl-2, .py-xxl-2 {
+        padding-top: 0.5rem!important;  
+    }
+    .pt-xxl-3, .py-xxl-3 {
+        padding-top: 1rem!important;  
+    }
+    .pt-xxl-4, .py-xxl-4 {
+        padding-top: 1.5rem!important;  
+    }
+    .pt-xxl-5, .py-xxl-5 {
+        padding-top: 3rem!important;  
+    }
+    .pt-xxl-6, .py-xxl-6 {
+        padding-top: 6rem!important;  
+    }
+    .pl-xxl-1, .px-xxl-1 {
+        padding-left: 0.25rem!important;  
+    }
+    .pl-xxl-2, .px-xxl-2 {
+        padding-left: 0.5rem!important;  
+    }
+    .pl-xxl-3, .px-xxl-3 {
+        padding-left: 1rem!important;  
+    }
+    .pl-xxl-4, .px-xxl-4 {
+        padding-left: 1.5rem!important;  
+    }
+    .pl-xxl-5, .px-xxl-5 {
+        padding-left: 3rem!important;  
+    }
+    .pl-xxl-6, .px-xxl-6 {
+        padding-left: 6rem!important;  
+    }
+    .pr-xxl-1, .px-xxl-1 {
+        padding-right: 0.25rem!important;  
+    }
+    .pr-xxl-2, .px-xxl-2 {
+        padding-right: 0.5rem!important;  
+    }
+    .pr-xxl-3, .px-xxl-3 {
+        padding-right: 1rem!important;  
+    }
+    .pr-xxl-4, .px-xxl-4 {
+        padding-right: 1.5rem!important;  
+    }
+    .pr-xxl-5, .px-xxl-5 {
+        padding-right: 3rem!important;  
+    }
+    .pr-xxl-6, .px-xxl-6 {
+        padding-right: 6rem!important;  
+    }
+    .p-xxl-1 {
+        padding: 0.25rem!important;  
+    }
+    .p-xxl-2 {
+        padding: 0.5rem!important;  
+    }
+    .p-xxl-3 {
+        padding: 1rem!important;  
+    }
+    .p-xxl-4 {
+        padding: 1.5rem!important;  
+    }
+    .p-xxl-5 {
+        padding: 3rem!important;  
+    }
+    .p-xxl-6 {
+        padding: 6rem!important;  
+    }
+    .justify-content-xxl-end{
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+    }
+    .justify-content-xxl-between{
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    }
+}
+@media screen and (min-width: 1500px) {
+    
+}
+@media screen and (min-width: 1600px) {
+    .col-xxxl-auto{
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: auto;
+        max-width: 100%;
+    }
+    .col-xxxl {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;    
+    }
+    .col-xxxl-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%; 
+    }
+    .col-xxxl-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-xxxl-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%; 
+    }
+    .col-xxxl-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%; 
+    }
+    .col-xxxl-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%; 
+    }
+    .col-xxxl-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%; 
+    }
+    .col-xxxl-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%; 
+    }
+    .col-xxxl-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%; 
+    }
+    .col-xxxl-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%; 
+    }
+    .col-xxxl-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xxxl-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%; 
+    }
+    .col-xxxl-1_5 {
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-xxxl-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%; 
+    }
+    .d-xxxl-none {
+        display: none!important;    
+    }
+    .d-xxxl-block {
+        display: block!important;    
+    }
+    .mb-xxxl-1, .my-xxxl-1 {
+        margin-bottom: 0.25rem!important;  
+    }
+    .mb-xxxl-2, .my-xxxl-2 {
+        margin-bottom: 0.5rem!important;  
+    }
+    .mb-xxxl-3, .my-xxxl-3 {
+        margin-bottom: 1rem!important;  
+    }
+    .mb-xxxl-4, .my-xxxl-4 {
+        margin-bottom: 1.5rem!important;  
+    }
+    .mb-xxxl-5, .my-xxxl-5 {
+        margin-bottom: 3rem!important;  
+    }
+    .mb-xxxl-6, .my-xxxl-6 {
+        margin-bottom: 6rem!important;  
+    }
+    .mt-xxxl-1, .my-xxxl-1 {
+        margin-top: 0.25rem!important;  
+    }
+    .mt-xxxl-2, .my-xxxl-2 {
+        margin-top: 0.5rem!important;  
+    }
+    .mt-xxxl-3, .my-xxxl-3 {
+        margin-top: 1rem!important;  
+    }
+    .mt-xxxl-4, .my-xxxl-4 {
+        margin-top: 1.5rem!important;  
+    }
+    .mt-xxxl-5, .my-xxxl-5 {
+        margin-top: 3rem!important;  
+    }
+    .mt-xxxl-6, .my-xxxl-6 {
+        margin-top: 6rem!important;  
+    }
+    .ml-xxxl-1, .mx-xxxl-1 {
+        margin-left: 0.25rem!important;  
+    }
+    .ml-xxxl-2, .mx-xxxl-2 {
+        margin-left: 0.5rem!important;  
+    }
+    .ml-xxxl-3, .mx-xxxl-3 {
+        margin-left: 1rem!important;  
+    }
+    .ml-xxxl-4, .mx-xxxl-4 {
+        margin-left: 1.5rem!important;  
+    }
+    .ml-xxxl-5, .mx-xxxl-5 {
+        margin-left: 3rem!important;  
+    }
+    .ml-xxxl-6, .mx-xxxl-6 {
+        margin-left: 6rem!important;  
+    }
+    .mr-xxxl-1, .mx-xxxl-1 {
+        margin-right: 0.25rem!important;  
+    }
+    .mr-xxxl-2, .mx-xxxl-2 {
+        margin-right: 0.5rem!important;  
+    }
+    .mr-xxxl-3, .mx-xxxl-3 {
+        margin-right: 1rem!important;  
+    }
+    .mr-xxxl-4, .mx-xxxl-4 {
+        margin-right: 1.5rem!important;  
+    }
+    .mr-xxxl-5, .mx-xxxl-5 {
+        margin-right: 3rem!important;  
+    }
+    .mr-xxxl-6, .mx-xxxl-6 {
+        margin-right: 6rem!important;  
+    }
+    .pb-xxxl-1, .py-xxxl-1 {
+    padding-bottom: 0.25rem!important;  
+    }
+    .pb-xxxl-2, .py-xxxl-2 {
+        padding-bottom: 0.5rem!important;  
+    }
+    .pb-xxxl-3, .py-xxxl-3 {
+        padding-bottom: 1rem!important;  
+    }
+    .pb-xxxl-4, .py-xxxl-4 {
+        padding-bottom: 1.5rem!important;  
+    }
+    .pb-xxxl-5, .py-xxxl-5 {
+        padding-bottom: 3rem!important;  
+    }
+    .pb-xxxl-6, .py-xxxl-6 {
+        padding-bottom: 6rem!important;  
+    }
+    .pt-xxxl-1, .py-xxxl-1 {
+        padding-top: 0.25rem!important;  
+    }
+    .pt-xxxl-2, .py-xxxl-2 {
+        padding-top: 0.5rem!important;  
+    }
+    .pt-xxxl-3, .py-xxxl-3 {
+        padding-top: 1rem!important;  
+    }
+    .pt-xxxl-4, .py-xxxl-4 {
+        padding-top: 1.5rem!important;  
+    }
+    .pt-xxxl-5, .py-xxxl-5 {
+        padding-top: 3rem!important;  
+    }
+    .pt-xxxl-6, .py-xxxl-6 {
+        padding-top: 6rem!important;  
+    }
+    .pl-xxxl-1, .px-xxxl-1 {
+        padding-left: 0.25rem!important;  
+    }
+    .pl-xxxl-2, .px-xxxl-2 {
+        padding-left: 0.5rem!important;  
+    }
+    .pl-xxxl-3, .px-xxxl-3 {
+        padding-left: 1rem!important;  
+    }
+    .pl-xxxl-4, .px-xxxl-4 {
+        padding-left: 1.5rem!important;  
+    }
+    .pl-xxxl-5, .px-xxxl-5 {
+        padding-left: 3rem!important;  
+    }
+    .pl-xxxl-6, .px-xxxl-6 {
+        padding-left: 6rem!important;  
+    }
+    .pr-xxxl-1, .px-xxxl-1 {
+        padding-right: 0.25rem!important;  
+    }
+    .pr-xxxl-2, .px-xxxl-2 {
+        padding-right: 0.5rem!important;  
+    }
+    .pr-xxxl-3, .px-xxxl-3 {
+        padding-right: 1rem!important;  
+    }
+    .pr-xxxl-4, .px-xxxl-4 {
+        padding-right: 1.5rem!important;  
+    }
+    .pr-xxxl-5, .px-xxxl-5 {
+        padding-right: 3rem!important;  
+    }
+    .pr-xxxl-6, .px-xxxl-6 {
+        padding-right: 6rem!important;  
+    }
+    .p-xxxl-1 {
+        padding: 0.25rem!important;  
+    }
+    .p-xxxl-2 {
+        padding: 0.5rem!important;  
+    }
+    .p-xxxl-3 {
+        padding: 1rem!important;  
+    }
+    .p-xxxl-4 {
+        padding: 1.5rem!important;  
+    }
+    .p-xxxl-5 {
+        padding: 3rem!important;  
+    }
+    .p-xxxl-6 {
+        padding: 6rem!important;  
+    }
+    .justify-content-xxxl-end{
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+    }
+    .justify-content-xxxl-between{
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    }
+}
+@media screen and (min-width: 1700px) {
+    
+}
+@media screen and (min-width: 1750px) {
+    .col-xxxxl-auto{
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: auto;
+        max-width: 100%;
+    }
+    .col-xxxxl {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;    
+    }
+    .col-xxxxl-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%; 
+    }
+    .col-xxxxl-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-xxxxl-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%; 
+    }
+    .col-xxxxl-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%; 
+    }
+    .col-xxxxl-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%; 
+    }
+    .col-xxxxl-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%; 
+    }
+    .col-xxxxl-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%; 
+    }
+    .col-xxxxl-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%; 
+    }
+    .col-xxxxl-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%; 
+    }
+    .col-xxxxl-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xxxxl-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%; 
+    }
+    .col-xxxxl-1_5 {
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-xxxxl-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%; 
+    }
+    .d-xxxxl-none {
+        display: none!important;    
+    }
+    .d-xxxxl-block {
+        display: block!important;    
+    }
+    .mb-xxxxl-1, .my-xxxxl-1 {
+        margin-bottom: 0.25rem!important;  
+    }
+    .mb-xxxxl-2, .my-xxxxl-2 {
+        margin-bottom: 0.5rem!important;  
+    }
+    .mb-xxxxl-3, .my-xxxxl-3 {
+        margin-bottom: 1rem!important;  
+    }
+    .mb-xxxxl-4, .my-xxxxl-4 {
+        margin-bottom: 1.5rem!important;  
+    }
+    .mb-xxxxl-5, .my-xxxxl-5 {
+        margin-bottom: 3rem!important;  
+    }
+    .mb-xxxxl-6, .my-xxxxl-6 {
+        margin-bottom: 6rem!important;  
+    }
+    .mt-xxxxl-1, .my-xxxxl-1 {
+        margin-top: 0.25rem!important;  
+    }
+    .mt-xxxxl-2, .my-xxxxl-2 {
+        margin-top: 0.5rem!important;  
+    }
+    .mt-xxxxl-3, .my-xxxxl-3 {
+        margin-top: 1rem!important;  
+    }
+    .mt-xxxxl-4, .my-xxxxl-4 {
+        margin-top: 1.5rem!important;  
+    }
+    .mt-xxxxl-5, .my-xxxxl-5 {
+        margin-top: 3rem!important;  
+    }
+    .mt-xxxxl-6, .my-xxxxl-6 {
+        margin-top: 6rem!important;  
+    }
+    .ml-xxxxl-1, .mx-xxxxl-1 {
+        margin-left: 0.25rem!important;  
+    }
+    .ml-xxxxl-2, .mx-xxxxl-2 {
+        margin-left: 0.5rem!important;  
+    }
+    .ml-xxxxl-3, .mx-xxxxl-3 {
+        margin-left: 1rem!important;  
+    }
+    .ml-xxxxl-4, .mx-xxxxl-4 {
+        margin-left: 1.5rem!important;  
+    }
+    .ml-xxxxl-5, .mx-xxxxl-5 {
+        margin-left: 3rem!important;  
+    }
+    .ml-xxxxl-6, .mx-xxxxl-6 {
+        margin-left: 6rem!important;  
+    }
+    .mr-xxxxl-1, .mx-xxxxl-1 {
+        margin-right: 0.25rem!important;  
+    }
+    .mr-xxxxl-2, .mx-xxxxl-2 {
+        margin-right: 0.5rem!important;  
+    }
+    .mr-xxxxl-3, .mx-xxxxl-3 {
+        margin-right: 1rem!important;  
+    }
+    .mr-xxxxl-4, .mx-xxxxl-4 {
+        margin-right: 1.5rem!important;  
+    }
+    .mr-xxxxl-5, .mx-xxxxl-5 {
+        margin-right: 3rem!important;  
+    }
+    .mr-xxxxl-6, .mx-xxxxl-6 {
+        margin-right: 6rem!important;  
+    }
+    .pb-xxxxl-1, .py-xxxxl-1 {
+    padding-bottom: 0.25rem!important;  
+    }
+    .pb-xxxxl-2, .py-xxxxl-2 {
+        padding-bottom: 0.5rem!important;  
+    }
+    .pb-xxxxl-3, .py-xxxxl-3 {
+        padding-bottom: 1rem!important;  
+    }
+    .pb-xxxxl-4, .py-xxxxl-4 {
+        padding-bottom: 1.5rem!important;  
+    }
+    .pb-xxxxl-5, .py-xxxxl-5 {
+        padding-bottom: 3rem!important;  
+    }
+    .pb-xxxxl-6, .py-xxxxl-6 {
+        padding-bottom: 6rem!important;  
+    }
+    .pt-xxxxl-1, .py-xxxxl-1 {
+        padding-top: 0.25rem!important;  
+    }
+    .pt-xxxxl-2, .py-xxxxl-2 {
+        padding-top: 0.5rem!important;  
+    }
+    .pt-xxxxl-3, .py-xxxxl-3 {
+        padding-top: 1rem!important;  
+    }
+    .pt-xxxxl-4, .py-xxxxl-4 {
+        padding-top: 1.5rem!important;  
+    }
+    .pt-xxxxl-5, .py-xxxxl-5 {
+        padding-top: 3rem!important;  
+    }
+    .pt-xxxxl-6, .py-xxxxl-6 {
+        padding-top: 6rem!important;  
+    }
+    .pl-xxxxl-1, .px-xxxxl-1 {
+        padding-left: 0.25rem!important;  
+    }
+    .pl-xxxxl-2, .px-xxxxl-2 {
+        padding-left: 0.5rem!important;  
+    }
+    .pl-xxxxl-3, .px-xxxxl-3 {
+        padding-left: 1rem!important;  
+    }
+    .pl-xxxxl-4, .px-xxxxl-4 {
+        padding-left: 1.5rem!important;  
+    }
+    .pl-xxxxl-5, .px-xxxxl-5 {
+        padding-left: 3rem!important;  
+    }
+    .pl-xxxxl-6, .px-xxxxl-6 {
+        padding-left: 6rem!important;  
+    }
+    .pr-xxxxl-1, .px-xxxxl-1 {
+        padding-right: 0.25rem!important;  
+    }
+    .pr-xxxxl-2, .px-xxxxl-2 {
+        padding-right: 0.5rem!important;  
+    }
+    .pr-xxxxl-3, .px-xxxxl-3 {
+        padding-right: 1rem!important;  
+    }
+    .pr-xxxxl-4, .px-xxxxl-4 {
+        padding-right: 1.5rem!important;  
+    }
+    .pr-xxxxl-5, .px-xxxxl-5 {
+        padding-right: 3rem!important;  
+    }
+    .pr-xxxxl-6, .px-xxxxl-6 {
+        padding-right: 6rem!important;  
+    }
+    .p-xxxxl-1 {
+        padding: 0.25rem!important;  
+    }
+    .p-xxxxl-2 {
+        padding: 0.5rem!important;  
+    }
+    .p-xxxxl-3 {
+        padding: 1rem!important;  
+    }
+    .p-xxxxl-4 {
+        padding: 1.5rem!important;  
+    }
+    .p-xxxxl-5 {
+        padding: 3rem!important;  
+    }
+    .p-xxxxl-6 {
+        padding: 6rem!important;  
+    }
+    .justify-content-xxxxl-end{
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+    }
+    .justify-content-xxxxl-between{
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    }
+}
+@media screen and (min-width: 1940px) {
+   .main-img {
+        display: none;    
+    }
+    .replacement {
+        display: block;    
+    }
+    .fb-meal-1 {
+        top: 250px;
+    }
+    .fb-meal-1 img {
+        right: -130vw;
+    }
+    .fb-meal-2 img {
+        top: -212vh;
+    }
+    .fitbites-work .fb-lp {
+        max-width: 210px;
+    }
+    .root-work .rw-bottle img {
+        left: -430vw;
+    }
+    .fitbites-work .fb-meal-1 {
+        top: 250px;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -127vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -212vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 156vh;
+    }
+    .services-section-home .section-modal-cc {
+        height: 69vh;
+        width: 48vw;
+        left: -10vh;
+        top: 69vh;
+    }
+    .services-section-home .section-modal-mm {
+        height: 70vh;
+        width: 24vw;
+        right: 19vw;
+        top: 78vh;
+    }
+}
+@media screen and (min-width: 1740px) and (max-width: 2299px) and (min-height: 1090px) and (max-height: 1440px) {
+    .fb-meal-1 {
+        top: 170px;
+    }
+    .fb-meal-1 img {
+        right: -130vw;
+    }
+    .fb-meal-2 img {
+        top: -222vh;
+    }
+    .rw-bottle img {
+        left: -169vw;
+    }
+    .fitbites-work .fb-lp {
+        max-width: 210px;
+    }
+    .root-work .rw-bottle img {
+        left: -430vw;
+    }
+    .fitbites-work .fb-meal-1 {
+        top: 250px;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -127vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -212vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 156vh;
+    }
+    .services-section-home .section-modal-cc {
+        height: 75vh;
+    }
+    .services-section-home .section-modal-mm {
+        height: 80vh;
+    }
+}
+@media screen and (min-width: 2300px) {
+/*    .parallax-img-wrapper.first-of-kind img {
+        -webkit-transform: translateY(150%);
+        transform: translateY(150%);
+    }
+    .parallax-img-wrapper.second-of-kind img {
+        -webkit-transform: translateY(105%);
+        transform: translateY(105%);
+    }*/
+    .fb-meal-1 {
+        right: -1250px;
+        top: 150px;
+        max-width: 550px;
+    }
+    .fb-meal-1 img {
+        right: -72vw;
+    }
+    .fb-meal-2 {
+        right: 27%;
+        bottom: 65%;
+        max-width: 350px;
+    }
+    .fb-meal-2 img {
+        top: -208vh;
+    }
+    .fb-lp {
+        right: 37%;
+        max-width: 390px;
+        bottom: 19%;
+    }
+    .fb-lp img {
+        position: relative;
+        left: -95vw;
+    }
+    .rw-bottle {
+        position: absolute;
+        right: 400px;
+        bottom: -130px;
+        max-width: 550px;
+    }
+    .rw-bottle img {
+        left: -146vw;
+    }
+    .root-work .rw-bottle img {
+        left: -385vw;
+    }
+    .fitbites-work .fb-meal-1 {
+        max-width: 350px;
+    }
+    .fitbites-work .fb-meal-2 {
+        max-width: 550px;
+    }
+    .root-work .rw-bottle img {
+        left: -408vw;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -65vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -208vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 191vh;
+    }
+    .services-section-home .section-modal-wd {
+        height: 42vh;
+        width: 50vw;
+        left: calc(100% - 50vw);
+        top: 100px;
+    }
+    
+    .services-section-home .section-modal-br {
+        height: 56vh;
+        width: 38vw;
+        left: 0;
+        top: 0;
+    }
+    .services-section-home .section-modal-br .branding-service {
+        left: -39%;
+        top: -22%;
+        width: 71vw;
+    }
+    .services-section-home .section-modal-br .blue-bg {
+        /* left: 0; */
+        bottom: 9%;
+        /* width: 100%; */
+        height: 54%;
+    }
+    
+    .services-section-home .section-modal-cc {
+        height: 80vh;
+        width: 46vw;
+        left: -10vh;
+        top: 58vh;
+    }
+    .services-section-home .section-modal-cc .content-service {
+        left: -25%;
+        top: 0%;
+        width: 70vw;
+    }
+    
+    .services-section-home .section-modal-mm {
+        height: 83vh;
+        width: 24vw;
+        right: 19vw;
+        top: 72vh;
+    }
+    
+    #scrollToPlace {
+        position: absolute;
+        /*top: -12vh;*/
+        left: 0;
+        height: 1128px;
+    }
+    #menu-container #menu-slash-bg {
+        padding: 100px 100px 100px 19vw!important;    
+    }
+    .inside-menu .inside-logo {
+        width: 14vw!important;
+    }
+    .inside-menu .main-menu-nav {
+        font-size: 1vw;   
+    }
+    .inside-menu .social {
+        font-size: 1.5vw;    
+    }
+    .inside-menu .signature-location {
+        font-size: 1vw;    
+    }
+    .inside-menu .signature-location img {
+        max-width: 24vw;    
+    }
+    .get-some-insight-col {
+        -ms-flex: 0 0 55%!important;
+        flex: 0 0 55%!important;
+        max-width: 55%!important;
+    }
+    .contact-info-float {
+        top: -44vh;
+        padding: 140px 0 0 105px;
+    }
+    .contact-card {
+        font-size: 1vw;
+    }
+    .contact-card .address{
+        margin-bottom: 40px!important;
+    }
+    .contact-card img.our-passion {
+        max-height: 5vw;
+    }
+}
+@media screen and (min-width: 2300px) and (min-height: 1400px) and (max-height: 1440px){
+    .fb-meal-2 img {
+        top: -190vh;
+    }
+    .fb-meal-1 img {
+        right: -64vw;
+    }
+    .root-work .rw-bottle img {
+        left: -408vw;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -65vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -208vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 191vh;
+    }
+    .services-section-home .section-modal-cc {
+        height: 72vh;
+        width: 46vw;
+        left: -10vh;
+        top: 58vh;
+    }
+    .services-section-home .section-modal-wd.active .web-design-service img {
+        width: 112%!important;    
+    }
+}
+@media screen and (min-width: 2500px) {
+/*    .parallax-img-wrapper.first-of-kind img {
+        -webkit-transform: translateY(135%);
+        transform: translateY(135%);
+    }
+    .parallax-img-wrapper.second-of-kind img {
+        -webkit-transform: translateY(85%);
+        transform: translateY(85%);
+    }
+    .parallax-img-wrapper.third-of-kind img {
+        -webkit-transform: translateY(75%);
+        transform: translateY(75%);
+    }*/
+    .fb-meal-1 {
+        right: -1250px;
+        top: 300px;
+    }
+    .fb-meal-1 img {
+        right: -62vw;
+    }
+    .fb-meal-2 img {
+        top: -181vh;
+    }
+    .fb-lp img {
+        left: -85vw;
+    }
+    .rw-bottle img {
+        left: -130vw;
+    }
+    .root-work .rw-bottle img {
+        left: -378vw;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -69vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -204vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 181vh;
+    }
+    .services-section-home .section-modal-cc .content-service {
+        left: -15%;
+        top: 0%;
+        width: 63vw;
+    }
+    .services-section-home .section-modal-br {
+        height: 65vh;
+    }
+    .services-section-home .section-modal-cc {
+        height: 77vh;
+        width: 46vw;
+        left: -10vh;
+        top: 62vh;
+    }
+    .services-section-home .section-modal-mm {
+        height: 74vh;
+        width: 24vw;
+        right: 19vw;
+        top: 72vh;
+    }
+    .get-some-insight-col {
+        -ms-flex: 0 0 55%!important;
+        flex: 0 0 55%!important;
+        max-width: 55%!important;
+    }
+    .contact-info-float {
+        top: -44vh;
+        padding: 140px 0 0 105px;
+    }
+    .contact-card {
+        font-size: 1vw;
+    }
+    .contact-card .address{
+        margin-bottom: 40px!important;
+    }
+    .contact-card img.our-passion {
+        max-height: 5vw;
+    }
+}
+@media screen and (min-width: 2500px) and (min-height: 1200px) and (max-height: 1440px){
+    .fb-meal-1 {
+        top: 250px;
+    }
+    .fb-meal-2 img {
+        top: -201vh;
+    }
+    
+    .fitbites-work .fb-meal-1 img {
+        right: -65vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -225vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 202vh;
+    }
+    .root-work .rw-bottle img {
+        left: -403vw;
+    }
+    .services-section-home .section-modal-cc {
+        height: 72vh;
+        width: 46vw;
+        left: -10vh;
+        top: 58vh;
+    }
+}
+@media screen and (min-width: 2700px) and (min-height: 1700px) and (max-height: 2200px){
+    .fitbites-work .fb-meal-1 img {
+        right: -62vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -165vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 132vh;
+    }
+    .get-some-insight-col {
+        -ms-flex: 0 0 55%!important;
+        flex: 0 0 55%!important;
+        max-width: 55%!important;
+    }
+    .contact-info-float {
+        top: -44vh;
+        padding: 140px 0 0 105px;
+    }
+    .contact-card {
+        font-size: 1vw;
+    }
+    .contact-card .address{
+        margin-bottom: 40px!important;
+    }
+    .contact-card img.our-passion {
+        max-height: 5vw;
+    }
+}
+@media screen and (min-width: 2800px) {
+/*    .parallax-img-wrapper.first-of-kind img {
+        -webkit-transform: translateY(135%);
+        transform: translateY(135%);
+    }
+    .parallax-img-wrapper.second-of-kind img {
+        -webkit-transform: translateY(85%);
+        transform: translateY(85%);
+    }
+    .parallax-img-wrapper.third-of-kind img {
+        -webkit-transform: translateY(75%);
+        transform: translateY(75%);
+    }*/
+    .fb-meal-1 {
+        right: -1250px;
+        top: 300px;
+        max-width: 550px;
+    }
+    .fitbites-work .fb-meal-1 {
+        max-width: 350px;
+    }
+    .fitbites-work .fb-meal-2 {
+        max-width: 550px;
+    }
+    .fb-meal-1 img {
+        right: -62vw;
+    }
+    .fb-meal-2 img {
+        top: -179vh;
+    }
+    .fb-lp img {
+        left: -85vw;
+    }
+    .rw-bottle img {
+        left: -120vw;
+    }
+/*    .root-work .rw-bottle {
+        right: 300px;
+        bottom: 48%;
+        transform: translateY(50%);
+    }*/
+    .root-work .rw-bottle img {
+        left: -394vw;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -65vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -188vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 160vh;
+    }
+    .services-section-home .section-modal-cc {
+        height: 64vh;
+        width: 46vw;
+        left: -10vh;
+        top: 58vh;
+    }
+    .services-section-home .section-modal-cc .content-service {
+        left: -12%;
+        top: 0%;
+        width: 58vw;
+    }
+    .services-section-home .section-modal-mm {
+        height: 70vh;
+        width: 24vw;
+        right: 19vw;
+        top: 72vh;
+    }
+    .holder-section {
+        padding-top: 380px;
+        padding-bottom: 380px;   
+    }
+    .services-button {
+        position: absolute;
+        bottom: 100px;
+        left: 415px;
+        z-index: 13;
+    }
+    .contact-info-float {
+        top: -44vh;
+        padding: 200px 0 0 280px;
+    }
+    .contact-card {
+        font-size: 1vw;
+    }
+    .contact-card .address{
+        margin-bottom: 40px!important;
+    }
+    .contact-card img.our-passion {
+        max-height: 5vw;
+    }
+    .get-some-insight-col {
+        -ms-flex: 0 0 55%!important;
+        flex: 0 0 55%!important;
+        max-width: 55%!important;    
+    }
+    .contact-page .get-quote-section .section-padding-y-smaller {
+        padding-top: 350px;
+        padding-bottom: 350px;
+    }
+
+}
+@media screen and (min-width: 3000px) {
+    body {
+        font-size: 0.6vw;    
+    }
+    .big-title {
+        font-size: 7vw;
+    }
+    .section-title {
+        font-size: 5vw;
+    }
+    
+    .cta-section .section-title {
+        font-size: 3vw;
+    }
+    img.our-passion {
+        max-height: 6vw;
+    }
+    .contact-info-float {
+        top: -44vh;
+        padding: 200px 0 0 300px;
+    }
+    .contact-card {
+        font-size: 1vw;
+    }
+    .contact-card .address{
+        margin-bottom: 40px!important;
+    }
+    .contact-card img.our-passion {
+        max-height: 5vw;
+    }
+    .projects-section .project-wrapper .project-title {
+        font-size: 2vw;
+    }
+    .home-projects-logo {
+        max-height: 6vh;
+    }
+    .holder-section {
+        padding-top: 27vh;
+        padding-bottom: 27vh;
+    }
+    .scrollStart .cut-bg-div{
+        padding-bottom: 330px!important;    
+    }
+    .fb-meal-1 {
+        right: -25vw;
+        top: 12vh;
+        max-width: 20vw;
+    }
+    .fb-meal-1 img {
+        right: -58vw;
+    }
+    .fb-meal-2 {
+        right: 27%;
+        bottom: 65%;
+        max-width: 20vw;
+    }
+    .fb-meal-2 img {
+        top: -145vh;
+    }
+    .fb-lp {
+        right: 37%;
+        max-width: 20vw;
+        bottom: 23%;
+    }
+    .fb-lp img {
+        left: -56vw;
+    }
+    .rw-bottle {
+        right: 400px;
+        bottom: -175px;
+        max-width: 20vw;
+    }
+    .rw-bottle img {
+        left: -130vw;
+    }
+    .root-work .rw-bottle {
+        right: 300px;
+        bottom: 48%;
+        transform: translateY(50%);
+    }
+    .root-work .rw-bottle img {
+        left: -550vw;
+    }
+    .fitbites-work .fb-meal-1 {
+        max-width: 20vw;
+    }
+    .fitbites-work .fb-meal-2 {
+        max-width: 20vw;
+    }
+    .fitbites-work .fb-lp {
+        max-width: 20vw;
+    }
+    
+    .hide-on-big {
+        display: none!important;    
+    }
+    .show-on-big {
+        display: block!important;    
+    }
+    .services-section-home .section-modal-cc .content-service {
+        left: 0;
+        top: 0%;
+        width: 50vw;
+    }
+    .services-section-home .section-modal-mm {
+        height: 70vh;
+        width: 22vw;
+        right: 19vw;
+        top: 58vh;
+    }
+    .services-button {
+        bottom: 100px;
+        left: 17vw;
+    }
+/*    .section-padding-y-smaller {
+        padding-top: 350px;
+        padding-bottom: 350px;
+    }
+    .section-padding-y {
+        padding-top: 500px;
+        padding-bottom: 500px;
+    }*/
+}
+@media screen and (min-width: 4000px) {
+    .fb-meal-1 img {
+        right: -76vw;
+    }
+    .fb-meal-2 img {
+        top: -183vh;
+    }    
+    .rw-bottle img {
+        left: -156vw;
+    }
+    .root-work .rw-bottle img {
+        left: -589vw;
+    }
+    .fitbites-work .fb-meal-1 {
+        top: 350px;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -75vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -204vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 176vh;
+    }
+    .logo-design-wrapper {
+        padding: 8rem!important;
+    }
+    .logo-design-wrapper img {
+        width: 100%;
+        max-width: 600px;
+        max-height: 220px;
+    }
+    .contact-info-float {
+        top: -44vh;
+        padding: 200px 0 0 280px;
+    }
+    .contact-card {
+        font-size: 1vw;
+    }
+    .contact-card .address{
+        margin-bottom: 40px!important;
+    }
+    .contact-card img.our-passion {
+        max-height: 5vw;
+    }
+    .get-some-insight-col {
+        -ms-flex: 0 0 55%!important;
+        flex: 0 0 55%!important;
+        max-width: 55%!important;    
+    }
+    .contact-page .get-quote-section .section-padding-y-smaller {
+        padding-top: 350px;
+        padding-bottom: 350px;
+    }
+}
+@media screen and (min-width: 5000px) {
+    .fb-meal-2 img {
+        top: -174vh;
+    }    
+    .rw-bottle img {
+        left: -140vw;
+    }
+    .root-work .rw-bottle img {
+        left: -580vw;
+    }
+    .fitbites-work .fb-meal-1 img {
+        right: -75vw;
+    }
+    .fitbites-work .fb-meal-2 img {
+        top: -192vh;
+    }
+    .fitbites-work .fb-lp img {
+        top: 176vh;
+    }

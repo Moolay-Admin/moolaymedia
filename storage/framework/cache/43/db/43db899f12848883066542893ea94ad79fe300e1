@@ -1,0 +1,320 @@
+1591381146a:1:{s:13:"contact-2.htm";a:9:{s:8:"fileName";s:13:"contact-2.htm";s:7:"content";s:10947:"title = "Contact 2"
+url = "/contact-2"
+layout = "default"
+is_hidden = 0
+==
+<section class="hero-section bg-black section-padding-x d-flex align-items-center">
+    <div class="section-padding-y-smaller pb-100 pb-lg-0 w-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h5 class="subtitle">Win with the Best</h5>
+                    <h3 class="big-title mb-3 mb-lg-5 text-white">Contact Us</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="get-quote-section pink-form">
+    <form class="services-form">
+        <section class="get-quote-section bg-black section-padding-x d-flex align-items-center">
+            <div class="cut-bg-div py-100">
+                <div class="container-fluid">
+                    <div class="row mb-100">
+                        <div class="col-12">
+                            <h3 class="section-title text-white mb-5">You're <br> Interested In</h3>
+                            <p class="mb-0">Please select all services bellow that you would like to inquire about</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="webDevelopmentService" type="checkbox" name="service[]" value="Web Development" hidden>
+                            <label for="webDevelopmentService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Web <br> Development</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="socialManagementService" type="checkbox" name="service[]" value="Social Management" hidden>
+                            <label for="socialManagementService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Social <br> Management</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="designBrandingService" type="checkbox" name="service[]" value="Design & Branding" hidden>
+                            <label for="designBrandingService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Design & <br> Branding</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="paidAdvertisingService" type="checkbox" name="service[]" value="Paid Advertising" hidden>
+                            <label for="paidAdvertisingService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Paid <br> Advertising</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="emailMarketingService" type="checkbox" name="service[]" value="Email Marketing" hidden>
+                            <label for="emailMarketingService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Email <br> Marketing</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="contentCreationtService" type="checkbox" name="service[]" value="Content Creation" hidden>
+                            <label for="contentCreationtService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Content <br> Creation</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="seoService" type="checkbox" name="service[]" value="SEO" hidden>
+                            <label for="seoService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">SEO</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="videosService" type="checkbox" name="service[]" value="Videos" hidden>
+                            <label for="videosService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Videos</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="appDevelopmentService" type="checkbox" name="service[]" value="App Development" hidden>
+                            <label for="appDevelopmentService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">App <br> Development</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="dataAnalysisService" type="checkbox" name="service[]" value="Data Analysis" hidden>
+                            <label for="dataAnalysisService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Data <br> Analysis</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="reputationManagementService" type="checkbox" name="service[]" value="Reputation Management" hidden>
+                            <label for="reputationManagementService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Reputation <br> Management</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="consultingService" type="checkbox" name="service[]" value="Consulting" hidden>
+                            <label for="consultingService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Consulting</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get-quote-section bg-theme-white section-padding-x d-flex align-items-center">
+            <div class="cut-bg-div py-100">
+                <div class="container-fluid">
+                    <div class="row mb-4">
+            		    <div class="col-12">
+                            <h3 class="section-title text-theme-black mb-5">Fill the Form</h3>
+                            <p class="mb-5">Please tell us a little about you and your goals</p>
+                        </div>
+            			<div class="col-md-6 mb-5 pr-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+            				    <small class="text-danger" data-validate-for="name"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pl-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="name" class="form-control" placeholder="Website URL" tabindex="1">
+            				    <small class="text-danger" data-validate-for="website"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pr-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="email" class="form-control" placeholder="Email" tabindex="2">
+            				    <small class="text-danger" data-validate-for="email"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pl-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="number" class="form-control" placeholder="Phone Number" tabindex="3">
+            				    <small class="text-danger" data-validate-for="number"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pr-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="company" class="form-control" placeholder="Company" tabindex="4">
+            				    <small class="text-danger" data-validate-for="company"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pl-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="budget" class="form-control" placeholder="Estimated Budget" tabindex="4">
+            				    <small class="text-danger" data-validate-for="budget"></small>
+            				</div>
+            			</div>
+            			<div class="col-12">
+            			    <div class="form-group">
+            			        <textarea placeholder="Message" rows="3" name="message" class="form-control" tabindex="5"></textarea>
+            			        <small class="text-danger" data-validate-for="message"></small>
+            			    </div>
+            			</div>
+            		</div>
+            		<p class="mb-5">If all the fields are completed, click below to submit the form. One of our Marketing Consultants will reach out to you the next business day.</p>
+            		<button class="btn btn-round violet btn-dark-bg hover-switch-theme-black" type="submit" tabindex="6">Submit Form</button>
+                </div>
+            </div>
+        </section>
+	</form>
+</div>";s:5:"mtime";i:1591312650;s:6:"markup";s:10872:"<section class="hero-section bg-black section-padding-x d-flex align-items-center">
+    <div class="section-padding-y-smaller pb-100 pb-lg-0 w-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h5 class="subtitle">Win with the Best</h5>
+                    <h3 class="big-title mb-3 mb-lg-5 text-white">Contact Us</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="get-quote-section pink-form">
+    <form class="services-form">
+        <section class="get-quote-section bg-black section-padding-x d-flex align-items-center">
+            <div class="cut-bg-div py-100">
+                <div class="container-fluid">
+                    <div class="row mb-100">
+                        <div class="col-12">
+                            <h3 class="section-title text-white mb-5">You're <br> Interested In</h3>
+                            <p class="mb-0">Please select all services bellow that you would like to inquire about</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="webDevelopmentService" type="checkbox" name="service[]" value="Web Development" hidden>
+                            <label for="webDevelopmentService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Web <br> Development</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="socialManagementService" type="checkbox" name="service[]" value="Social Management" hidden>
+                            <label for="socialManagementService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Social <br> Management</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="designBrandingService" type="checkbox" name="service[]" value="Design & Branding" hidden>
+                            <label for="designBrandingService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Design & <br> Branding</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="paidAdvertisingService" type="checkbox" name="service[]" value="Paid Advertising" hidden>
+                            <label for="paidAdvertisingService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Paid <br> Advertising</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="emailMarketingService" type="checkbox" name="service[]" value="Email Marketing" hidden>
+                            <label for="emailMarketingService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Email <br> Marketing</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="contentCreationtService" type="checkbox" name="service[]" value="Content Creation" hidden>
+                            <label for="contentCreationtService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Content <br> Creation</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="seoService" type="checkbox" name="service[]" value="SEO" hidden>
+                            <label for="seoService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">SEO</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="videosService" type="checkbox" name="service[]" value="Videos" hidden>
+                            <label for="videosService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Videos</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="appDevelopmentService" type="checkbox" name="service[]" value="App Development" hidden>
+                            <label for="appDevelopmentService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">App <br> Development</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="dataAnalysisService" type="checkbox" name="service[]" value="Data Analysis" hidden>
+                            <label for="dataAnalysisService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Data <br> Analysis</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="reputationManagementService" type="checkbox" name="service[]" value="Reputation Management" hidden>
+                            <label for="reputationManagementService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Reputation <br> Management</span>
+                            </label>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-xl-2 mb-4">
+                            <input id="consultingService" type="checkbox" name="service[]" value="Consulting" hidden>
+                            <label for="consultingService" class="service-input d-flex align-items-center justify-content-center text-center">
+                                <span class="d-block text-white text-uppercase">Consulting</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get-quote-section bg-theme-white section-padding-x d-flex align-items-center">
+            <div class="cut-bg-div py-100">
+                <div class="container-fluid">
+                    <div class="row mb-4">
+            		    <div class="col-12">
+                            <h3 class="section-title text-theme-black mb-5">Fill the Form</h3>
+                            <p class="mb-5">Please tell us a little about you and your goals</p>
+                        </div>
+            			<div class="col-md-6 mb-5 pr-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="name" class="form-control" placeholder="Your Name" tabindex="1">
+            				    <small class="text-danger" data-validate-for="name"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pl-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="name" class="form-control" placeholder="Website URL" tabindex="1">
+            				    <small class="text-danger" data-validate-for="website"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pr-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="email" class="form-control" placeholder="Email" tabindex="2">
+            				    <small class="text-danger" data-validate-for="email"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pl-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="number" class="form-control" placeholder="Phone Number" tabindex="3">
+            				    <small class="text-danger" data-validate-for="number"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pr-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="company" class="form-control" placeholder="Company" tabindex="4">
+            				    <small class="text-danger" data-validate-for="company"></small>
+            				</div>
+            			</div>
+            			<div class="col-md-6 mb-5 pl-lg-5">
+            				<div class="form-group">
+            				    <input type="text" name="budget" class="form-control" placeholder="Estimated Budget" tabindex="4">
+            				    <small class="text-danger" data-validate-for="budget"></small>
+            				</div>
+            			</div>
+            			<div class="col-12">
+            			    <div class="form-group">
+            			        <textarea placeholder="Message" rows="3" name="message" class="form-control" tabindex="5"></textarea>
+            			        <small class="text-danger" data-validate-for="message"></small>
+            			    </div>
+            			</div>
+            		</div>
+            		<p class="mb-5">If all the fields are completed, click below to submit the form. One of our Marketing Consultants will reach out to you the next business day.</p>
+            		<button class="btn btn-round violet btn-dark-bg hover-switch-theme-black" type="submit" tabindex="6">Submit Form</button>
+                </div>
+            </div>
+        </section>
+	</form>
+</div>";s:4:"code";N;s:5:"title";s:9:"Contact 2";s:3:"url";s:10:"/contact-2";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

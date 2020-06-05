@@ -1,0 +1,348 @@
+1589917257a:1:{s:13:"blog-post.htm";a:9:{s:8:"fileName";s:13:"blog-post.htm";s:7:"content";s:8950:"title = "Blog Post"
+url = "/blog/:slug"
+layout = "default"
+is_hidden = 1
+==
+<?php
+use Rainlab\Blog\Models\Post; 
+
+function onStart() {
+    $this['post'] = Post::where('slug', $this->param('slug'))->first();
+    
+    if (!$this['post']) return Redirect::to('/404');
+    
+    $this['latest'] = Post::where('published', 1)->where('slug', '!=', $this->param('slug'))->orderBy('published_at', 'desc')->take(3)->get(); 
+}
+?>
+==
+<div class="contact-page" data-scroll-section>
+    <section class="content-section section-padding-x section-padding-y section-lines bg-white" data-scroll data-scroll-repeat>
+        <div class="container-fluid">
+            <img src="{{ 'news/blog-asset.png'|media }}" class="our-passion mb-4 mb-xl-5 fadeInUp" animation-delay=".6" data-scroll="" data-scroll-repeat="" alt="">
+            <h1 class="section-title mb-5 text-black fadeInUp" animation-delay=".2" data-scroll data-scroll-repeat>{{ post.title }}</h1>
+            <div class="posted-info text-uppercase font-weight-600 text-light-gray mt-4 fadeInUp" animation-delay=".4" data-scroll data-scroll-repeat>
+                Posted on <span class="font-weight-700">{{ post.published_at|date('F d, Y') }}</span> by <span class="font-weight-700">{{ post.user.first_name}} {{ post.user.last_name}}</span>
+            </div>
+        </div>
+        <div class="container-fluid pt-5">
+            <div class="post-content">
+    			{{ post.content_html|raw }}
+    		</div>
+        </div>
+    </section>
+    <section class="news-section section-padding-x section-padding-y-smaller pt-0 section-lines bg-white">
+            <div class="container-fluid">
+                <div class="row mb-100">
+                    <div class="col-12">
+                        <h3 class="section-title text-black">Latest News</h3>
+                    </div>
+                </div>
+                
+                <div class="slider-wrapper position-relative mb-100">
+                    <div class="news-slider row">
+                        {% for p in latest %}
+                        <div class="news-wrapper col-4 text-center">
+                            <a href="{{ 'blog-post'|page({slug: p.slug}) }}">
+                                <div class="news-image mb-4">
+                                    <img src="{{ post.featured_images[0].thumb(1232,1000,{mode: 'crop'}) }}" alt="" class="w-100">
+                                </div>
+                                <div class="news-info">
+                                    <h5 class="h2 news-name text-black text-uppercase mb-3">{{ p.title }}</h5>
+                                    <span class="h6 news-title text-light-gray mb-3 d-block text-uppercase">Posted on <span class="font-weight-700">{{ p.published_at|date('F d, Y') }}</span></span>
+                                    <p class="news-excerpt">
+                                        {{ p.excerpt }}
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="{{ 'blog'|page }}" class="btn btn-round bordered black">Back to all news</a>
+                </div>
+            </div>
+    </section>
+    <section class="get-quote-section bg-white position-relative contact-page-form section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 mb-5 mb-xl-0">
+                        <h3 class="section-title mb-5">Fill the Form</h3>
+                        <p class="mb-0">Please tell us a little about you and your goals.</p>
+                        
+                        <div class="py-5 d-none d-xl-block"></div>
+                    </div>
+                    <div class="col-12">
+                        <form>
+                			<div class="row mb-5">
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="//name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Website URL" tabindex="2">
+                					    <small class="text-danger" data-validate-for="website"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="email" class="form-control" placeholder="Email" tabindex="3">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="number" class="form-control" placeholder="Phone Number" tabindex="4">
+                					    <small class="text-danger" data-validate-for="number"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="company" class="form-control" placeholder="Company" tabindex="5">
+                					    <small class="text-danger" data-validate-for="company"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="budget" class="form-control" placeholder="Estimated budget" tabindex="6">
+                					    <small class="text-danger" data-validate-for="budget"></small>
+                					</div>
+                				</div>
+                				<div class="col-12">
+                				    <div class="form-group">
+                				        <textarea placeholder="Message" rows="3" name="message" class="form-control" tabindex="7"></textarea>
+                				        <small class="text-danger" data-validate-for="message"></small>
+                				    </div>
+                				</div>
+                			</div>
+                			
+                			<p class="mb-5 ">If all is completed above click below to submit the form. One of our Marketing Consultants will reach out to you the net business day.</p>
+                            
+                			<button class="btn btn-round bordered black-border" type="submit" tabindex="6">Submit</button>
+    					</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% partial 'site/footer' %}
+</div>
+{% put scripts %}
+<script>
+    /* Slick needs no get Reinitialized on window Resize after it was destroyed */
+    $(window).on('load resize orientationchange', function() {
+        $('.news-slider').each(function(){
+            var $carousel = $(this);
+            /* Initializes a slick carousel only on mobile screens */
+            // slick on mobile
+            if ($(window).width() > 991) {
+                if ($carousel.hasClass('slick-initialized')) {
+                    $carousel.slick('unslick');
+                }
+            }
+            else{
+                if (!$carousel.hasClass('slick-initialized')) {
+                    $carousel.slick({
+                        dots: true,
+                        infinite: true,
+                        arrows: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        mobileFirst: true,
+                        responsive: [
+                            {
+                              breakpoint: 0,
+                              settings: {
+                                slidesToShow: 1,
+                              }
+                            },
+                            {
+                              breakpoint: 700,
+                              settings: {
+                                slidesToShow: 2,
+                              }
+                            },
+                            // You can unslick at a given breakpoint now by adding:
+                            // settings: "unslick"
+                            // instead of a settings object
+                       ]
+                    });
+                }
+            }
+        });
+    });
+</script>
+{% endput %}";s:5:"mtime";i:1589073557;s:6:"markup";s:8520:"<div class="contact-page" data-scroll-section>
+    <section class="content-section section-padding-x section-padding-y section-lines bg-white" data-scroll data-scroll-repeat>
+        <div class="container-fluid">
+            <img src="{{ 'news/blog-asset.png'|media }}" class="our-passion mb-4 mb-xl-5 fadeInUp" animation-delay=".6" data-scroll="" data-scroll-repeat="" alt="">
+            <h1 class="section-title mb-5 text-black fadeInUp" animation-delay=".2" data-scroll data-scroll-repeat>{{ post.title }}</h1>
+            <div class="posted-info text-uppercase font-weight-600 text-light-gray mt-4 fadeInUp" animation-delay=".4" data-scroll data-scroll-repeat>
+                Posted on <span class="font-weight-700">{{ post.published_at|date('F d, Y') }}</span> by <span class="font-weight-700">{{ post.user.first_name}} {{ post.user.last_name}}</span>
+            </div>
+        </div>
+        <div class="container-fluid pt-5">
+            <div class="post-content">
+    			{{ post.content_html|raw }}
+    		</div>
+        </div>
+    </section>
+    <section class="news-section section-padding-x section-padding-y-smaller pt-0 section-lines bg-white">
+            <div class="container-fluid">
+                <div class="row mb-100">
+                    <div class="col-12">
+                        <h3 class="section-title text-black">Latest News</h3>
+                    </div>
+                </div>
+                
+                <div class="slider-wrapper position-relative mb-100">
+                    <div class="news-slider row">
+                        {% for p in latest %}
+                        <div class="news-wrapper col-4 text-center">
+                            <a href="{{ 'blog-post'|page({slug: p.slug}) }}">
+                                <div class="news-image mb-4">
+                                    <img src="{{ post.featured_images[0].thumb(1232,1000,{mode: 'crop'}) }}" alt="" class="w-100">
+                                </div>
+                                <div class="news-info">
+                                    <h5 class="h2 news-name text-black text-uppercase mb-3">{{ p.title }}</h5>
+                                    <span class="h6 news-title text-light-gray mb-3 d-block text-uppercase">Posted on <span class="font-weight-700">{{ p.published_at|date('F d, Y') }}</span></span>
+                                    <p class="news-excerpt">
+                                        {{ p.excerpt }}
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="{{ 'blog'|page }}" class="btn btn-round bordered black">Back to all news</a>
+                </div>
+            </div>
+    </section>
+    <section class="get-quote-section bg-white position-relative contact-page-form section-padding-x d-flex align-items-center">
+        <div class="cut-bg-div section-padding-y-smaller">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 mb-5 mb-xl-0">
+                        <h3 class="section-title mb-5">Fill the Form</h3>
+                        <p class="mb-0">Please tell us a little about you and your goals.</p>
+                        
+                        <div class="py-5 d-none d-xl-block"></div>
+                    </div>
+                    <div class="col-12">
+                        <form>
+                			<div class="row mb-5">
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Name" tabindex="1">
+                					    <small class="text-danger" data-validate-for="//name"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="name" class="form-control" placeholder="Website URL" tabindex="2">
+                					    <small class="text-danger" data-validate-for="website"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="email" class="form-control" placeholder="Email" tabindex="3">
+                					    <small class="text-danger" data-validate-for="email"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="number" class="form-control" placeholder="Phone Number" tabindex="4">
+                					    <small class="text-danger" data-validate-for="number"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="company" class="form-control" placeholder="Company" tabindex="5">
+                					    <small class="text-danger" data-validate-for="company"></small>
+                					</div>
+                				</div>
+                				<div class="col-md-6 mb-4">
+                					<div class="form-group">
+                					    <input type="text" name="budget" class="form-control" placeholder="Estimated budget" tabindex="6">
+                					    <small class="text-danger" data-validate-for="budget"></small>
+                					</div>
+                				</div>
+                				<div class="col-12">
+                				    <div class="form-group">
+                				        <textarea placeholder="Message" rows="3" name="message" class="form-control" tabindex="7"></textarea>
+                				        <small class="text-danger" data-validate-for="message"></small>
+                				    </div>
+                				</div>
+                			</div>
+                			
+                			<p class="mb-5 ">If all is completed above click below to submit the form. One of our Marketing Consultants will reach out to you the net business day.</p>
+                            
+                			<button class="btn btn-round bordered black-border" type="submit" tabindex="6">Submit</button>
+    					</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% partial 'site/footer' %}
+</div>
+{% put scripts %}
+<script>
+    /* Slick needs no get Reinitialized on window Resize after it was destroyed */
+    $(window).on('load resize orientationchange', function() {
+        $('.news-slider').each(function(){
+            var $carousel = $(this);
+            /* Initializes a slick carousel only on mobile screens */
+            // slick on mobile
+            if ($(window).width() > 991) {
+                if ($carousel.hasClass('slick-initialized')) {
+                    $carousel.slick('unslick');
+                }
+            }
+            else{
+                if (!$carousel.hasClass('slick-initialized')) {
+                    $carousel.slick({
+                        dots: true,
+                        infinite: true,
+                        arrows: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        mobileFirst: true,
+                        responsive: [
+                            {
+                              breakpoint: 0,
+                              settings: {
+                                slidesToShow: 1,
+                              }
+                            },
+                            {
+                              breakpoint: 700,
+                              settings: {
+                                slidesToShow: 2,
+                              }
+                            },
+                            // You can unslick at a given breakpoint now by adding:
+                            // settings: "unslick"
+                            // instead of a settings object
+                       ]
+                    });
+                }
+            }
+        });
+    });
+</script>
+{% endput %}";s:4:"code";s:341:"use Rainlab\Blog\Models\Post; 
+
+function onStart() {
+    $this['post'] = Post::where('slug', $this->param('slug'))->first();
+    
+    if (!$this['post']) return Redirect::to('/404');
+    
+    $this['latest'] = Post::where('published', 1)->where('slug', '!=', $this->param('slug'))->orderBy('published_at', 'desc')->take(3)->get(); 
+}";s:5:"title";s:9:"Blog Post";s:3:"url";s:11:"/blog/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"1";}}

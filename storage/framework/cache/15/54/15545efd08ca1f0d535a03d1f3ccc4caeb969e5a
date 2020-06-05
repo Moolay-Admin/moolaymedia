@@ -1,0 +1,195 @@
+1591381146a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:5400:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{% if this.page.id != 'home' %}{{ this.page.title }} |{% endif %} Moolay Media</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="Moolay Media LLC">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="Moolay Media LLC">
+        <link rel="icon" type="image/png" href="{{ 'assets/img/favicon.png'|theme }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ 'assets/vendor/css/slick.css'|theme }}"/>
+        <link href="{{ 'assets/css/pointer.css'|theme }}" rel="stylesheet">
+        {% if this.page.id != 'services' %}
+        <link href="{{ 'assets/vendor/locomotive/dist/locomotive-scroll.min.css'|theme }}" rel="stylesheet">
+        {% endif %}
+        {% if this.page.id == 'services' %}
+        <link href="{{ 'assets/css/jquery.pagepiling.css'|theme }}" rel="stylesheet">
+        {% endif %}
+        <link href="{{ 'assets/css/animate.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/fonts.css'|theme }}" rel="stylesheet">
+        <link href="https://use.fontawesome.com/0bde71819e.css" media="all" rel="stylesheet">
+        <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/menu.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/responsive.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+    <body id="body">
+        <div id="loader">
+            <img src="{{ 'assets/img/loader-black.gif'|theme }}" alt="">
+        </div>
+        <div class="cursor-dot-outline"></div>
+        <div class="cursor-dot"></div>
+{#      <div class="switch-wrapper d-flex align-items-center">
+            <span class="text-modes text-pink text-uppercase mr-3">Dark</span>
+            <div class="switch">
+                <input class="switch__input" type="checkbox" id="themeSwitch">
+                <label aria-hidden="true" class="switch__label" for="themeSwitch">On</label>
+                <div aria-hidden="true" class="switch__marker"></div>
+            </div>
+            <span class="text-modes text-pink text-uppercase ml-3">Light</span>
+        </div>#}
+        {% if this.page.id != 'services' %}
+        <div id="js-scroll" data-scroll-container>
+        {% endif %}
+            {% partial 'site/header' %}
+            {% page %}
+            {#{% if this.page.id == 'services' %}
+            {% partial 'site/footer' %}
+            {% endif %}#}
+        {% if this.page.id != 'services' %}
+        </div>
+        {% endif %}
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{{ 'assets/vendor/js/slick.min.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/pointer.js'|theme }}"></script>
+        {#
+        <script src="{{ 'assets/vendor/js/three.min.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/js/simplex-noise.min.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/js/TweenMax.min.js'|theme }}"></script>
+        #}
+        {#<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>#}
+        {#<script src="{{ 'assets/javascript/parallax.min.js'|theme }}"></script>#}
+        {% if this.page.id == 'services' %}
+        <script src="{{ 'assets/javascript/jquery.pagepiling.js'|theme }}"></script>
+        {% endif %}
+        {% if this.page.id != 'services' %}
+        <script src="{{ 'assets/javascript/locomotive-scroll.js'|theme }}"></script>
+        {% endif %}
+        <script src="{{ 'assets/javascript/core.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/wow.min.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
+        {#
+        <script>
+            document.getElementById('themeSwitch').addEventListener('change', function(event){
+              (event.target.checked) ? document.body.removeAttribute('data-theme') : document.body.setAttribute('data-theme', 'dark');
+            });
+        </script>
+        #}
+        <script>
+            $(window).on("load",function(){
+                $('#loader').fadeOut('slow');    
+            });
+            
+            $(window).on("load",function(){
+                $('#bgTitle').addClass('is-inview');    
+            });
+            
+        </script>
+    </body>
+</html>";s:5:"mtime";i:1591312649;s:6:"markup";s:5366:"<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{% if this.page.id != 'home' %}{{ this.page.title }} |{% endif %} Moolay Media</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="Moolay Media LLC">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="Moolay Media LLC">
+        <link rel="icon" type="image/png" href="{{ 'assets/img/favicon.png'|theme }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ 'assets/vendor/css/slick.css'|theme }}"/>
+        <link href="{{ 'assets/css/pointer.css'|theme }}" rel="stylesheet">
+        {% if this.page.id != 'services' %}
+        <link href="{{ 'assets/vendor/locomotive/dist/locomotive-scroll.min.css'|theme }}" rel="stylesheet">
+        {% endif %}
+        {% if this.page.id == 'services' %}
+        <link href="{{ 'assets/css/jquery.pagepiling.css'|theme }}" rel="stylesheet">
+        {% endif %}
+        <link href="{{ 'assets/css/animate.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/fonts.css'|theme }}" rel="stylesheet">
+        <link href="https://use.fontawesome.com/0bde71819e.css" media="all" rel="stylesheet">
+        <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/menu.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/responsive.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+    <body id="body">
+        <div id="loader">
+            <img src="{{ 'assets/img/loader-black.gif'|theme }}" alt="">
+        </div>
+        <div class="cursor-dot-outline"></div>
+        <div class="cursor-dot"></div>
+{#      <div class="switch-wrapper d-flex align-items-center">
+            <span class="text-modes text-pink text-uppercase mr-3">Dark</span>
+            <div class="switch">
+                <input class="switch__input" type="checkbox" id="themeSwitch">
+                <label aria-hidden="true" class="switch__label" for="themeSwitch">On</label>
+                <div aria-hidden="true" class="switch__marker"></div>
+            </div>
+            <span class="text-modes text-pink text-uppercase ml-3">Light</span>
+        </div>#}
+        {% if this.page.id != 'services' %}
+        <div id="js-scroll" data-scroll-container>
+        {% endif %}
+            {% partial 'site/header' %}
+            {% page %}
+            {#{% if this.page.id == 'services' %}
+            {% partial 'site/footer' %}
+            {% endif %}#}
+        {% if this.page.id != 'services' %}
+        </div>
+        {% endif %}
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{{ 'assets/vendor/js/slick.min.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/pointer.js'|theme }}"></script>
+        {#
+        <script src="{{ 'assets/vendor/js/three.min.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/js/simplex-noise.min.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/js/TweenMax.min.js'|theme }}"></script>
+        #}
+        {#<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>#}
+        {#<script src="{{ 'assets/javascript/parallax.min.js'|theme }}"></script>#}
+        {% if this.page.id == 'services' %}
+        <script src="{{ 'assets/javascript/jquery.pagepiling.js'|theme }}"></script>
+        {% endif %}
+        {% if this.page.id != 'services' %}
+        <script src="{{ 'assets/javascript/locomotive-scroll.js'|theme }}"></script>
+        {% endif %}
+        <script src="{{ 'assets/javascript/core.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/wow.min.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
+        {#
+        <script>
+            document.getElementById('themeSwitch').addEventListener('change', function(event){
+              (event.target.checked) ? document.body.removeAttribute('data-theme') : document.body.setAttribute('data-theme', 'dark');
+            });
+        </script>
+        #}
+        <script>
+            $(window).on("load",function(){
+                $('#loader').fadeOut('slow');    
+            });
+            
+            $(window).on("load",function(){
+                $('#bgTitle').addClass('is-inview');    
+            });
+            
+        </script>
+    </body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}

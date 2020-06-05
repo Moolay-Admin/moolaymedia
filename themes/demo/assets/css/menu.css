@@ -1,0 +1,596 @@
+#menu-container {
+    position: fixed;
+    z-index: 20000;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    top: 0
+}
+#menu-container.active {
+    visibility: visible;
+}
+#menu-container #menu-dark-bg {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+}
+#menu-container.not-active #menu-dark-bg {
+    visibility: hidden;
+    opacity: 0;
+}
+#menu-container #menu-slash-bg {
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    -webkit-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    transform: skewX(15deg);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    top: 0;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    padding: 100px 100px 100px 380px;
+}
+#menu-container.not-active #menu-slash-bg {
+    right: -100%;
+}
+#menu-container.active #menu-dark-bg {
+    visibility: visible;
+    opacity: 0.4;
+}
+#menu-container.active #menu-slash-bg {
+    right: 0;
+}
+
+
+.menu-button {
+    width: 40px;
+    height: 18px;
+    position: fixed;
+    top: 35px;
+    right: 2.7vw;
+    z-index: 20001;
+    opacity: 1;
+    visibility: visible;
+    transition: .25s ease-in-out;
+}
+.menu-button.middle-screen {
+    top: 48vh;
+    opacity: 0;
+    visibility: hidden;
+}
+.menu-button.top-screen.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+.menu-button.middle-screen.show {
+    opacity: 1;
+    visibility: visible;
+}
+.menu-button .hamburger-svg {
+    float: left;
+}
+.menu-button.burger-black .hamburger-svg {
+    fill: #000;
+}
+.menu-button .hamburger-top-svg {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: .25s ease-in-out;
+}
+.menu-button .hamburger-bottom-svg {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: .25s ease-in-out;
+    position: relative;
+    top: 6px;
+}
+.menu-button.active .hamburger-top-svg {
+    transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 6);
+}
+.menu-button.active .hamburger-bottom-svg {
+    transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, -6);
+}
+.white-menu .menu-button.burger-black .hamburger-svg {
+    fill: #fff;
+}
+.white-menu .menu-button.burger-black.active .hamburger-svg {
+    fill: #000;
+}
+
+.logo-moolay {
+  width: 150px;
+  position: absolute;
+  top: 1.5em;
+  left: 3em;
+  z-index: 10000;
+  opacity: 1;
+  visibility: visible;
+  transition: .25s ease-in-out;
+}
+.logo-moolay.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+.logo-moolay svg {
+  width: 100%;
+}
+.logo-moolay.is-active svg .cls-1 {
+    fill: #ffffff!important;
+}
+.white-menu .logo-moolay svg .cls-1 {
+    fill: #ffffff!important;
+}
+
+.scroll-to-top-sidebar {
+    position: absolute;
+    z-index: 20001;
+    top: 48vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s ease-in-out;
+    color: #000;
+    font-size: 18px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: -35px;
+}
+.scroll-to-top-sidebar.show {
+    opacity: 1;
+    visibility: visible;
+}
+.scroll-to-top-sidebar span {
+    position: relative;
+    padding-left: 70px;
+}
+.scroll-to-top-sidebar span:before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    transition: .25s ease-in-out;
+}
+.white-menu .scroll-to-top-sidebar {
+    color: #fff;    
+}
+.white-menu .scroll-to-top-sidebar span:before {
+    background-color: #fff;    
+}
+
+.inside-menu {
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.inside-menu .inside-logo {
+    width: 250px; 
+    margin-bottom: 80px;
+}
+.inside-menu .main-menu-nav {
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.inside-menu .main-menu-nav ul li {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.inside-menu .main-menu-nav ul li:hover {
+    color: #878787;
+    /*text-shadow:0px 0px 3px black;*/
+}
+.inside-menu .social {
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-size: 22px;
+}
+.inside-menu .signature-location {
+    
+}
+.inside-menu .signature-location img {
+    max-width: 350px;
+}
+.inside-menu .signature-location .phone {
+    color: #00daff;
+}
+
+
+
+
+
+/*
+.hamburger {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 2em;
+  right: 3em;
+  z-index: 10000;
+  background: transparent;
+  cursor: pointer;
+}
+.hamburger.is-active .hamburger--container .hamburger--bars {
+  background: white;
+}
+.hamburger.is-active .hamburger--container .hamburger--bars:before, .hamburger.is-active .hamburger--container .hamburger--bars:after {
+  background: white;
+}
+.hamburger.is-active .hamburger--container .hamburger--bars:before {
+  left: 0.25em;
+}
+.hamburger.is-active .hamburger--container .hamburger--bars:after {
+  left: -0.25em;
+}
+.hamburger .hamburger--container {
+  width: 100%;
+  padding: 0.25em;
+  position: relative;
+}
+.hamburger .hamburger--container .hamburger--bars {
+  height: 3px;
+  width: 1.5em;
+  background: #000;
+  position: absolute;
+  top: 0.9em;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.hamburger .hamburger--container .hamburger--bars:before, .hamburger .hamburger--container .hamburger--bars:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 1.5em;
+  background: inherit;
+  position: absolute;
+  left: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.hamburger .hamburger--container .hamburger--bars:before {
+  top: -0.5em;
+}
+.hamburger .hamburger--container .hamburger--bars:after {
+  top: 0.5em;
+}
+
+.logo-moolay {
+  width: 150px;
+  position: absolute;
+  top: 1.5em;
+  left: 3em;
+  z-index: 10000;
+}
+.logo-moolay svg {
+  width: 100%;
+}
+.logo-moolay.is-active svg .cls-1 {
+    fill: #ffffff!important;
+    -webkit-transition: 0.3s linear 0.3s;
+    transition: 0.3s linear 0.3s;
+}
+.white-menu .logo-moolay svg .cls-1 {
+    fill: #ffffff!important;
+    -webkit-transition: 0.3s linear 0.3s;
+    transition: 0.3s linear 0.3s;
+}
+
+
+.fsmenu {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  overflow: hidden;
+  display: none;
+}
+.fsmenu .fsmenu--container {
+  width: 0;
+  height: 100vh;
+  padding: 8em 3em 3em;
+  background: #000;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block {
+  width: 100%;
+  height: 100%;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container {
+  width: 100%;
+  height: 100%;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element {
+  width: 100%;
+  height: 16.6666666667%;
+  list-style-type: none;
+  text-align: right;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element a:hover {
+  color: #E63946;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element a span {
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  line-height: 1;
+  height: 1em;
+  display: inline-block;
+  position: relative;
+  z-index: 1002;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element a span:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  z-index: 1003;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--scrolling-text {
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-transform: translate(-20%, -100%);
+          transform: translate(-20%, -100%);
+  opacity: 0;
+  pointer-events: none;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--scrolling-text span {
+  height: 1em;
+  font-size: 8em;
+  font-weight: 900;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #1e1e1e;
+  display: inline-block;
+  margin-right: 1em;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element:hover .fsmenu--scrolling-text {
+  opacity: 1;
+  -webkit-animation: animScrollingContactTextLeft 9s linear 0s infinite;
+          animation: animScrollingContactTextLeft 9s linear 0s infinite;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--link-img {
+  width: 0px;
+  height: 100vh;
+  padding: 8em 3em 3em;
+  position: absolute;
+  top: 0;
+  right: calc(100vw - 720px);
+  z-index: 1001;
+  font-size: 16px;
+  pointer-events: none;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--link-img .fsmenu--img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element .fsmenu--link-img .fsmenu--img-container img {
+  width: 624px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element.open .fsmenu--link-img {
+  left: auto;
+  right: calc(100vw - 720px);
+  -webkit-animation: animMenuRevealImg 0.4s ease 0s forwards;
+          animation: animMenuRevealImg 0.4s ease 0s forwards;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element.open .fsmenu--link-img .fsmenu--img-container img {
+  right: 0;
+  left: auto;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element.is-closing .fsmenu--link-img {
+  left: 0;
+  right: auto;
+  -webkit-animation: animMenuCloseImg 0.4s ease 0s forwards;
+          animation: animMenuCloseImg 0.4s ease 0s forwards;
+}
+.fsmenu .fsmenu--container .fsmenu--text-block .fsmenu--text-container .fsmenu--list .fsmenu--list-element.is-closing .fsmenu--link-img .fsmenu--img-container img {
+  left: 0;
+  right: auto;
+}
+.fsmenu.is-active {
+  display: block;
+}
+.fsmenu.is-active .fsmenu--container {
+  -webkit-animation: animMenuReveal 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 0s forwards;
+          animation: animMenuReveal 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 0s forwards;
+}
+.fsmenu.is-active .fsmenu--container .fsmenu--text-container .fsmenu--list .fsmenu--list-element a span:before {
+  -webkit-animation: animMenuRevealLinks 0.4s cubic-bezier(0.13, 0.13, 0.02, 1.07) 0.4s forwards;
+          animation: animMenuRevealLinks 0.4s cubic-bezier(0.13, 0.13, 0.02, 1.07) 0.4s forwards;
+}
+.fsmenu.close-menu {
+  display: block;
+}
+.fsmenu.close-menu .fsmenu--container {
+  width: 100vw;
+  right: auto;
+  left: 0;
+  -webkit-animation: animMenuClose 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 0.3s forwards;
+          animation: animMenuClose 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 0.3s forwards;
+}
+.fsmenu.close-menu .fsmenu--container .fsmenu--text-container .fsmenu--list .fsmenu--list-element a span:before {
+  left: auto;
+  right: 0;
+  background: black;
+  -webkit-animation: animMenuCloseLinks 0.4s cubic-bezier(0.13, 0.13, 0.02, 1.07) 0s forwards;
+          animation: animMenuCloseLinks 0.4s cubic-bezier(0.13, 0.13, 0.02, 1.07) 0s forwards;
+}
+
+@-webkit-keyframes animMenuReveal {
+  0% {
+    width: 0vw;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+
+@keyframes animMenuReveal {
+  0% {
+    width: 0vw;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+@-webkit-keyframes animMenuRevealLinks {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+@keyframes animMenuRevealLinks {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+@-webkit-keyframes animMenuClose {
+  0% {
+    width: 100vw;
+    padding: 8em 3em 3em;
+  }
+  100% {
+    width: 0vw;
+    padding: 8em 0 0;
+  }
+}
+@keyframes animMenuClose {
+  0% {
+    width: 100vw;
+    padding: 8em 3em 3em;
+  }
+  100% {
+    width: 0vw;
+    padding: 8em 0 0;
+  }
+}
+@-webkit-keyframes animMenuCloseLinks {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 110%;
+  }
+}
+@keyframes animMenuCloseLinks {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 110%;
+  }
+}
+@-webkit-keyframes animMenuRevealImg {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 720px;
+  }
+}
+@keyframes animMenuRevealImg {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 720px;
+  }
+}
+@-webkit-keyframes animMenuCloseImg {
+  0% {
+    width: 720px;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes animMenuCloseImg {
+  0% {
+    width: 720px;
+  }
+  100% {
+    width: 0;
+  }
+}
+@-webkit-keyframes animScrollingContactTextLeft {
+  0% {
+    -webkit-transform: translate(-20%, -100%);
+            transform: translate(-20%, -100%);
+  }
+  100% {
+    -webkit-transform: translate(-40%, -100%);
+            transform: translate(-40%, -100%);
+  }
+}
+@keyframes animScrollingContactTextLeft {
+  0% {
+    -webkit-transform: translate(-20%, -100%);
+            transform: translate(-20%, -100%);
+  }
+  100% {
+    -webkit-transform: translate(-40%, -100%);
+            transform: translate(-40%, -100%);
+  }
+}*/

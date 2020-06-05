@@ -1,0 +1,68 @@
+1591381140a:1:{s:20:"custom_recaptcha.htm";a:6:{s:8:"fileName";s:20:"custom_recaptcha.htm";s:7:"content";s:1413:"==
+{% if recaptcha_id %}
+	<div id="{{ recaptcha_id }}"></div>
+	{#<input name="{{ recaptcha_id }}_validator" type="checkbox" autocomplete="off" hidden/>#}
+	<input name="recaptchaValidator" type="checkbox" autocomplete="off" hidden/>
+	{% put scripts %}
+    <script type="text/javascript">
+      var onloadCallback{{ recaptcha_id }} = function() {
+          grecaptcha.render('{{ recaptcha_id }}', {
+          'sitekey' : '6LeJwvYUAAAAAEjD-ePMPPZduHGcyJUvyjuUlZvB',
+          'callback' : function(){
+              $('#{{ recaptcha_id }}').next('input').prop('checked', true);;
+            }
+        });
+      };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback{{ recaptcha_id }}&render=explicit" async defer></script>
+	{% endput %}
+{% else %}
+	<div id="form_test_element"></div>
+	<input name="recaptchaValidator" type="checkbox" autocomplete="off" hidden/>
+	{% put scripts %}
+	<script type="text/javascript">
+	var onloadCallback = function() {
+	    grecaptcha.render('form_test_element', {
+	        'sitekey': '6LeJwvYUAAAAAEjD-ePMPPZduHGcyJUvyjuUlZvB',
+	        'callback': function() {
+	            $('#form_test_element').next('input').prop('checked', true);;
+	        }
+	    });
+	};
+	</script>
+	<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+	{% endput %}
+{% endif %}";s:5:"mtime";i:1591312653;s:6:"markup";s:1410:"{% if recaptcha_id %}
+	<div id="{{ recaptcha_id }}"></div>
+	{#<input name="{{ recaptcha_id }}_validator" type="checkbox" autocomplete="off" hidden/>#}
+	<input name="recaptchaValidator" type="checkbox" autocomplete="off" hidden/>
+	{% put scripts %}
+    <script type="text/javascript">
+      var onloadCallback{{ recaptcha_id }} = function() {
+          grecaptcha.render('{{ recaptcha_id }}', {
+          'sitekey' : '6LeJwvYUAAAAAEjD-ePMPPZduHGcyJUvyjuUlZvB',
+          'callback' : function(){
+              $('#{{ recaptcha_id }}').next('input').prop('checked', true);;
+            }
+        });
+      };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback{{ recaptcha_id }}&render=explicit" async defer></script>
+	{% endput %}
+{% else %}
+	<div id="form_test_element"></div>
+	<input name="recaptchaValidator" type="checkbox" autocomplete="off" hidden/>
+	{% put scripts %}
+	<script type="text/javascript">
+	var onloadCallback = function() {
+	    grecaptcha.render('form_test_element', {
+	        'sitekey': '6LeJwvYUAAAAAEjD-ePMPPZduHGcyJUvyjuUlZvB',
+	        'callback': function() {
+	            $('#form_test_element').next('input').prop('checked', true);;
+	        }
+	    });
+	};
+	</script>
+	<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+	{% endput %}
+{% endif %}";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
